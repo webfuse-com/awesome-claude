@@ -1,11 +1,12 @@
 {
   "name": "claude-vscode-theme",
   "displayName": "Claude VSCode Theme",
-  "description": "A sleek and minimalistic theme for VSCode inspired by Claude's design language",
-  "version": "1.0.3",
+  "description": "Thoughtful dark theme collection with classic and italic variants. Inspired by Claude AI with carefully balanced contrast and warm syntax colors for long coding sessions.",
+  "version": "1.0.7",
   "publisher": "AlvinUnreal",
   "license": "MIT",
   "type": "module",
+  "packageManager": "pnpm@9.0.0",
   "engines": {
     "vscode": "^1.80.0",
     "node": ">=20.0.0"
@@ -16,10 +17,18 @@
   "keywords": [
     "theme",
     "claude",
+    "dark",
+    "italic",
     "minimal",
     "clean",
-    "dark",
-    "anthropic"
+    "contrast",
+    "accessibility",
+    "anthropic",
+    "typography",
+    "maple-mono",
+    "victor-mono",
+    "coding-font",
+    "syntax-highlighting"
   ],
   "icon": "logo.png",
   "galleryBanner": {
@@ -44,6 +53,16 @@
         "label": "Claude Dark High Contrast",
         "uiTheme": "vs-dark",
         "path": "./themes/claude-dark-high-contrast.json"
+      },
+      {
+        "label": "Claude Dark Italic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/claude-dark-italic.json"
+      },
+      {
+        "label": "Claude Dark High Contrast Italic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/claude-dark-high-contrast-italic.json"
       }
     ]
   },
@@ -57,7 +76,7 @@
     "@types/node": "^20.0.0",
     "@types/vscode": "^1.80.0",
     "@vscode/vsce": "^2.22.0",
-    "typescript": "^5.3.0",
-    "tsx": "^4.6.0"
+    "tsx": "^4.6.0",
+    "typescript": "^5.3.0"
   }
 }

@@ -2,7 +2,7 @@
 
 # Claude VSCode Theme
 
-Thoughtful dark theme that is inspired by Claude AI. Carefully balanced contrast and dark syntax colors to reduce eye strain during long coding sessions.
+Thoughtful dark theme collection inspired by Claude AI. Features both classic and **italic** variants with carefully balanced contrast and warm syntax colors to reduce eye strain during long coding sessions.
 
 Part of [awesomeclaude.ai](https://awesomeclaude.ai)
 
@@ -48,8 +48,9 @@ Part of [awesomeclaude.ai](https://awesomeclaude.ai)
 - Consistent visual hierarchy
 
 ### 🛠️ **Multiple Variants**
-- Claude Dark theme
-- High contrast variant
+- Classic & italic variations
+- High contrast support
+- 4 themes total
 
 </td>
 </tr>
@@ -57,10 +58,14 @@ Part of [awesomeclaude.ai](https://awesomeclaude.ai)
 
 ## 🎭 Theme Variants
 
-| Theme | Description | Best For |
-|-------|-------------|----------|
-| **Claude Dark** | Elegant dark theme with warm tones | General development, long coding sessions |
-| **Claude Dark High Contrast** | Maximum visibility with vibrant colors | Accessibility, presentations, bright environments |
+| Theme | Style | Description | Best For |
+|-------|-------|-------------|----------|
+| **Claude Dark** | Classic | Elegant dark theme with warm tones | General development, long coding sessions |
+| **Claude Dark Italic** | ✨ Italic | Same elegance with beautiful italic styles | Italic font lovers, expressive coding |
+| **Claude Dark High Contrast** | Classic | Maximum visibility with vibrant colors | Accessibility, presentations, bright environments |
+| **Claude Dark High Contrast Italic** | ✨ Italic | High contrast with stylish italic elements | Accessibility + italic enthusiasts |
+
+> 💡 **Pro Tip**: For the best italic experience, use fonts like 'Maple Mono' or 'Victor Mono' with font weight 500!
 
 ## 🚀 Quick Installation
 
@@ -80,13 +85,18 @@ ext install alvinunreal.claude-vscode-theme
 Add to your `settings.json`:
 ```json
 {
-    "workbench.colorTheme": "Claude Dark"
+    "workbench.colorTheme": "Claude Dark",
+    // For italic lovers (optional)
+    "editor.fontFamily": "'Maple Mono', 'Victor Mono', 'Fira Code', monospace",
+    "editor.fontWeight": "500"
 }
 ```
 
 ## 📸 Screenshots
 
 ### 🖼️ Theme Gallery
+
+#### Classic Variants
 
 <table>
 <tr>
@@ -103,6 +113,29 @@ Add to your `settings.json`:
 <img src="./assets/dark-high-contrast-min.png" alt="Claude Dark High Contrast" width="100%" style="border-radius: 8px;">
 </a>
 <p><em>Enhanced visibility for accessibility</em></p>
+</td>
+</tr>
+</table>
+
+#### ✨ Italic Variants
+
+<table>
+<tr>
+<td width="50%" align="center">
+<h4>🌃✨ Claude Dark Italic</h4>
+<a href="./assets/dark-italic-min.png">
+<img src="./assets/dark-italic-min.png" alt="Claude Dark Italic Theme" width="100%" style="border-radius: 8px;">
+</a>
+<p><em>Expressive coding with beautiful italic styles</em></p>
+<p><small>📝 Shown with 'Maple Mono' font weight 500</small></p>
+</td>
+<td width="50%" align="center">
+<h4>🔆✨ High Contrast Italic</h4>
+<a href="./assets/dark-high-contrast-italic-min.png">
+<img src="./assets/dark-high-contrast-italic-min.png" alt="Claude Dark High Contrast Italic" width="100%" style="border-radius: 8px;">
+</a>
+<p><em>Maximum visibility with stylish italic elements</em></p>
+<p><small>📝 Shown with 'Victor Mono' font weight 500</small></p>
 </td>
 </tr>
 </table>
@@ -141,9 +174,11 @@ Add to your `settings.json`:
 
 ### **Advanced Features**
 - 🎯 **Semantic Highlighting**: Context-aware syntax colors
+- ✨ **Italic Variants**: Beautiful italic styles for expressive coding
 - 🔍 **Error Detection**: Enhanced error and warning visibility  
-- 📝 **Comment Styling**: Intelligent comment formatting
+- 📝 **Comment Styling**: Intelligent comment formatting with optional italics
 - 🌈 **Bracket Matching**: Smart bracket pair colorization
+- 🎨 **Font Optimization**: Crafted for modern coding fonts like Maple Mono & Victor Mono
 
 ## 💖 Community & Support
 
@@ -193,10 +228,6 @@ git push origin feature/your-feature
 MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
-
-> *"Great themes inspire great code."*
-
-Inspired by Claude AI's sophisticated design language and the open-source community's passion for beautiful developer tools.
 
 Special thanks to the [Catppuccin](https://github.com/catppuccin) team for their architectural insights.
 

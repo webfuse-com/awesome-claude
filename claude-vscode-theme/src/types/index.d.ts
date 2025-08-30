@@ -5,6 +5,7 @@ export interface ThemeOptions {
   italicComments: boolean;
   italicKeywords: boolean;
   boldKeywords: boolean;
+  enableItalics: boolean;
   bracketMode: 'rainbow' | 'dimmed' | 'monochromatic';
   workbenchMode: 'default' | 'flat' | 'minimal';
 }

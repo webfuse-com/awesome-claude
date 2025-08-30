@@ -2,7 +2,7 @@
 
 import { mkdir, writeFile } from 'fs/promises';
 import { join } from 'path';
-import { compileTheme, defaultOptions } from './src/theme';
+import { compileTheme, defaultOptions, italicOptions } from './src/theme';
 import type { ThemeVariant } from './src/theme/palette';
 import type { ThemeOptions } from './src/types';
 
@@ -20,10 +20,26 @@ async function generateThemes() {
     'dark': 'claude-dark.json',
     'dark-high-contrast': 'claude-dark-high-contrast.json',
   };
+
+  const italicFileNames = {
+    'dark': 'claude-dark-italic.json',
+    'dark-high-contrast': 'claude-dark-high-contrast-italic.json',
+  };
   
+  // Generate normal themes
   for (const variant of variants) {
     const theme = compileTheme(variant, defaultOptions);
     const filename = fileNames[variant];
+    const filepath = join(themesDir, filename);
+    
+    await writeFile(filepath, JSON.stringify(theme, null, 2));
+    console.log(`✅ Generated ${filename}`);
+  }
+
+  // Generate italic themes
+  for (const variant of variants) {
+    const theme = compileTheme(variant, italicOptions);
+    const filename = italicFileNames[variant];
     const filepath = join(themesDir, filename);
     
     await writeFile(filepath, JSON.stringify(theme, null, 2));
