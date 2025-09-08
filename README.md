@@ -21,7 +21,7 @@
     <a href="#ide-extensions--plugins">IDE Extensions & Plugins</a> •
     <a href="#applications--user-interfaces">Applications & User Interfaces</a> •
     <a href="#prompt-engineering--templates">Prompt Engineering & Templates</a> •
-    <a href="#community--lists">Community & Lists</a>
+    <a href="#community">Community</a>
   </p>
   
   <br />
@@ -168,11 +168,18 @@
 
 - **[Claude Code Chat](https://github.com/andrepimenta/claude-code-chat)** - 653⭐ - Beautiful native chat interface for Claude Code within VS Code with conversation history and MCP support.
 
+- **[Claude VSCode Theme](https://marketplace.visualstudio.com/items?itemName=AlvinUnreal.claude-vscode-theme)** - Thoughtful dark theme collection with classic and italic variants. Inspired by Claude AI with carefully balanced contrast and warm syntax colors for long coding sessions.
+
 ### Neovim Integration
 - **[Claude Code Neovim](https://github.com/coder/claudecode.nvim)** - 1.0k⭐ - First-to-market WebSocket-based MCP protocol integration for Neovim with zero dependencies. `Lua` `Active`
 
 ### Emacs Integration
 - **[Claude Code IDE](https://github.com/manzaltu/claude-code-ide.el)** - 1.0k⭐ - Comprehensive Emacs integration with native MCP protocol, LSP integration, and project detection. `Emacs Lisp` `150+ ⭐` `Active`
+
+### Browser Extensions
+- **[Claude Usage Tracker](https://chromewebstore.google.com/detail/claude-usage-tracker/knemcdpkggnbhpoaaagmjiigenifejfo)** - Chrome extension for tracking Claude AI usage and performance metrics.
+
+- **[Claude Helper](https://chromewebstore.google.com/detail/claude-helper/nfgojpifghedgeflgnliekadidggnnih/reviews)** - Allows folder uploads to Claude projects with advanced file handling. Adds minimap for chat navigation and quick conversation access.
 
 ## Model Context Protocol (MCP) Servers
 
@@ -214,6 +221,7 @@
 - **[Claude Discord](https://discord.com/invite/prcdpx7qMm)** - Official Discord community for Claude users and developers
 - **[r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/)** - Reddit community for Claude discussions and tips
 - **[Anthropic AI Facebook Group](https://www.facebook.com/groups/anthropicai/)** - Facebook group for Anthropic AI and Claude discussions
+- **[Claude Performance Tracker](https://awesomeclaude.ai/claude-performance)** - Community platform for tracking Claude AI performance issues and response quality
 
 <!-- EOF -->
 
