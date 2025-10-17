@@ -13,7 +13,6 @@ AI assistant by Anthropic for complex reasoning, code generation, and analysis t
 - [API Clients & SDKs](#api-clients--sdks)
 - [Claude Code Ecosystem](#claude-code-ecosystem)
 - [IDE Extensions & Plugins](#ide-extensions--plugins)
-- [Model Context Protocol (MCP) Servers](#model-context-protocol-mcp-servers)
 - [Applications & User Interfaces](#applications--user-interfaces)
 - [Community](#community)
 
@@ -140,9 +139,6 @@ AI assistant by Anthropic for complex reasoning, code generation, and analysis t
 **Deep integrations with development environments**
 
 ### VS Code Extensions
-- [Cline](https://github.com/cline/cline#readme) - Most popular autonomous coding agent with file editing, terminal access, and browser automation. Features human-in-the-loop GUI and cost tracking.
-
-- [Claude Coder](https://github.com/kodu-ai/claude-coder#readme) - Full-stack development assistant that converts ideas to implementation with mockup conversion and web deployment.
 
 - [Claude Code Chat](https://github.com/andrepimenta/claude-code-chat#readme) - Beautiful native chat interface for Claude Code within VS Code with conversation history and MCP support.
 
@@ -159,23 +155,6 @@ AI assistant by Anthropic for complex reasoning, code generation, and analysis t
 
 - [Claude Helper](https://chromewebstore.google.com/detail/claude-helper/nfgojpifghedgeflgnliekadidggnnih/reviews) - Allows folder uploads to Claude projects with advanced file handling. Adds minimap for chat navigation and quick conversation access.
 
-## Model Context Protocol (MCP) Servers
-
-**MCP servers and tools for extending Claude with external integrations**
-
-### Official MCP Infrastructure
-- [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers#readme) - Repository listing and documenting various MCP servers for different tools and services.
-- [modelcontextprotocol/registry](https://github.com/modelcontextprotocol/registry#readme) - A community driven registry service for discovering and managing MCP servers (Go).
-
-### MCP Collections & Resources
-- [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) - A collection of MCP servers and proxies for various use cases like management, load balancing, and integration.
-
-### MCP Servers
-- [github-mcp-server](https://github.com/github/github-mcp-server#readme) - GitHub's official MCP Server that connects AI tools to GitHub's platform for managing repositories, issues, PRs, and more (Go).
-- [awslabs/mcp](https://github.com/awslabs/mcp#readme) - AWS MCP Servers providing access to AWS APIs, documentation, and best practices for AI applications.
-- [mcp-chrome](https://github.com/hangwin/mcp-chrome#readme) - MCP server for Chrome browser automation and control.
-- [context7](https://github.com/upstash/context7#readme) - MCP server providing up-to-date code documentation and examples for AI code editors.
-
 ## Applications & User Interfaces
 
 **Complete applications and polished user interfaces**
@@ -183,14 +162,6 @@ AI assistant by Anthropic for complex reasoning, code generation, and analysis t
 ### Desktop Applications
 - [Claude Desktop](https://claude.ai/download) - Official Claude desktop app for macOS and Windows.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) - Unofficial Claude desktop app for Debian/Linux.
-- [Chatbox](https://github.com/chatboxai/chatbox#readme) - Cross-platform desktop app supporting multiple AI models including Claude.
-
-### Multi-Platform Chat Applications
-- [Lobe Chat](https://github.com/lobehub/lobe-chat#readme) - Open-source modern AI chat framework with multi-model support (Claude, OpenAI, Gemini), MCP plugin integration, knowledge base, and artifacts support.
-
-- [LibreChat](https://github.com/danny-avila/LibreChat#readme) - Multi-model chat platform with comprehensive Claude support alongside other AI models.
-
-- [FastGPT](https://github.com/labring/FastGPT#readme) - Knowledge-based QA platform with RAG capabilities and Claude integration.
 
 ## Community
 
