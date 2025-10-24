@@ -61,6 +61,7 @@ AI assistant by Anthropic for complex reasoning, code generation, and analysis t
 - [claudia](https://github.com/getAsterisk/claudia#readme) - Powerful GUI app and toolkit for Claude Code.
 - [claude-flow](https://github.com/ruvnet/claude-flow#readme) - AI orchestration platform with swarm intelligence and MCP tools.
 - [dotai](https://github.com/udecode/dotai#readme) - Ultimate AI development stack (Shell).
+- [Conduit8](https://github.com/conduit8/conduit8#readme) - CLI registry for discovering, installing, and managing Claude Code skills.
 
 ### Agent Collections & Orchestration
 - [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code#readme) - Curated list of commands, files, and workflows.
