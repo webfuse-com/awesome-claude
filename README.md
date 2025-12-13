@@ -58,10 +58,11 @@ AI assistant by Anthropic for complex reasoning, code generation, and analysis t
 
 ### ☁️ Cloud Providers
 
-**Official access to Claude models through major cloud providers (enterprise-grade, with governance, compliance, and scaling features)**
+**Official access to Claude models through cloud providers**
 
-- [Amazon Bedrock](https://aws.amazon.com/bedrock/anthropic/) — Fully managed access to the full Claude 4.5 family (Opus, Sonnet, Haiku). Supports cross-region inference, latency optimizations, and integration with AWS services.
-- [Google Cloud Vertex AI](https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/claude) — Claude 4.5 models available in Model Garden. Features provisioned throughput, prompt caching, batch predictions, and FedRAMP High compliance.
+- **[Amazon Bedrock](https://aws.amazon.com/bedrock/anthropic/)** — Fully managed access to the latest Claude models (including Opus 4.5, Sonnet 4.5, and Haiku 4.5). Supports features like cross-region inference, latency optimizations, fine-tuning, agents, guardrails, and deep integration with AWS services. Ideal starting point for AWS users.
+- **[Google Cloud Vertex AI Model Garden](https://cloud.google.com/products/model-garden/claude)** — Discover and deploy Claude models directly in the Model Garden with provisioned throughput, prompt caching, batch predictions, grounding, and enterprise compliance (e.g., FedRAMP High). Great for building and deploying agents with Google Cloud tools.
+- **[Microsoft Azure AI Model Catalog (Anthropic Publisher)](https://ai.azure.com/catalog/publishers/anthropic)** — Access Claude models (Opus 4.5, Sonnet 4.5, Haiku 4.5, and more) via the AI Model Catalog (public preview). Supports serverless deployment, agent building, tool integration, fine-tuning, and billing through existing Azure agreements. Perfect for hands-on discovery and deployment in Azure ecosystems.
 
 ### 🛡️ Transparency & Safety
 
