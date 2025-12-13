@@ -27,16 +27,11 @@ AI assistant by Anthropic for complex reasoning, code generation, and analysis t
 - **Claude Sonnet 4.5** (Sep/Oct 2025) — Best balance of intelligence, speed, and cost. Sets new benchmarks in coding, reasoning, and alignment. [Announcement](https://www.anthropic.com/news/claude-sonnet-4-5)
 - **Claude Haiku 4.5** (Oct 2025) — Fastest and most cost-effective, with state-of-the-art speed for complex tasks. [Announcement](https://www.anthropic.com/news/claude-haiku-4-5)
 
-### 🌐 Claude Web & Apps
-
-- [Claude.ai](https://claude.ai) — Official web app with chat, Projects (organize conversations), Artifacts (create code/websites/graphics in real-time), image analysis, web search, and more.
-- [Claude Desktop & Mobile Apps](https://claude.ai/download) — Official downloads for macOS, Windows, iOS, and Android.
-
 ### 🔌 API & Developer Platform
 
 - [Anthropic Console](https://console.anthropic.com) — Sign up, get API keys, test prompts, and monitor usage.
-- [Official Documentation](https://docs.anthropic.com) — Complete API reference, guides, prompt engineering, tool use, computer use, and release notes.
-- [API Overview & Pricing](https://www.anthropic.com/api) — Usage-based pricing, prompt caching, web search, computer use (Python execution), batch processing, citations, and more.
+- [Official Documentation](https://platform.claude.com/docs/en/get-started) — Complete API reference, guides, prompt engineering, tool use, computer use, and release notes.
+- [API Overview & Pricing](https://platform.claude.com/docs/en/about-claude/models/overview) — Usage-based pricing, prompt caching, web search, computer use (Python execution), batch processing, citations, and more.
 - [Claude Agent SDK](https://github.com/anthropics/claude-agent-sdk-python) (Python) & [TypeScript](https://github.com/anthropics/claude-agent-sdk-typescript) — Official SDKs for building advanced agentic applications.
 
 ### 🏆 Official Anthropic SDKs
@@ -50,10 +45,6 @@ The most reliable and feature-complete way to use the Claude API. All support me
 - [anthropic-sdk-csharp](https://github.com/anthropics/anthropic-sdk-csharp) — Official C#/.NET SDK (currently in beta).
 - [anthropic-sdk-ruby](https://github.com/anthropics/anthropic-sdk-ruby) — Official Ruby SDK.
 
-#### 🤖 Agentic Development
-- [claude-agent-sdk-python](https://github.com/anthropics/claude-agent-sdk-python) — Official SDK for building advanced agents with tools, hooks, and interactive sessions.
-- (TypeScript version in development or integrated into main TS SDK — check repo for latest)
-
 #### 🚀 Code Examples & Starters
 
 - [Claude Cookbook](https://github.com/anthropics/claude-cookbooks) — Official notebooks and recipes for common patterns (RAG, tool use, etc.).
@@ -62,7 +53,6 @@ The most reliable and feature-complete way to use the Claude API. All support me
 ### 📚 Learning & Courses
 
 - [Anthropic Courses](https://anthropic.skilljar.com/) — Free and paid courses on prompt engineering, API usage, building agents, and more.
-- [News & Blog](https://www.anthropic.com/news) — Latest announcements, research, and engineering posts.
 
 ### ☁️ Third-Party Cloud Availability
 **Official access to Claude models through major cloud providers (enterprise-grade, with additional governance, compliance, and scaling features)**
@@ -95,23 +85,24 @@ The most reliable and feature-complete way to use the Claude API. All support me
 ### 🎓 Official Anthropic Courses
 
 - [AI Fluency: Framework & Foundations](https://anthropic.skilljar.com/ai-fluency-framework-foundations) - Learn to collaborate with AI systems effectively, efficiently, ethically, and safely.
-- [Claude with the Anthropic API](https://anthropic.skilljar.com/claude-with-the-anthropic-api) - This comprehensive course covers the full spectrum of working with Anthropic models using the Anthropic API.
+- [AI Fluency for Educators](https://anthropic.skilljar.com/ai-fluency-for-educators) - Empowers faculty, instructional designers, and educational leaders to apply AI Fluency into their own teaching practice and institutional strategy.
+- [AI Fluency for Students](https://anthropic.skilljar.com/ai-fluency-for-students) - Empowers students to develop AI Fluency skills that enhance learning, career planning, and academic success through responsible AI collaboration.
+- [AI Fluency for Nonprofits](https://anthropic.skilljar.com/ai-fluency-for-nonprofits) - Empowers nonprofit professionals to develop AI fluency to increase organizational impact and efficiency while staying true to their mission and values.
+- [Teaching AI Fluency](https://anthropic.skilljar.com/teaching-ai-fluency) - Empowers academic faculty, instructional designers, and others to teach and assess AI Fluency in instructor-led settings.
+- [Building with the Claude API](https://anthropic.skilljar.com/claude-with-the-anthropic-api) - Comprehensive course covering the full spectrum of working with Anthropic models using the Claude API.
 - [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) - Integrate Claude Code into your development workflow.
-- [Introduction to Model Context Protocol](http://anthropic.skilljar.com/introduction-to-model-context-protocol) - Learn to build Model Context Protocol servers and clients from scratch using Python. Master MCP's three core primitives—tools, resources, and prompts—to connect Claude with external services.
+- [Introduction to Model Context Protocol](https://anthropic.skilljar.com/introduction-to-model-context-protocol) - Learn to build Model Context Protocol servers and clients from scratch using Python. Master MCP's three core primitives—tools, resources, and prompts—to connect Claude with external services.
+- [Model Context Protocol: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) - Advanced MCP implementation patterns including sampling, notifications, file system access, and transport mechanisms for production MCP server development.
+- [Claude with Amazon Bedrock](https://anthropic.skilljar.com/claude-in-amazon-bedrock) - Full course created for AWS employees as part of an accreditation program, now available publicly.
+- [Claude with Google Cloud's Vertex AI](https://anthropic.skilljar.com/claude-with-google-vertex) - Comprehensive course covering the full spectrum of working with Anthropic models through Google Cloud's Vertex AI.
+
+### 📹 Official Video Tutorials
+
+- [Claude Video Tutorials](https://support.claude.com/en/collections/10548294-video-tutorials) - Official video tutorials from Claude Support.
 
 ### 📖 Community Guides & Tutorials
 
 - [Claude Code Everything You Need to Know](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know#readme) - Ultimate all-in-one guide to mastering Claude Code. Covers setup, prompt engineering, commands, hooks, workflows, automation, integrations, MCP servers, tools, and the BMAD method with step-by-step tutorials and real-world examples.
-
-## 🔌 API Clients & SDKs
-
-**Official Anthropic client libraries for working with Claude's API**
-
-- [anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python#readme) - Official Python client library for the Anthropic API. Supports all Claude models with async support and type hints.
-- [anthropic-sdk-typescript](https://github.com/anthropics/anthropic-sdk-typescript#readme) - Official TypeScript/JavaScript client library for the Anthropic API. Works in Node.js and browsers with full TypeScript support.
-- [anthropic-sdk-java](https://github.com/anthropics/anthropic-sdk-java#readme) - Official Java client library for the Anthropic API. Built with modern Java features and comprehensive documentation.
-- [anthropic-sdk-go](https://github.com/anthropics/anthropic-sdk-go#readme) - Official Go client library for the Anthropic API. Idiomatic Go design with context support and comprehensive error handling.
-- [anthropic-sdk-ruby](https://github.com/anthropics/anthropic-sdk-ruby#readme) - Official Ruby client library for the Anthropic API. Clean Ruby interface with comprehensive documentation and examples.
 
 ## 🧩 IDE Extensions & Plugins
 
