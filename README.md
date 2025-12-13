@@ -122,9 +122,9 @@ The most reliable and feature-complete way to use the Claude API. All support me
 - [Claude VSCode Theme](https://marketplace.visualstudio.com/items?itemName=AlvinUnreal.claude-vscode-theme) - Thoughtful dark theme collection with classic and italic variants. Inspired by Claude AI with carefully balanced contrast and warm syntax colors for long coding sessions.
 
 ### 🌐 Browser Extensions
-- [Claude Usage Tracker](https://chromewebstore.google.com/detail/claude-usage-tracker/knemcdpkggnbhpoaaagmjiigenifejfo) - Chrome extension for tracking Claude AI usage and performance metrics.
+- [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) - Max plan required. Claude works directly in your browser and takes actions on your behalf. Features scheduled tasks, planning mode, multi-tab workflows, model selection, and smart navigation for Slack, Gmail, Google Calendar, Docs, and GitHub.
 
-- [Claude Helper](https://chromewebstore.google.com/detail/claude-helper/nfgojpifghedgeflgnliekadidggnnih/reviews) - Allows folder uploads to Claude projects with advanced file handling. Adds minimap for chat navigation and quick conversation access.
+- [Claude Usage Tracker](https://chromewebstore.google.com/detail/claude-usage-tracker/knemcdpkggnbhpoaaagmjiigenifejfo) - Chrome extension for tracking Claude AI usage and performance metrics.
 
 ## 💻 Applications & User Interfaces
 
