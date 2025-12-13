@@ -38,15 +38,13 @@ AI assistant by Anthropic for complex reasoning, code generation, and analysis t
 
 **Official SDKs** — The most reliable way to use the Claude API. All support messages, tool use, streaming, prompt caching, and more.
 
-| Language      | SDK                                                                                |
-| ------------- | ---------------------------------------------------------------------------------- |
-| Python        | [anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python)         |
-| TypeScript/JS | [anthropic-sdk-typescript](https://github.com/anthropics/anthropic-sdk-typescript) |
-| Java/Kotlin   | [anthropic-sdk-java](https://github.com/anthropics/anthropic-sdk-java)             |
-| Go            | [anthropic-sdk-go](https://github.com/anthropics/anthropic-sdk-go)                 |
-| PHP           | [anthropic-sdk-php](https://github.com/anthropics/anthropic-sdk-php)               |
-| C#/.NET       | [anthropic-sdk-csharp](https://github.com/anthropics/anthropic-sdk-csharp)         |
-| Ruby          | [anthropic-sdk-ruby](https://github.com/anthropics/anthropic-sdk-ruby)             |
+- [anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python) — Python SDK with async support, type hints, and full feature parity.
+- [anthropic-sdk-typescript](https://github.com/anthropics/anthropic-sdk-typescript) — TypeScript/JavaScript SDK for Node.js and browsers.
+- [anthropic-sdk-java](https://github.com/anthropics/anthropic-sdk-java) — Java/Kotlin SDK with modern features.
+- [anthropic-sdk-go](https://github.com/anthropics/anthropic-sdk-go) — Go SDK with idiomatic design.
+- [anthropic-sdk-php](https://github.com/anthropics/anthropic-sdk-php) — PHP SDK (Beta).
+- [anthropic-sdk-csharp](https://github.com/anthropics/anthropic-sdk-csharp) — C#/.NET SDK (Beta).
+- [anthropic-sdk-ruby](https://github.com/anthropics/anthropic-sdk-ruby) — Ruby SDK.
 
 **Agent SDKs** — For building advanced agentic applications.
 
@@ -119,19 +117,17 @@ AI assistant by Anthropic for complex reasoning, code generation, and analysis t
 
 **Free courses from Anthropic covering prompt engineering, API usage, agents, and more**
 
-| Course                                                                                                          | Description                                                                 |
-| --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| [AI Fluency: Framework & Foundations](https://anthropic.skilljar.com/ai-fluency-framework-foundations)          | Collaborate with AI systems effectively, efficiently, ethically, and safely |
-| [AI Fluency for Educators](https://anthropic.skilljar.com/ai-fluency-for-educators)                             | Apply AI Fluency into teaching practice and institutional strategy          |
-| [AI Fluency for Students](https://anthropic.skilljar.com/ai-fluency-for-students)                               | Enhance learning, career planning, and academic success through AI          |
-| [AI Fluency for Nonprofits](https://anthropic.skilljar.com/ai-fluency-for-nonprofits)                           | Increase organizational impact while staying true to mission and values     |
-| [Teaching AI Fluency](https://anthropic.skilljar.com/teaching-ai-fluency)                                       | Teach and assess AI Fluency in instructor-led settings                      |
-| [Building with the Claude API](https://anthropic.skilljar.com/claude-with-the-anthropic-api)                    | Full spectrum of working with Anthropic models using the Claude API         |
-| [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action)                                   | Integrate Claude Code into your development workflow                        |
-| [Introduction to Model Context Protocol](https://anthropic.skilljar.com/introduction-to-model-context-protocol) | Build MCP servers and clients from scratch using Python                     |
-| [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics)                   | Advanced patterns including sampling, notifications, and transports         |
-| [Claude with Amazon Bedrock](https://anthropic.skilljar.com/claude-in-amazon-bedrock)                           | Accreditation program course, now available publicly                        |
-| [Claude with Google Vertex AI](https://anthropic.skilljar.com/claude-with-google-vertex)                        | Working with Anthropic models through Google Cloud's Vertex AI              |
+- [AI Fluency: Framework & Foundations](https://anthropic.skilljar.com/ai-fluency-framework-foundations) — Collaborate with AI systems effectively, efficiently, ethically, and safely.
+- [AI Fluency for Educators](https://anthropic.skilljar.com/ai-fluency-for-educators) — Apply AI Fluency into teaching practice and institutional strategy.
+- [AI Fluency for Students](https://anthropic.skilljar.com/ai-fluency-for-students) — Enhance learning, career planning, and academic success through AI.
+- [AI Fluency for Nonprofits](https://anthropic.skilljar.com/ai-fluency-for-nonprofits) — Increase organizational impact while staying true to mission and values.
+- [Teaching AI Fluency](https://anthropic.skilljar.com/teaching-ai-fluency) — Teach and assess AI Fluency in instructor-led settings.
+- [Building with the Claude API](https://anthropic.skilljar.com/claude-with-the-anthropic-api) — Full spectrum of working with Anthropic models using the Claude API.
+- [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) — Integrate Claude Code into your development workflow.
+- [Introduction to Model Context Protocol](https://anthropic.skilljar.com/introduction-to-model-context-protocol) — Build MCP servers and clients from scratch using Python.
+- [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) — Advanced patterns including sampling, notifications, and transports.
+- [Claude with Amazon Bedrock](https://anthropic.skilljar.com/claude-in-amazon-bedrock) — Accreditation program course, now available publicly.
+- [Claude with Google Vertex AI](https://anthropic.skilljar.com/claude-with-google-vertex) — Working with Anthropic models through Google Cloud's Vertex AI.
 
 ### 📹 Video Tutorials
 
