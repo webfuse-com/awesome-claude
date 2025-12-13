@@ -11,8 +11,6 @@ AI assistant by Anthropic for complex reasoning, code generation, and analysis t
 - [🏢 Official Anthropic Resources](#-official-anthropic-resources)
 - [⭐ Awesome GitHub Repos Related to Claude](#-awesome-github-repos-related-to-claude)
 - [📚 Educational Resources & Tutorials](#-educational-resources--tutorials)
-- [🔌 API Clients & SDKs](#-api-clients--sdks)
-- [🎯 Project Management & Orchestration](#-project-management--orchestration)
 - [🧩 IDE Extensions & Plugins](#-ide-extensions--plugins)
 - [💻 Applications & User Interfaces](#-applications--user-interfaces)
 - [👥 Community](#-community)
