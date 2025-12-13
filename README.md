@@ -23,9 +23,9 @@ AI assistant by Anthropic for complex reasoning, code generation, and analysis t
 
 ### 🧠 Current Models (Claude 4.5 Family - Released 2025)
 
-- **Claude Opus 4.5** (Nov 2025) — World's best for coding, agents, computer use, and complex enterprise tasks. Dramatically improved token efficiency. [Announcement](https://www.anthropic.com/news/claude-opus-45)
-- **Claude Sonnet 4.5** (Sep/Oct 2025) — Best balance of intelligence, speed, and cost. Sets new benchmarks in coding, reasoning, and alignment. [Announcement](https://www.anthropic.com/news/claude-sonnet-45)
-- **Claude Haiku 4.5** (Oct 2025) — Fastest and most cost-effective, with state-of-the-art speed for complex tasks. [Announcement](https://www.anthropic.com/news/claude-haiku-45)
+- **Claude Opus 4.5** (Nov 2025) — World's best for coding, agents, computer use, and complex enterprise tasks. Dramatically improved token efficiency. [Announcement](https://www.anthropic.com/news/claude-opus-4-5)
+- **Claude Sonnet 4.5** (Sep/Oct 2025) — Best balance of intelligence, speed, and cost. Sets new benchmarks in coding, reasoning, and alignment. [Announcement](https://www.anthropic.com/news/claude-sonnet-4-5)
+- **Claude Haiku 4.5** (Oct 2025) — Fastest and most cost-effective, with state-of-the-art speed for complex tasks. [Announcement](https://www.anthropic.com/news/claude-haiku-4-5)
 
 ### 🌐 Claude Web & Apps
 
