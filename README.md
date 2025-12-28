@@ -137,6 +137,7 @@ AI assistant by Anthropic for complex reasoning, code generation, and analysis t
 ### 📖 Community Guides
 
 - [Claude Code Everything You Need to Know](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know#readme) — Ultimate all-in-one guide to mastering Claude Code. Covers setup, prompt engineering, commands, hooks, workflows, automation, integrations, MCP servers, and the BMAD method.
+- [40+ Claude Code Tips](https://github.com/ykdojo/claude-code-tips#readme) — Tips for getting the most out of Claude Code, including a custom status line script, cutting the system prompt in half, using Gemini CLI as Claude Code's minion, and Claude Code running itself in a container. Also includes the dx plugin for GitHub Actions debugging, conversation cloning, and handoffs.
 
 ---
 
