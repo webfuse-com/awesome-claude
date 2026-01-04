@@ -101,6 +101,10 @@ AI assistant by Anthropic for complex reasoning, code generation, and analysis t
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) — Max plan required. Claude works directly in your browser and takes actions on your behalf. Features scheduled tasks, planning mode, multi-tab workflows, and smart navigation for Slack, Gmail, Google Calendar, Docs, and GitHub.
 - [Claude Usage Tracker](https://chromewebstore.google.com/detail/claude-usage-tracker/knemcdpkggnbhpoaaagmjiigenifejfo) — Chrome extension for tracking Claude AI usage and performance metrics.
 
+### 🔧 Web Tools
+
+- [Price Per Token](https://pricepertoken.com) — Compare Claude API pricing with 300+ other LLM models. Includes token counter and cost calculator.
+
 ---
 
 ## 💻 Applications
