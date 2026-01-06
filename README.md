@@ -101,6 +101,10 @@ AI assistant by Anthropic for complex reasoning, code generation, and analysis t
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) — Max plan required. Claude works directly in your browser and takes actions on your behalf. Features scheduled tasks, planning mode, multi-tab workflows, and smart navigation for Slack, Gmail, Google Calendar, Docs, and GitHub.
 - [Claude Usage Tracker](https://chromewebstore.google.com/detail/claude-usage-tracker/knemcdpkggnbhpoaaagmjiigenifejfo) — Chrome extension for tracking Claude AI usage and performance metrics.
 
+### 🔌 MCP Servers
+
+- [ChatSpatial](https://github.com/cafferychen777/ChatSpatial) — MCP server enabling spatial transcriptomics analysis via natural language. Integrates 60+ methods for spatial domains, deconvolution, cell communication, and trajectory analysis across Visium, Xenium, MERFISH.
+
 ---
 
 ## 💻 Applications
