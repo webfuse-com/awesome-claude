@@ -65,6 +65,12 @@ _Practical walkthrough for integrating Claude Code into your development workflo
 - [Claude Cookbook](https://github.com/anthropics/claude-cookbooks) — Official notebooks and recipes for common patterns (RAG, tool use, etc.).
 - [Claude Quickstarts](https://github.com/anthropics/claude-quickstarts) — Ready-to-deploy example apps.
 
+### ⚡ Cost Optimization & Utilities
+
+**Tools and libraries for optimizing Claude API costs and improving efficiency**
+
+- [Claude API Cost Optimization](https://github.com/sstklen/claude-api-cost-optimization) — Save 50-90% on Claude API costs with intelligent request batching, token caching, model selection, and comprehensive cost analytics. Includes utilities for prompt optimization and budget tracking.
+
 ### ☁️ Cloud Providers
 
 **Official access to Claude models through cloud providers**
