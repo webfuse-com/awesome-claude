@@ -105,6 +105,11 @@ _Practical walkthrough for integrating Claude Code into your development workflo
 - [Claude Code Chat](https://github.com/andrepimenta/claude-code-chat#readme) — Beautiful native chat interface for Claude Code within VS Code with conversation history and MCP support.
 - [Claude VSCode Theme](https://marketplace.visualstudio.com/items?itemName=AlvinUnreal.claude-vscode-theme) — Thoughtful dark theme collection with classic and italic variants. Inspired by Claude AI with carefully balanced contrast and warm syntax colors.
 
+### 📦 SDKs & Libraries
+
+- [Raysurfer Python SDK](https://github.com/rayxc-org/raysurfer-python) — LLM output caching for AI agents. Drop-in replacement for Claude Agent SDK with automatic code caching. Retrieves cached outputs up to 30x faster.
+- [Raysurfer TypeScript SDK](https://github.com/rayxc-org/raysurfer-ts) — TypeScript client for Raysurfer's LLM output caching infrastructure. Accelerates Claude-based AI agents by retrieving and reusing cached code.
+
 ### 🌐 Browser Extensions
 
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) — Max plan required. Claude works directly in your browser and takes actions on your behalf. Features scheduled tasks, planning mode, multi-tab workflows, and smart navigation for Slack, Gmail, Google Calendar, Docs, and GitHub.
