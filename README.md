@@ -110,6 +110,10 @@ _Practical walkthrough for integrating Claude Code into your development workflo
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) — Max plan required. Claude works directly in your browser and takes actions on your behalf. Features scheduled tasks, planning mode, multi-tab workflows, and smart navigation for Slack, Gmail, Google Calendar, Docs, and GitHub.
 - [Claude Usage Tracker](https://chromewebstore.google.com/detail/claude-usage-tracker/knemcdpkggnbhpoaaagmjiigenifejfo) — Chrome extension for tracking Claude AI usage and performance metrics.
 
+### 🔧 CLI Tools & Frameworks
+
+- [AgentSys](https://github.com/avifenesh/agentsys) — Agent runtime and orchestration system for Claude Code, OpenCode, and Codex CLI. Ships 12 plugins with 41 agents and 27 skills for workflow automation, code review, performance analysis, and more.
+
 ---
 
 ## 💻 Applications
