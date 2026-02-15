@@ -105,6 +105,10 @@ _Practical walkthrough for integrating Claude Code into your development workflo
 - [Claude Code Chat](https://github.com/andrepimenta/claude-code-chat#readme) — Beautiful native chat interface for Claude Code within VS Code with conversation history and MCP support.
 - [Claude VSCode Theme](https://marketplace.visualstudio.com/items?itemName=AlvinUnreal.claude-vscode-theme) — Thoughtful dark theme collection with classic and italic variants. Inspired by Claude AI with carefully balanced contrast and warm syntax colors.
 
+### 🧠 Claude Code Plugins
+
+- [memsearch](https://github.com/zilliztech/memsearch) — Persistent semantic memory plugin for Claude Code. Auto-summarizes sessions to markdown, injects relevant memories on every prompt via hooks, and supports three-layer progressive disclosure. Powered by Milvus vector search.
+
 ### 🌐 Browser Extensions
 
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) — Max plan required. Claude works directly in your browser and takes actions on your behalf. Features scheduled tasks, planning mode, multi-tab workflows, and smart navigation for Slack, Gmail, Google Calendar, Docs, and GitHub.
