@@ -95,6 +95,7 @@ _Practical walkthrough for integrating Claude Code into your development workflo
 - [vijaythecoder/awesome-claude-agents](https://github.com/vijaythecoder/awesome-claude-agents#readme) — Team of specialized AI agents for building features and debugging.
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents#readme) — 100+ specialized AI agents for full-stack development maintained by the community.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) — Curated list of Model Context Protocol (MCP) servers for extending Claude's capabilities.
+- [product-on-purpose/pm-skills](https://github.com/product-on-purpose/pm-skills#readme) — Open-source library of 24 product management agent skills following the agentskills.io specification, with templates and workflow bundles for consistent PM outputs.
 
 ---
 
