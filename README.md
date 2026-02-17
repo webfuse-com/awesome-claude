@@ -120,6 +120,10 @@ _Practical walkthrough for integrating Claude Code into your development workflo
 - [Claude Desktop](https://claude.ai/download) — Official Claude desktop app for macOS and Windows.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) — Unofficial Claude desktop app for Debian/Linux.
 
+### 🤖 Self-Hosted
+
+- [OpenClaw](https://github.com/openclaw/openclaw) — Self-hosted AI assistant that connects Claude to WhatsApp, Telegram, Discord, Slack, iMessage, SMS, Email, and Signal from a single deployment. ([Setup Guide](https://clawdbot.blog/getting-started/installation/))
+
 ---
 
 ## 📚 Educational Resources
