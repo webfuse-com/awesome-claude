@@ -91,6 +91,7 @@ _Practical walkthrough for integrating Claude Code into your development workflo
 - [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code#readme) — Slash-commands, CLAUDE.md files, CLI tools, and workflows for Claude Code.
 - [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills#readme) — Resources and tools for customizing AI workflows with Claude Skills.
 - [BehiSecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills#readme) — Categorized skills for document handling, development tools, data analysis, and more.
+- [DilawarShafiq/skillfull](https://github.com/DilawarShafiq/skillfull#readme) — US Healthcare Revenue Cycle Management skills with MCP integration for ICD-10 lookup, NPI verification, Medicare coverage, and medical billing workflows.
 - [langgptai/awesome-claude-prompts](https://github.com/langgptai/awesome-claude-prompts#readme) — Collection of prompt examples designed to improve Claude interactions.
 - [vijaythecoder/awesome-claude-agents](https://github.com/vijaythecoder/awesome-claude-agents#readme) — Team of specialized AI agents for building features and debugging.
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents#readme) — 100+ specialized AI agents for full-stack development maintained by the community.
