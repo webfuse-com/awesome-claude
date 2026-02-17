@@ -89,6 +89,7 @@ _Practical walkthrough for integrating Claude Code into your development workflo
 **Awesome lists and collections maintained by the community**
 
 - [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code#readme) — Slash-commands, CLAUDE.md files, CLI tools, and workflows for Claude Code.
+- [fractalmind-ai/agent-manager-skill](https://github.com/fractalmind-ai/agent-manager-skill#readme) — tmux + Python agent lifecycle manager for running multiple CLI AI agents (start/stop/monitor/assign) with cron-friendly scheduling; no server required.
 - [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills#readme) — Resources and tools for customizing AI workflows with Claude Skills.
 - [BehiSecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills#readme) — Categorized skills for document handling, development tools, data analysis, and more.
 - [langgptai/awesome-claude-prompts](https://github.com/langgptai/awesome-claude-prompts#readme) — Collection of prompt examples designed to improve Claude interactions.
