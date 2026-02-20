@@ -111,6 +111,10 @@ _Practical walkthrough for integrating Claude Code into your development workflo
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) — Max plan required. Claude works directly in your browser and takes actions on your behalf. Features scheduled tasks, planning mode, multi-tab workflows, and smart navigation for Slack, Gmail, Google Calendar, Docs, and GitHub.
 - [Claude Usage Tracker](https://chromewebstore.google.com/detail/claude-usage-tracker/knemcdpkggnbhpoaaagmjiigenifejfo) — Chrome extension for tracking Claude AI usage and performance metrics.
 
+### 📡 Observability & Monitoring
+
+- [Manifest](https://github.com/mnfst/manifest/tree/main/skills/manifest) — Install and configure the Manifest observability plugin for your agents. Handles telemetry setup, API key configuration, endpoint settings, and connection troubleshooting.
+
 ---
 
 ## 💻 Applications
