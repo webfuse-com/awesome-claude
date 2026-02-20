@@ -119,6 +119,7 @@ _Practical walkthrough for integrating Claude Code into your development workflo
 
 - [Claude Desktop](https://claude.ai/download) — Official Claude desktop app for macOS and Windows.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) — Unofficial Claude desktop app for Debian/Linux.
+- [Mantra](https://mantra.gonewx.com) — Time machine for AI coding sessions. Automatically captures, browses, searches, and restores sessions for Claude Code, Cursor, Windsurf, Copilot, and Aider. Desktop app with CLI support for macOS, Linux, and Windows.
 
 ---
 
