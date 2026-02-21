@@ -45,6 +45,7 @@ _Practical walkthrough for integrating Claude Code into your development workflo
 
 ### 🔧 SDKs & Development Tools
 
+- [changelog-gen](https://github.com/indoor47/changelog-gen) - AI-powered changelog generator that converts git commits into human-readable release notes using Claude
 **Official SDKs** — The most reliable way to use the Claude API. All support messages, tool use, streaming, prompt caching, and more.
 
 - [anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python) — Python SDK with async support, type hints, and full feature parity.
