@@ -120,6 +120,10 @@ _Practical walkthrough for integrating Claude Code into your development workflo
 - [Claude Desktop](https://claude.ai/download) — Official Claude desktop app for macOS and Windows.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) — Unofficial Claude desktop app for Debian/Linux.
 
+### 🌐 Web
+
+- [ClawWP](https://github.com/hifriendbot/clawwp) — WordPress plugin that lets Claude manage your site through conversation using native tool use. Supports content creation, plugin management, site settings, and more. Open source, GPLv2.
+
 ---
 
 ## 📚 Educational Resources
