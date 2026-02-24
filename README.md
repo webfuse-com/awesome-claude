@@ -119,6 +119,7 @@ _Practical walkthrough for integrating Claude Code into your development workflo
 
 - [Claude Desktop](https://claude.ai/download) — Official Claude desktop app for macOS and Windows.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) — Unofficial Claude desktop app for Debian/Linux.
+- [Poirot](https://github.com/LeonardoCardoso/Poirot) — Native macOS companion for browsing Claude Code sessions, exploring diffs, and re-running commands. Built with SwiftUI, works offline.
 
 ---
 
