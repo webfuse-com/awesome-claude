@@ -111,6 +111,11 @@ _Practical walkthrough for integrating Claude Code into your development workflo
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) — Max plan required. Claude works directly in your browser and takes actions on your behalf. Features scheduled tasks, planning mode, multi-tab workflows, and smart navigation for Slack, Gmail, Google Calendar, Docs, and GitHub.
 - [Claude Usage Tracker](https://chromewebstore.google.com/detail/claude-usage-tracker/knemcdpkggnbhpoaaagmjiigenifejfo) — Chrome extension for tracking Claude AI usage and performance metrics.
 
+
+### 🔗 MCP Servers
+
+- [LightCMS](https://github.com/jonradoff/lightcms) — AI-native CMS with 41 MCP tools for managing websites through natural language. Create pages, templates, assets, themes, collections, redirects, and more with full content versioning.
+
 ---
 
 ## 💻 Applications
