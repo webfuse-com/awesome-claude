@@ -117,6 +117,7 @@ _Practical walkthrough for integrating Claude Code into your development workflo
 
 ### 🖥️ Desktop
 
+- [AIQuotaBar](https://github.com/yagcioglutoprak/AIQuotaBar) - macOS menu bar app showing live Claude.ai session and weekly usage limits. Zero setup, reads browser cookies locally.
 - [Claude Desktop](https://claude.ai/download) — Official Claude desktop app for macOS and Windows.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) — Unofficial Claude desktop app for Debian/Linux.
 
