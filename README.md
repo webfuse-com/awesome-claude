@@ -119,6 +119,7 @@ _Practical walkthrough for integrating Claude Code into your development workflo
 
 - [Claude Desktop](https://claude.ai/download) — Official Claude desktop app for macOS and Windows.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) — Unofficial Claude desktop app for Debian/Linux.
+- [DNA Claude Analysis](https://github.com/shmlkv/dna-claude-analysis#readme) — Personal genome analysis toolkit powered by Claude Code. Analyzes raw DNA data across 17 categories (health, pharmacogenomics, ancestry, nutrition, and more) and generates a terminal-style HTML dashboard.
 
 ---
 
