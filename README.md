@@ -120,6 +120,10 @@ _Practical walkthrough for integrating Claude Code into your development workflo
 - [Claude Desktop](https://claude.ai/download) — Official Claude desktop app for macOS and Windows.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) — Unofficial Claude desktop app for Debian/Linux.
 
+### 💬 Chat Integrations
+
+- [DiscoClaw](https://github.com/DiscoClaw/discoclaw) — Personal AI orchestrator that turns Discord into a persistent workspace for Claude Code, with durable memory, task tracking, and cron-based automation.
+
 ---
 
 ## 📚 Educational Resources
