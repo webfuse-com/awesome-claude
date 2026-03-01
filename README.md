@@ -148,6 +148,10 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Max plan required. Claude works directly in your browser and takes actions on your behalf. Features scheduled tasks, planning mode, multi-tab workflows, and smart navigation for Slack, Gmail, Google Calendar, Docs, and GitHub.
 - [Claude Usage Tracker](https://chromewebstore.google.com/detail/claude-usage-tracker/knemcdpkggnbhpoaaagmjiigenifejfo) -  Chrome extension for tracking Claude AI usage and performance metrics.
 
+### 🔍 Developer Tools & Debugging
+
+- [Argus - Claude Code Session Debugger](https://github.com/yessGlory17/argus) -  VSCode extension that analyzes Claude Code sessions from `.claude/` directories. Provides step-by-step execution breakdown, cost analysis (token usage by tool type), performance insights (retry loops, duplicate reads, context pressure), cache hit ratio visualization, and automated efficiency recommendations. Features 6 analysis rules detecting inefficiencies, real-time session monitoring, and interactive dependency graphs. Built with TypeScript/React 19, includes 8 analysis tabs covering Overview, Steps, Cost, Performance, Flow, Context, and AI-powered Insights. Essential for developers tracking AI-assisted development costs and optimizing Claude Code workflows.
+
 ---
 
 ## 💻 Applications
