@@ -143,6 +143,11 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude Code Theme](https://github.com/ashwingopalsamy/claude-code-theme) -  Claude-inspired VS Code theme pack with dark/light/high-contrast and brand variants, semantic token tuning, and ANSI-optimized terminal colors.
 - [Claude VSCode Theme](https://marketplace.visualstudio.com/items?itemName=AlvinUnreal.claude-vscode-theme) -  Thoughtful dark theme collection with classic and italic variants. Inspired by Claude AI with carefully balanced contrast and warm syntax colors.
 
+### 📦 SDKs & Libraries
+
+- [Raysurfer Python SDK](https://github.com/rayxc-org/raysurfer-python) — LLM output caching for AI agents. Drop-in replacement for Claude Agent SDK with automatic code caching. Retrieves cached outputs up to 30x faster.
+- [Raysurfer TypeScript SDK](https://github.com/rayxc-org/raysurfer-ts) — TypeScript client for Raysurfer's LLM output caching infrastructure. Accelerates Claude-based AI agents by retrieving and reusing cached code.
+
 ### 🌐 Browser Extensions
 
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Max plan required. Claude works directly in your browser and takes actions on your behalf. Features scheduled tasks, planning mode, multi-tab workflows, and smart navigation for Slack, Gmail, Google Calendar, Docs, and GitHub.
