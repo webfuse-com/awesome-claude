@@ -79,6 +79,7 @@ Premium pricing for >200K tokens. Full comparison: [Models overview](https://pla
 - **[Amazon Bedrock](https://aws.amazon.com/bedrock/anthropic/)** -  Fully managed access to the latest Claude models (Opus 4.6, Sonnet 4.6, Haiku 4.5). Supports cross-region inference (new regions: Thailand, Malaysia, Singapore, Indonesia, Taiwan), latency optimizations, fine-tuning, agents, guardrails, and deep AWS integration.
 - **[Google Cloud Vertex AI Model Garden](https://cloud.google.com/products/model-garden/claude)** -  Deploy Claude models with provisioned throughput, prompt caching, batch predictions, grounding, and enterprise compliance (FedRAMP High). Great for building agents with Google Cloud tools.
 - **[Microsoft Azure AI Model Catalog (Anthropic Publisher)](https://ai.azure.com/catalog/publishers/anthropic)** -  Claude models via the AI Model Catalog. Supports serverless deployment, agent building, tool integration, fine-tuning, and billing through existing Azure agreements.
+- **[SkillBoss](https://skillboss.co/)** -  Unified AI API gateway backed by OpenAI Startup Fund & Amazon. Access Claude Opus 4.5 + 100 other AI services (GPT-5, Gemini, Veo 3.1, DALL-E 3) via one OpenAI-compatible key. Pay-as-you-go with $3.50 free credit. [Docs](https://skillboss.co/docs)
 
 ### 🛡️ Transparency & Safety
 
