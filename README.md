@@ -108,7 +108,7 @@ _Practical walkthrough for integrating Claude Code into your development workflo
 
 ### 🎬 Video & Media
 
-- [video-db/skills](https://github.com/video-db/skills) — The only video skill your agent needs — upload any video, connect real-time streams, search inside by what was said or shown, build complex editing workflows with overlays, generate AI media, add subtitles, and get instant streaming links.
+- [video-db/skills](https://github.com/video-db/skills) — See, Understand, Act on video and audio — ingest any media (files, streams, desktop), build semantic/visual/spoken understanding pipelines, create complex editing timelines programmatically, generate and stream media content, and trigger real-time alerts.
 
 ### 🌐 Browser Extensions
 
