@@ -157,6 +157,10 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
 
+### 🖥️ CLI & TUI
+
+- [Kagan](https://github.com/kagan-sh/kagan#readme) — AI-powered Kanban TUI for autonomous development workflows. Integrates with Claude Code and OpenCode for ticket-driven AI coding with git worktree isolation and MCP server support.
+
 ---
 
 ## 📚 Educational Resources
