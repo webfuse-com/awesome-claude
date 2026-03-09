@@ -116,6 +116,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Introduction to MCP](https://anthropic.skilljar.com/introduction-to-model-context-protocol) -  Official Anthropic course: build MCP servers and clients from scratch in Python.
 - [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Sampling, notifications, transports.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
+- [bitcoin-mcp](https://github.com/Bortlesboat/bitcoin-mcp#readme) -  Most comprehensive Bitcoin MCP server with 43 tools for fees, mempool, blocks, transactions, mining, price, and supply. Zero config — works with Claude Desktop, Claude Code, Cursor, and VS Code. Install: `pip install bitcoin-mcp`.
 
 ---
 
