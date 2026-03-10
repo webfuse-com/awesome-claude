@@ -127,6 +127,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills#readme) -  Resources and tools for customizing AI workflows with Claude Skills.
 - [BehiSecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills#readme) -  Categorized skills for document handling, development tools, data analysis, and more.
 - [langgptai/awesome-claude-prompts](https://github.com/langgptai/awesome-claude-prompts#readme) -  Collection of prompt examples designed to improve Claude interactions.
+- [pjt222/agent-almanac](https://github.com/pjt222/agent-almanac#readme) -  299 skills, 62 agents, and 12 teams for Claude Code following the Agent Skills open standard across 50+ domains.
 - [vijaythecoder/awesome-claude-agents](https://github.com/vijaythecoder/awesome-claude-agents#readme) -  Team of specialized AI agents for building features and debugging.
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents#readme) -  100+ specialized AI agents for full-stack development maintained by the community.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated list of Model Context Protocol (MCP) servers for extending Claude's capabilities.
