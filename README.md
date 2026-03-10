@@ -157,6 +157,10 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
 
+### 🌐 Browser Automation
+
+- [Lumen](https://github.com/omxyz/lumen) -  A vision-first browser agent with self-healing deterministic replay over CDP. Screenshot → model → action loop with multi-provider support (Anthropic Claude, Google Gemini). TypeScript, MIT licensed. [npm](https://www.npmjs.com/package/@omxyz/lumen) · [Docs](https://lumen.omlabs.xyz)
+
 ---
 
 ## 📚 Educational Resources
