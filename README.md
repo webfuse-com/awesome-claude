@@ -117,6 +117,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [MCP official site](https://modelcontextprotocol.io/) -  Spec, SDKs, and quickstart.
 - [Introduction to MCP](https://anthropic.skilljar.com/introduction-to-model-context-protocol) -  Official Anthropic course: build MCP servers and clients from scratch in Python.
 - [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Sampling, notifications, transports.
+- [Human Pages](https://github.com/human-pages-ai/humanpages) - MCP server that gives AI agents access to real-world people who listed themselves to be hired by agents. 31 tools including search by skill/location/equipment, job offers, job board listings, in-job messaging, and streaming payments.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
 
 ---
