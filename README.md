@@ -64,6 +64,11 @@ Premium pricing for >200K tokens. Full comparison: [Models overview](https://pla
 - [anthropic-sdk-csharp](https://github.com/anthropics/anthropic-sdk-csharp) -  C#/.NET SDK (Beta).
 - [anthropic-sdk-php](https://github.com/anthropics/anthropic-sdk-php) -  PHP SDK (Beta).
 
+**Community Client SDKs** -  Third-party SDKs maintained by the community.
+
+- [anthropic-php](https://github.com/mozex/anthropic-php) -  Community PHP client for the Anthropic API with full feature support (messages, streaming, tool use, batch processing).
+- [anthropic-laravel](https://github.com/mozex/anthropic-laravel) -  Laravel integration for the Anthropic API with Facades, config publishing, and testing fakes.
+
 **Agent SDKs** -  Build custom autonomous agents with Claude Code capabilities.
 
 - [claude-agent-sdk-python](https://github.com/anthropics/claude-agent-sdk-python) -  Python Agent SDK. [Docs](https://platform.claude.com/docs/en/agent-sdk/overview)
