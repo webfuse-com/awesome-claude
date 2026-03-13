@@ -159,6 +159,13 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
 
+### 🤖 Claude Code Tools
+
+- [Agentic React Template](https://github.com/iscale-llc/agentic-react-nextjs-shadcn) -  Agent-testable SaaS starter with Next.js 16, shadcn/ui, and Tailwind CSS. Accessibility-first components optimized for AI agent testing.
+- [Domain Finder](https://github.com/iscale-llc/domain-finder-claude-code) -  Domain brainstorming powered by Claude Code. Generates creative domain name ideas and checks availability via the Namecheap API.
+- [Everflow Offer Sync](https://github.com/iscale-llc/claude-code-everflow-sync) -  Affiliate offer sync via Claude Code. Pulls offers from Everflow, diffs against local state, and applies changes with AI-driven field mapping.
+- [Facebook Ad Builder](https://github.com/iscale-llc/iscale-facebook-ad-builder) -  AI-powered Facebook ad automation. Scrapes competitor ads, generates creative with Claude, and pushes campaigns to the Facebook Ads API.
+
 ---
 
 ## 📚 Educational Resources
