@@ -9,8 +9,10 @@ AI assistant by Anthropic for complex reasoning, code generation, and analysis t
 
 <div align="center">
 
-**📌 Update:** Official [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) course now available  
+**📌 Update:** Official [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) course now available
 _Practical walkthrough for integrating Claude Code into your development workflow_
+
+**👉 Also check out:** [awesome-webmcp](https://github.com/webfuse-com/awesome-webmcp) — A curated list of awesome WebMCP resources, tools, and projects.
 
 </div>
 
