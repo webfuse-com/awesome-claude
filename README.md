@@ -117,6 +117,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Introduction to MCP](https://anthropic.skilljar.com/introduction-to-model-context-protocol) -  Official Anthropic course: build MCP servers and clients from scratch in Python.
 - [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Sampling, notifications, transports.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
+- [rustchain-mcp](https://github.com/Scottcjn/rustchain-mcp) -  MCP server for querying the RustChain blockchain and BoTTube platform -- 14 tools and 3 resources for miners, balances, epochs, and video metadata.
 
 ---
 
@@ -143,6 +144,11 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude Code Chat](https://github.com/andrepimenta/claude-code-chat#readme) -  Beautiful native chat interface for Claude Code within VS Code with conversation history and MCP support.
 - [Claude Code Theme](https://github.com/ashwingopalsamy/claude-code-theme) -  Claude-inspired VS Code theme pack with dark/light/high-contrast and brand variants, semantic token tuning, and ANSI-optimized terminal colors.
 - [Claude VSCode Theme](https://marketplace.visualstudio.com/items?itemName=AlvinUnreal.claude-vscode-theme) -  Thoughtful dark theme collection with classic and italic variants. Inspired by Claude AI with carefully balanced contrast and warm syntax colors.
+
+### 🔧 Skills
+
+- [Beacon Skill](https://github.com/Scottcjn/beacon-skill) -  GitHub outreach automation -- finds relevant repos, opens issues/PRs, tracks responses, and manages multi-platform distribution campaigns. 96 stars.
+- [Grazer Skill](https://github.com/Scottcjn/grazer-skill) -  Autonomous content browsing and social posting -- monitors feeds, generates context-aware posts, and manages multi-platform presence. 70 stars.
 
 ### 🌐 Browser Extensions
 
