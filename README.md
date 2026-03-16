@@ -158,6 +158,10 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
 
+### 🔧 CLI Tools
+
+- [claude-notes](https://github.com/vtemian/claude-notes) — CLI tool that transforms Claude Code transcript JSONL files into terminal-viewable output and HTML files.
+
 ---
 
 ## 📚 Educational Resources
