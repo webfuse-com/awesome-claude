@@ -125,6 +125,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 **Awesome lists and collections maintained by the community**
 
 - [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code#readme) -  Slash-commands, CLAUDE.md files, CLI tools, and workflows for Claude Code.
+- [Claudify](https://claudify.tech) -  Complete operating system for Claude Code with 1,700+ skills, specialist agents, slash commands, and automated quality checks. Install via `npx create-claudify`.
 - [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills#readme) -  Resources and tools for customizing AI workflows with Claude Skills.
 - [BehiSecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills#readme) -  Categorized skills for document handling, development tools, data analysis, and more.
 - [langgptai/awesome-claude-prompts](https://github.com/langgptai/awesome-claude-prompts#readme) -  Collection of prompt examples designed to improve Claude interactions.
