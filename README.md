@@ -144,6 +144,11 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude Code Theme](https://github.com/ashwingopalsamy/claude-code-theme) -  Claude-inspired VS Code theme pack with dark/light/high-contrast and brand variants, semantic token tuning, and ANSI-optimized terminal colors.
 - [Claude VSCode Theme](https://marketplace.visualstudio.com/items?itemName=AlvinUnreal.claude-vscode-theme) -  Thoughtful dark theme collection with classic and italic variants. Inspired by Claude AI with carefully balanced contrast and warm syntax colors.
 
+### 🔧 Claude Code Tools
+
+- [doc2md](https://github.com/orangefineblue/doc2md) — High-fidelity PDF/DOCX/PPTX to Markdown conversion pipeline with multi-stage QC, image extraction, and Claude Code integration. Solves Anthropic's copyright filter blocking PDF reads.
+- [claude-code-orchestration-protocol](https://github.com/orangefineblue/claude-code-orchestration-protocol) — Zero-read orchestrator protocol that turns Claude Code into a pure agent router with QC loops, progressive documentation, and handover architecture for complex multi-step workflows.
+
 ### 🌐 Browser Extensions
 
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Max plan required. Claude works directly in your browser and takes actions on your behalf. Features scheduled tasks, planning mode, multi-tab workflows, and smart navigation for Slack, Gmail, Google Calendar, Docs, and GitHub.
