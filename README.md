@@ -156,6 +156,11 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
 
+
+### 🌐 Web / Self-Hosted
+
+- [claude-code-web](https://github.com/exitxio/claude-code-web) — Self-hosted server that exposes Claude Code agent as an HTTP endpoint. No API key — runs on your existing Claude subscription. Docker one-liner deploy.
+
 ---
 
 ## 📚 Educational Resources
