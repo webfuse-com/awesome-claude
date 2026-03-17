@@ -149,6 +149,10 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Max plan required. Claude works directly in your browser and takes actions on your behalf. Features scheduled tasks, planning mode, multi-tab workflows, and smart navigation for Slack, Gmail, Google Calendar, Docs, and GitHub.
 - [Claude Usage Tracker](https://chromewebstore.google.com/detail/claude-usage-tracker/knemcdpkggnbhpoaaagmjiigenifejfo) -  Chrome extension for tracking Claude AI usage and performance metrics.
 
+### 🤝 Agent Orchestration Tools
+
+- [ORCH](https://github.com/oxgeneral/ORCH) - CLI runtime that turns Claude Code, Codex, Cursor, and OpenCode into a coordinated AI agent team. Managed task queue with state machine (todo→in_progress→review→done), auto-retry, inter-agent messaging, shared context store, goals system, TUI dashboard. 1647 tests, MIT, TypeScript.
+
 ---
 
 ## 💻 Applications
