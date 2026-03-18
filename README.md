@@ -157,6 +157,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
+- [Nimbalyst](https://nimbalyst.com) -  Visual workspace for building with Claude Code and Codex. Session and task manager. Visual editor. (Not affiliated with Anthropic)
 
 ---
 
