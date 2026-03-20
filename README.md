@@ -149,6 +149,11 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Max plan required. Claude works directly in your browser and takes actions on your behalf. Features scheduled tasks, planning mode, multi-tab workflows, and smart navigation for Slack, Gmail, Google Calendar, Docs, and GitHub.
 - [Claude Usage Tracker](https://chromewebstore.google.com/detail/claude-usage-tracker/knemcdpkggnbhpoaaagmjiigenifejfo) -  Chrome extension for tracking Claude AI usage and performance metrics.
 
+### 🔧 Plugins
+
+- [Claude Learn](https://github.com/OutcomeFocusAi/claude-learn) -  Self-improving behavioral playbook plugin for Claude Code. Captures corrections, failures, and discoveries as scored rules that strengthen or decay over sessions — a closed feedback loop for continuous improvement.
+- [Session Coherence](https://github.com/OutcomeFocusAi/session-coherence) -  Cross-tool session memory for AI coding assistants. One markdown chronicle shared by 9 tools (Claude Code, Cursor, Codex, Gemini CLI, Aider, and more). Zero dependencies, ~300 token fixed cost, 100% local.
+
 ---
 
 ## 💻 Applications
