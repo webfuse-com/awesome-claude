@@ -117,6 +117,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Introduction to MCP](https://anthropic.skilljar.com/introduction-to-model-context-protocol) -  Official Anthropic course: build MCP servers and clients from scratch in Python.
 - [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Sampling, notifications, transports.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
+- [iris-eval/mcp-server](https://github.com/iris-eval/mcp-server) -  The agent eval standard for MCP. Scores output quality, catches safety failures, enforces cost budgets. Zero code changes — auto-discovered via MCP config. [Playground](https://iris-eval.com/playground).
 
 ---
 
