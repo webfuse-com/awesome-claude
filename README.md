@@ -108,6 +108,7 @@ Terminal-first agentic coding tool (CLI), with VS Code/JetBrains IDE integration
 - [Claude Desktop](https://claude.ai/download) -  macOS + Windows app; includes **Cowork** GUI for non-technical workflows and the dedicated **Code** tab.
 - Install CLI: `curl -fsSL https://claude.ai/install.sh | bash` (macOS/Linux) or via Homebrew/Winget.
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Integrates with Claude Code for browser control (multi-tab workflows, Slack, Gmail, GitHub).
+- [claw-army/claude-node](https://github.com/claw-army/claude-node) - Python subprocess bridge for Claude Code CLI, giving Python code direct access to Claude Code native capabilities via stream-json.
 
 ### 🔌 Model Context Protocol (MCP)
 
