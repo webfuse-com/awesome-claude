@@ -149,6 +149,10 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Max plan required. Claude works directly in your browser and takes actions on your behalf. Features scheduled tasks, planning mode, multi-tab workflows, and smart navigation for Slack, Gmail, Google Calendar, Docs, and GitHub.
 - [Claude Usage Tracker](https://chromewebstore.google.com/detail/claude-usage-tracker/knemcdpkggnbhpoaaagmjiigenifejfo) -  Chrome extension for tracking Claude AI usage and performance metrics.
 
+### 🍳 Domain-Specific Skills
+
+- [Pan Out](https://github.com/alexeyv/pan-out#readme) - AI cooking companion plugin for Claude Code. Four skills handle the full arc — research the science, build a protocol, guide the cook with voice and timers, debrief afterward to improve next time.
+
 ---
 
 ## 💻 Applications
