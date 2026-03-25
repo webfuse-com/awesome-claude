@@ -118,6 +118,14 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Sampling, notifications, transports.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
 
+### 🔧 Community Tools & Extensions
+
+Open-source tools and extensions built by the community to enhance Claude Code agents.
+
+- [openclaw-self-healing](https://github.com/Ramsbaby/openclaw-self-healing) — Self-healing infrastructure for Claude Code AI agents. Auto-recovers from failures using a 4-tier escalation system: watchdog, health checks, AI diagnosis, and alerts. (32 ⭐)
+- [openclaw-memorybox](https://github.com/Ramsbaby/openclaw-memorybox) — Persistent memory & skill storage for Claude Code. Saves context across sessions via slash commands. (8 ⭐)
+- [openclaw-self-evolving](https://github.com/Ramsbaby/openclaw-self-evolving) — AI agent that analyzes its own codebase and generates weekly self-improvement proposals as GitHub Issues. (2 ⭐)
+
 ---
 
 ## ⭐ Community Curated Lists
