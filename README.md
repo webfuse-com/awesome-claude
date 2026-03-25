@@ -157,6 +157,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
+- [Claude Code SDK](https://github.com/SeifBenayed/claude-code-sdk) -  Open-source, provider-agnostic SDK (Node.js, Python, Go, Rust) implementing the full Claude Code tool loop. Zero dependencies, works with any LLM provider.
 
 ---
 
