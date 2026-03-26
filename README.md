@@ -109,6 +109,15 @@ Terminal-first agentic coding tool (CLI), with VS Code/JetBrains IDE integration
 - Install CLI: `curl -fsSL https://claude.ai/install.sh | bash` (macOS/Linux) or via Homebrew/Winget.
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Integrates with Claude Code for browser control (multi-tab workflows, Slack, Gmail, GitHub).
 
+### 🧠 Claude Code Skills
+
+Reusable instruction sets that teach Claude how to perform specific tasks to a high standard. Stored as `SKILL.md` files in your project.
+
+- [Official Skills & Memory Docs](https://platform.claude.com/docs/en/claude-code/memory) - How Claude Code reads CLAUDE.md, Skills, and memory files.
+- [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills#readme) - 8.9k Resources and tools for customizing AI workflows with Claude Skills.
+- [BehiSecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills#readme) - 7.5k Categorized skills for documents, development tools, data analysis, and more.
+- [Claude Cookbook — Skills recipes](https://github.com/anthropics/claude-cookbooks) - Official notebooks covering Skills patterns and best practices.
+
 ### 🔌 Model Context Protocol (MCP)
 
 Open standard (Linux Foundation) for connecting Claude to tools, repos, databases, tickets, and more. Supports one-click desktop extensions (`.mcpb` files).
@@ -157,6 +166,10 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
+
+### 🤖 Agent-First IDEs & Platforms
+
+- [Google Antigravity](https://antigravity.google/) - Agent-first IDE by Google (built by the Windsurf team). Free access to Claude Opus 4.6 (Thinking), Gemini 3.1 Pro, and GPT-OSS 120B. Runs up to 5 parallel agents, browser automation, visual artifacts, and AGENTS.md support. Scores 76.2% on SWE-bench Verified.
 
 ---
 
