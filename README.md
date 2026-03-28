@@ -158,6 +158,10 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
 
+### 🛠️ Developer Tools
+
+- [Bernstein](https://github.com/chernistry/bernstein) - Open-source parallel multi-agent orchestrator. Spawns Claude Code, Codex CLI, and Gemini CLI simultaneously on isolated git worktrees, verifies every result with your tests, and auto-commits passing code.
+
 ---
 
 ## 📚 Educational Resources
