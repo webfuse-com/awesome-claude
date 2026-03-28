@@ -144,6 +144,10 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude Code Theme](https://github.com/ashwingopalsamy/claude-code-theme) -  Claude-inspired VS Code theme pack with dark/light/high-contrast and brand variants, semantic token tuning, and ANSI-optimized terminal colors.
 - [Claude VSCode Theme](https://marketplace.visualstudio.com/items?itemName=AlvinUnreal.claude-vscode-theme) -  Thoughtful dark theme collection with classic and italic variants. Inspired by Claude AI with carefully balanced contrast and warm syntax colors.
 
+### 💬 Messaging Integrations
+
+- [MetaBot](https://github.com/xvirobotics/metabot) - Bridge IM bots (Feishu/Lark, Telegram, WeChat) to Claude Code via Agent SDK. Multi-agent orchestration, shared memory, cron scheduling, and voice control from your phone.
+
 ### 🌐 Browser Extensions
 
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Max plan required. Claude works directly in your browser and takes actions on your behalf. Features scheduled tasks, planning mode, multi-tab workflows, and smart navigation for Slack, Gmail, Google Calendar, Docs, and GitHub.
