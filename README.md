@@ -158,6 +158,10 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
 
+### 🌐 Web
+
+- [Claude Code Open](https://github.com/kill136/claude-code-open#readme) — Open-source AI coding platform with browser-based Web IDE (Monaco editor, file tree, AI-enhanced editing), Blueprint multi-agent system, 37+ built-in tools, scheduled task daemon, self-evolution, one-click installers, and MCP protocol support. MIT licensed.
+
 ---
 
 ## 📚 Educational Resources
