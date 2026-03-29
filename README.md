@@ -158,6 +158,10 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
 
+### 🏥 Health & Medical
+
+- [cancer.coach](https://cancer.v1be.codes) -  AI skills framework empowering cancer patients to take an active role in treatment decisions. Includes five specialized skills (assess, treat, navigate, monitor, strategist) for the full cancer journey. Install: `npx skills add cancer-coach/skills`. [GitHub](https://github.com/cancer-coach/skills)
+
 ---
 
 ## 📚 Educational Resources
