@@ -143,6 +143,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude Code Chat](https://github.com/andrepimenta/claude-code-chat#readme) -  Beautiful native chat interface for Claude Code within VS Code with conversation history and MCP support.
 - [Claude Code Theme](https://github.com/ashwingopalsamy/claude-code-theme) -  Claude-inspired VS Code theme pack with dark/light/high-contrast and brand variants, semantic token tuning, and ANSI-optimized terminal colors.
 - [Claude VSCode Theme](https://marketplace.visualstudio.com/items?itemName=AlvinUnreal.claude-vscode-theme) -  Thoughtful dark theme collection with classic and italic variants. Inspired by Claude AI with carefully balanced contrast and warm syntax colors.
+- [Antigravity Link](https://github.com/cafeTechne/antigravity-link-extension) - VS Code extension that bridges mobile devices to Google's Antigravity IDE (a Claude-powered VS Code fork). Mirror active AI chat sessions on your phone, send messages, upload files, stop generation, and automate workflows via 9 MCP tools or a local OpenAPI HTTP API. Listed in the official MCP Registry.
 
 ### 🌐 Browser Extensions
 
