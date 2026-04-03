@@ -107,6 +107,7 @@ Terminal-first agentic coding tool (CLI), with VS Code/JetBrains IDE integration
 - [Product page](https://claude.ai/product/claude-code) -  Overview of Claude Code features and plans.
 - [Claude Desktop](https://claude.ai/download) -  macOS + Windows app; includes **Cowork** GUI for non-technical workflows and the dedicated **Code** tab.
 - Install CLI: `curl -fsSL https://claude.ai/install.sh | bash` (macOS/Linux) or via Homebrew/Winget.
+- [Harness Evolver](https://github.com/raphaelchristi/harness-evolver) - Claude Code plugin for autonomous agent optimization using LangSmith. Multi-agent proposers evolve prompts, tools, and architecture in git worktrees. Install: `npx harness-evolver@latest`
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Integrates with Claude Code for browser control (multi-tab workflows, Slack, Gmail, GitHub).
 
 ### 🔌 Model Context Protocol (MCP)
