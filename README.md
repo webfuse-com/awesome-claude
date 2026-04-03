@@ -132,6 +132,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents#readme) -  100+ specialized AI agents for full-stack development maintained by the community.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated list of Model Context Protocol (MCP) servers for extending Claude's capabilities.
 
+- [srmbsrg/ask-kernel](https://github.com/srmbsrg/ask-kernel#readme) -  Versioned, composable skill library for AI agents. 65+ cross-domain skills (finance, engineering, ops, data) for Claude Code and compatible runtimes.
 ---
 
 ## 🧩 Extensions & Integrations
