@@ -158,6 +158,11 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
 
+### 🔧 CLI Tools
+
+- [Overloop CLI](https://github.com/sortlist/overloop-cli) -  AI-powered outbound engine. Source contacts (450M+ database), run multi-channel campaigns (email + LinkedIn), enroll prospects, and manage conversations. JSON output. `npm install -g overloop-cli`
+- [Signals CLI](https://github.com/sortlist/signals-cli) -  Intent signal monitoring for B2B. Track LinkedIn engagement, keyword posters, job changers, and funding events. JSON output. `npm install -g signals-sortlist-cli`
+
 ---
 
 ## 📚 Educational Resources
