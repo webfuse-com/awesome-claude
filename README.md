@@ -157,6 +157,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
+- [WhereMyTokens](https://github.com/jeongwookie/WhereMyTokens) -  Windows system tray app for monitoring Claude Code token usage in real time. Displays per-session token counts, costs, context window progress, rate limit bars (5h/1w), activity heatmaps, and model breakdowns. Integrates as a Claude Code statusLine plugin for live data without API polling.
 
 ---
 
