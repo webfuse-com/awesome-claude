@@ -158,6 +158,8 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
 
+- [CliDeck](https://github.com/rustykuntz/clideck#readme) - Local browser dashboard for managing multiple AI coding agents including Claude Code, Codex, and Gemini CLI in a WhatsApp-like interface with live status, session resume, autopilot routing, and full control from a phone while away.
+
 ---
 
 ## 📚 Educational Resources
