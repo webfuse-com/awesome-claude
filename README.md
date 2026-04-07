@@ -99,6 +99,7 @@ Premium pricing for >200K tokens. Full comparison: [Models overview](https://pla
 
 **Anthropic's agentic coding platform and open extension standard**
 
+- [**PA·co Framework**](https://github.com/PenguinAlleyApps/paco-framework) - Markdown-first, zero-code multi-agent operations system for Claude Code. Build 3-16 specialized AI agents with file-based dispatch, institutional memory, and quality gates.
 ### 🤖 Claude Code
 
 Terminal-first agentic coding tool (CLI), with VS Code/JetBrains IDE integrations, Desktop GUI (Cowork), and browser control. Understands entire codebases, plans and executes multi-step tasks, edits files, runs git/shell, creates PRs, and integrates browser control.
