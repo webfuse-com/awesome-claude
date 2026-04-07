@@ -131,6 +131,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [vijaythecoder/awesome-claude-agents](https://github.com/vijaythecoder/awesome-claude-agents#readme) -  Team of specialized AI agents for building features and debugging.
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents#readme) -  100+ specialized AI agents for full-stack development maintained by the community.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated list of Model Context Protocol (MCP) servers for extending Claude's capabilities.
+- [bergside/awesome-design-skills](https://github.com/bergside/awesome-design-skills) - Curated list of design skill files for AI with style guidelines
 
 ---
 
