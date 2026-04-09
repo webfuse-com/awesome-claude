@@ -151,7 +151,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 
 ### 🛡️ Hooks & Observability
 
-- [claude-warden](https://github.com/johnzfitch/claude-warden) -  Token-saving hooks and observability for Claude Code. Auto-injects quiet flags, blocks binary reads, enforces subagent budgets, and truncates oversized output. Includes optional Grafana/Loki/Prometheus monitoring stack.
+- [claude-warden](https://github.com/johnzfitch/claude-warden) -  Token-saving hooks and observability for Claude Code. Auto-injects quiet flags, blocks binary reads, enforces sub-agent budgets, and truncates oversized output. Includes optional Grafana/Loki/Prometheus monitoring stack.
 
 ---
 
