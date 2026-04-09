@@ -109,6 +109,11 @@ Terminal-first agentic coding tool (CLI), with VS Code/JetBrains IDE integration
 - Install CLI: `curl -fsSL https://claude.ai/install.sh | bash` (macOS/Linux) or via Homebrew/Winget.
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Integrates with Claude Code for browser control (multi-tab workflows, Slack, Gmail, GitHub).
 
+### 🧰 Community Tools
+
+- [CostPilot](https://github.com/novalabs-dev/costpilot) -  Free Claude Code cost analyzer. Parses JSONL usage logs to show token breakdown by model, per-file costs, waste detection, and budget tracking. Client-side and privacy-first. [Web app](https://nova-labs.dev/cost-dashboard/analyze)
+- [ContextKit](https://github.com/novalabs-dev/contextkit) -  Free CLAUDE.md generator for AI coding tools. 5-step wizard creates config files for Claude Code, Cursor, Codex, and Gemini CLI. Supports 12+ languages and 16+ frameworks. [Web app](https://nova-labs.dev/contextkit/generate)
+
 ### 🔌 Model Context Protocol (MCP)
 
 Open standard (Linux Foundation) for connecting Claude to tools, repos, databases, tickets, and more. Supports one-click desktop extensions (`.mcpb` files).
