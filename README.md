@@ -149,6 +149,10 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Max plan required. Claude works directly in your browser and takes actions on your behalf. Features scheduled tasks, planning mode, multi-tab workflows, and smart navigation for Slack, Gmail, Google Calendar, Docs, and GitHub.
 - [Claude Usage Tracker](https://chromewebstore.google.com/detail/claude-usage-tracker/knemcdpkggnbhpoaaagmjiigenifejfo) -  Chrome extension for tracking Claude AI usage and performance metrics.
 
+### 🛡️ Hooks & Observability
+
+- [claude-warden](https://github.com/johnzfitch/claude-warden) -  Token-saving hooks and observability for Claude Code. Auto-injects quiet flags, blocks binary reads, enforces sub-agent budgets, and truncates oversized output. Includes optional Grafana/Loki/Prometheus monitoring stack.
+
 ---
 
 ## 💻 Applications
@@ -157,6 +161,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
+- [Claude Cowork on Linux](https://github.com/johnzfitch/claude-cowork-linux) -  Unofficial Linux port of Claude Desktop's Cowork mode. Reverse-engineered Electron stubs enable Cowork natively on x86_64 Linux with no VM. Install via AUR or automated script.
 
 ---
 
@@ -189,6 +194,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [40+ Claude Code Tips](https://github.com/ykdojo/claude-code-tips#readme) -  Tips for getting the most out of Claude Code, including a custom status line script, cutting the system prompt in half, using Gemini CLI as Claude Code's minion, and Claude Code running itself in a container. Also includes the dx plugin for GitHub Actions debugging, conversation cloning, and handoffs.
 - [My Experience With Claude Code After 2 Weeks of Adventures](https://sankalp.bearblog.dev/my-claude-code-experience-after-2-weeks-of-usage/) - Part 1: Real-world lessons on using a `TODO.md` file to keep Claude on track, managing costs, and why it often outperforms Cursor for complex refactors.
 - [A Guide to Claude Code 2.0 and getting better at using coding agents](https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/#setup) - Part 2: A deep dive into the 2.0 update, focusing on the "Agent Manager" mindset, context engineering, and using sub-agents for larger codebases.
+- [claude-wiki](https://github.com/johnzfitch/claude-wiki) -  Local mirror of all Anthropic and Claude documentation — 1,996 articles across 24 categories, updated daily. Searchable offline via grep or ripgrep.
 
 ---
 
