@@ -149,6 +149,10 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Max plan required. Claude works directly in your browser and takes actions on your behalf. Features scheduled tasks, planning mode, multi-tab workflows, and smart navigation for Slack, Gmail, Google Calendar, Docs, and GitHub.
 - [Claude Usage Tracker](https://chromewebstore.google.com/detail/claude-usage-tracker/knemcdpkggnbhpoaaagmjiigenifejfo) -  Chrome extension for tracking Claude AI usage and performance metrics.
 
+### 🧠 Claude Code Skills & Plugins
+
+- [Product Org OS](https://github.com/yohayetsion/product-org-os) - An entire product organization as AI agents with 150+ skills, 12 agents, 2 gateways, and 38 knowledge packs for product management, strategy, GTM, and competitive intelligence.
+
 ---
 
 ## 💻 Applications
