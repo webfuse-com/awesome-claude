@@ -151,7 +151,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 
 ### 🧠 Claude Code Skills & Plugins
 
-- [Product Org OS](https://github.com/yohayetsion/product-org-os) - An entire product organization as AI agents with 133 skills, 13 agents, and 2 gateways for product management, strategy, GTM, and competitive intelligence.
+- [Product Org OS](https://github.com/yohayetsion/product-org-os) - An entire product organization as AI agents with 150+ skills, 12 agents, 2 gateways, and 38 knowledge packs for product management, strategy, GTM, and competitive intelligence.
 
 ---
 
