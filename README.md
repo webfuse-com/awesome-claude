@@ -157,6 +157,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
+- [Claude Statistics](https://github.com/sj719045032/claude-statistics) - Native macOS menu bar app for tracking Claude Code session usage, token costs, and Anthropic subscription limits in real time. Automatically discovers sessions from ~/.claude/projects/, shows per-model cost breakdowns and live 5h/7d subscription usage with reset countdown. 100% local, no uploads. Open source, MIT.
 
 ---
 
