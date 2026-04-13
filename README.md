@@ -92,6 +92,7 @@ Premium pricing for >200K tokens. Full comparison: [Models overview](https://pla
   - [Claude Opus 4.5 System Card](https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf) -  Comprehensive capability and safety report (Nov 2025).
   - [Claude Haiku 4.5 System Card](https://www.anthropic.com/claude-haiku-4-5-system-card) -  Safety and performance report (Oct 2025).
 - [Claude Code Security](https://www.anthropic.com/news/claude-code-security) -  Security model and threat analysis for Claude Code (Feb 2026).
+- [CCHub](https://github.com/Moresl/cchub) - A desktop control panel for the Claude Code / Codex / Gemini CLI ecosystem. Manage MCP servers, config profiles, agent skills, CLAUDE.md, hooks, and workflow templates from a single Tauri app (Windows / macOS / Linux).
 
 ---
 
