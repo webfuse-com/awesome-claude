@@ -157,6 +157,8 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
+- [SwarmClaw](https://github.com/swarmclawai/swarmclaw) - Self-hosted multi-agent runtime for Claude and 20+ other LLMs, with MCP client and server support, persistent memory, skills, schedules, sub-agent spawning, and connectors for Discord, Slack, Telegram, WhatsApp, Teams, and Matrix. Ships as Electron desktop app, CLI, and Docker. ([Website](https://swarmclaw.ai))
+- [SwarmVault](https://github.com/swarmclawai/swarmvault) - Local-first RAG knowledge vault with a Claude Code plugin, MCP server, and Obsidian integration. Compiles raw sources into a durable markdown wiki with a knowledge graph and hybrid SQLite FTS plus embeddings. ([Website](https://swarmvault.ai))
 
 ---
 
