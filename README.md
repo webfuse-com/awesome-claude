@@ -118,6 +118,11 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Sampling, notifications, transports.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
 
+**MCP Servers**
+
+- [AI Dev Jobs MCP](https://aidevboard.com/mcp) - MCP server for searching 5,300+ AI/ML jobs. Tools for job search, company lookup, and market stats. [GitHub](https://github.com/unitedideas/aidevboard-mcp).
+- [Not Human Search MCP](https://nothumansearch.ai/mcp) - MCP server for discovering 1,400+ agent-first tools and APIs. Six tools including search, score lookup, and live MCP verification. [GitHub](https://github.com/unitedideas/nothumansearch).
+
 ---
 
 ## ⭐ Community Curated Lists
