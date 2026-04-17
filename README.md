@@ -157,6 +157,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
+- [Claude Usage Widget](https://github.com/JamesInvaderbdx/claude-usage-widget) - Lightweight Python desktop widget that displays your Claude.ai subscription usage (5h rolling window & 7-day limits) in real time, with reset times. Windows, tkinter-based.
 
 ---
 
