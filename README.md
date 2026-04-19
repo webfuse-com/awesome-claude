@@ -149,6 +149,10 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Max plan required. Claude works directly in your browser and takes actions on your behalf. Features scheduled tasks, planning mode, multi-tab workflows, and smart navigation for Slack, Gmail, Google Calendar, Docs, and GitHub.
 - [Claude Usage Tracker](https://chromewebstore.google.com/detail/claude-usage-tracker/knemcdpkggnbhpoaaagmjiigenifejfo) -  Chrome extension for tracking Claude AI usage and performance metrics.
 
+### 🔌 Claude Code Plugins
+
+- [claude-snapshot](https://github.com/adhenawer/claude-snapshot) -  Portable `.tar.gz` snapshots of your Claude Code setup — export, diff, and apply settings/plugins/hooks/MCPs across machines with `.bak` rollback.
+
 ---
 
 ## 💻 Applications
