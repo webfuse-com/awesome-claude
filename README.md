@@ -5,6 +5,8 @@ AI assistant by Anthropic for complex reasoning, code generation, and analysis t
 
 > [Claude](https://claude.ai) is a large language model developed by Anthropic that excels at complex reasoning, code generation, and analysis tasks. Built with Constitutional AI principles, Claude provides reliable assistance for programming, writing, research, and problem-solving while maintaining safety and accuracy.
 
+${ASB}
+- [Omni Skills Forge](https://github.com/theihtisham/omni-skills-forge) - 50,000+ curated AI agent skills for Claude Code, Cursor, Copilot, Windsurf, Cline. Visual dashboard, one-click install, skill doctor, auto-update.
 ---
 
 ## 📋 Contents
