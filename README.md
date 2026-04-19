@@ -109,6 +109,12 @@ Terminal-first agentic coding tool (CLI), with VS Code/JetBrains IDE integration
 - Install CLI: `curl -fsSL https://claude.ai/install.sh | bash` (macOS/Linux) or via Homebrew/Winget.
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Integrates with Claude Code for browser control (multi-tab workflows, Slack, Gmail, GitHub).
 
+### 🎯 Claude Skills
+
+Markdown-based skill packages that drop into `~/.claude/skills/` and become slash commands inside Claude Code.
+
+- [planmysaas](https://github.com/creationskiro/planmysaas-claude-skill) -  Turns idea to a complete 8-stage SaaS blueprint (idea, research, analysis, architecture, features, frontend, phases, build playbook). Stage 8 ships a decision-grade, rubric-graded build playbook with dependency-ordered steps for Claude Code. Plain markdown, MIT, v1.0.0.
+
 ### 🔌 Model Context Protocol (MCP)
 
 Open standard (Linux Foundation) for connecting Claude to tools, repos, databases, tickets, and more. Supports one-click desktop extensions (`.mcpb` files).
