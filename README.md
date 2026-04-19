@@ -14,6 +14,7 @@ AI assistant by Anthropic for complex reasoning, code generation, and analysis t
 - [⭐ Community Curated Lists](#-community-curated-lists)
 - [🧩 Extensions & Integrations](#-extensions--integrations)
 - [💻 Applications](#-applications)
+  - [🏗️ Infrastructure](#️-infrastructure)
 - [📚 Educational Resources](#-educational-resources)
 - [👥 Community](#-community)
 
@@ -157,6 +158,10 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
+
+### 🏗️ Infrastructure
+
+- [Codex Infinity](https://codex-infinity.com) - Run Claude Code autonomously on bare metal VPS with full root access. Supports Claude Max plans with no cloud timeouts.
 
 ---
 
