@@ -47,6 +47,7 @@ Premium pricing for >200K tokens. Full comparison: [Models overview](https://pla
 
 ### 🔌 API & Developer Platform
 
+- [Agent Shadow Brain](https://github.com/theihtisham/agent-shadow-brain) - Self-evolving AI coding intelligence with infinite memory (TurboQuant), genetic algorithm self-evolution, predictive bug detection, PageRank knowledge graphs, swarm intelligence, and adversarial defense.
 - [Claude Developer Console](https://console.anthropic.com) -  API keys, prompt testing, usage monitoring, Claude Code sessions.
 - [Official Documentation](https://platform.claude.com/docs/) -  Full reference for Messages API, tool use, computer use, prompt caching, structured outputs, citations, MCP Connector, and Claude Code.
 - [Models & Pricing](https://platform.claude.com/docs/en/about-claude/models/overview) -  Latest model IDs, pricing, context windows, thinking features, and cloud provider IDs.
@@ -85,6 +86,7 @@ Premium pricing for >200K tokens. Full comparison: [Models overview](https://pla
 
 **Detailed evaluations, risk assessments, and alignment insights for Claude models**
 
+- [Omni Skills Forge](https://github.com/theihtisham/omni-skills-forge) - 50,000+ curated AI agent skills for Claude Code, Cursor, Copilot, Windsurf, Cline. Visual dashboard, one-click install, skill doctor, auto-update.
 - [Transparency Hub](https://www.anthropic.com/transparency) -  Overview of safety evaluations and improvements across models.
 - [All System Cards](https://www.anthropic.com/system-cards) -  Index of all model system cards.
   - [Claude Opus 4.6 System Card](https://www.anthropic.com/claude-opus-4-6-system-card) -  Capability and safety report (Feb 2026).
