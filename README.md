@@ -117,6 +117,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Introduction to MCP](https://anthropic.skilljar.com/introduction-to-model-context-protocol) -  Official Anthropic course: build MCP servers and clients from scratch in Python.
 - [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Sampling, notifications, transports.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
+- [Agnuxo1/enigmagent-mcp](https://github.com/Agnuxo1/enigmagent-mcp) -  Encrypted local vault MCP server (AES-256-GCM + Argon2id) that resolves `{{PLACEHOLDER}}` secrets at runtime so API keys never appear in LLM prompts, logs, or context. Local-only, MIT, `npx enigmagent-mcp`.
 
 ---
 
