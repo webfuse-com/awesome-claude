@@ -158,6 +158,10 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
 
+### 🌐 Web
+
+- [**VibeXForge**](https://www.vibexforge.com) - AI launch platform powered by **Claude Haiku 4.5**. Submit a project URL, Claude scores it across 5 dimensions (originality, clarity, UX potential, virality potential, investor curiosity), and the project evolves through 6 RPG stages on real engagement (plays, upvotes, shares).
+
 ---
 
 ## 📚 Educational Resources
