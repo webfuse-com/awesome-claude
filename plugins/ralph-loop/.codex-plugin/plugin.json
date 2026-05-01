@@ -1,0 +1,43 @@
+{
+  "name": "ralph-loop",
+  "version": "1.0.0-codex.1",
+  "description": "Persistent iterative AI development loops for Codex CLI and Codex App, adapted from the Ralph Wiggum technique.",
+  "author": {
+    "name": "Anthropic + Awesome Codex adaptation",
+    "url": "https://github.com/Andersonlimahw/awesome-codex"
+  },
+  "homepage": "https://awesomeclaude.ai/ralph-wiggum",
+  "repository": "https://github.com/Andersonlimahw/awesome-codex",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex",
+    "claude-code",
+    "ralph-loop",
+    "automation",
+    "agents",
+    "iteration"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Ralph Loop",
+    "shortDescription": "Run bounded self-improving Codex loops with persistent local state",
+    "longDescription": "Ralph Loop adds iterative AI development loops to Codex CLI and Codex App. It stores prompts, state, summaries, and events locally, runs bounded codex exec iterations, detects completion promises, and keeps Claude Code compatibility files intact.",
+    "developerName": "Awesome Codex",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://awesomeclaude.ai/ralph-wiggum",
+    "privacyPolicyURL": "https://openai.com/policies/row-privacy-policy/",
+    "termsOfServiceURL": "https://openai.com/policies/row-terms-of-use/",
+    "defaultPrompt": [
+      "Start a Ralph loop for this task",
+      "Show Ralph loop status",
+      "Cancel the active Ralph loop"
+    ],
+    "brandColor": "#0EA5E9",
+    "screenshots": []
+  }
+}
