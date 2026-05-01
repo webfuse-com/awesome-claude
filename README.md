@@ -1,205 +1,116 @@
+<!--lint disable awesome-github-->
+
 # Awesome Claude [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-<a href="https://awesomeclaude.ai"><img src="assets/awesomeclaude.svg" alt="Awesome Claude Logo" align="right" style="height: 120px; width: 120px"></a>
-AI assistant by Anthropic for complex reasoning, code generation, and analysis tasks.
+> A curated list of awesome resources for Claude, Claude Code, Model Context Protocol, and agentic development workflows.
+
+[<img src="assets/awesomeclaude.svg" alt="Awesome Claude logo" align="right" width="120">](https://awesomeclaude.ai)
+
+## Contents
+
+- [Official Resources](#official-resources)
+- [Claude Code](#claude-code)
+- [Model Context Protocol](#model-context-protocol)
+- [Codex Plugins](#codex-plugins)
+- [SDKs and Starters](#sdks-and-starters)
+- [Community Lists](#community-lists)
+- [Extensions and Integrations](#extensions-and-integrations)
+- [Applications](#applications)
+- [Learning](#learning)
+- [Community](#community)
+
+## Official Resources
+
+- [Claude](https://claude.ai) - Anthropic's AI assistant for reasoning, writing, coding, research, and analysis.
+- [Anthropic](https://www.anthropic.com) - Official Anthropic company site with model announcements, safety updates, and research.
+- [Claude API Documentation](https://platform.claude.com/docs/) - Developer documentation for models, messages, tools, prompt caching, and API workflows.
+- [Claude Developer Console](https://console.anthropic.com) - API keys, prompt testing, usage monitoring, and developer account management.
+- [Claude Model Overview](https://platform.claude.com/docs/en/about-claude/models/overview) - Official model identifiers, capabilities, context windows, and pricing information.
+- [Claude System Cards](https://www.anthropic.com/system-cards) - Safety and capability reports for released Claude models.
+- [Claude Trust Center](https://trust.anthropic.com) - Security, privacy, and compliance information for Anthropic products.
+
+## Claude Code
+
+- [Claude Code Documentation](https://code.claude.com/docs/en/overview) - Official docs for the terminal coding agent, memory, hooks, slash commands, and IDE integration.
+- [Claude Code Product Page](https://claude.ai/product/claude-code) - Product overview for Claude's agentic coding experience.
+- [Claude Code for VS Code](https://marketplace.visualstudio.com/items?itemName=Anthropic.claude-code) - Official Visual Studio Code extension for Claude Code workflows.
+- [Claude Code for JetBrains](https://plugins.jetbrains.com/plugin/27310-claude-code-beta-) - Official JetBrains plugin for Claude Code.
+- [Claude Code Security](https://www.anthropic.com/news/claude-code-security) - Anthropic's security model and threat analysis for Claude Code.
+- [Ralph Wiggum Mode](https://awesomeclaude.ai/ralph-wiggum) - Iterative Ralph loop technique and plugin reference for Claude Code.
+
+## Model Context Protocol
+
+- [Model Context Protocol](https://modelcontextprotocol.io/) - Open protocol for connecting AI assistants to tools, data sources, and services.
+- [MCP Specification](https://modelcontextprotocol.io/specification) - Protocol specification covering transports, capabilities, tools, resources, prompts, and lifecycle.
+- [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) - Official TypeScript SDK for building MCP clients and servers.
+- [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk) - Official Python SDK for MCP integrations.
+- [Introduction to MCP](https://anthropic.skilljar.com/introduction-to-model-context-protocol) - Anthropic course for building MCP servers and clients.
+- [MCP Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) - Anthropic course covering advanced protocol patterns.
+
+## Codex Plugins
+
+- [Ralph Loop Codex Plugin](https://github.com/Andersonlimahw/awesome-codex/tree/main/plugins/ralph-loop) - Local dual-runtime plugin that keeps Claude Code functional and adds Codex CLI and Codex App support.
+- [Ralph Loop Implementation Plan](https://github.com/Andersonlimahw/awesome-codex/blob/main/docs/ai/plans/2026-05-01-ralph-loop-codex-adaptation.md) - Detailed Codex adaptation plan with persistence model, architecture, tests, and install flow.
+- [Awesome Codex Marketplace](https://github.com/Andersonlimahw/awesome-codex/blob/main/.agents/plugins/marketplace.json) - Repo-local Codex marketplace manifest for installing the Ralph Loop plugin.
+
+## SDKs and Starters
+
+- [Anthropic Python SDK](https://github.com/anthropics/anthropic-sdk-python) - Python client library for the Anthropic API.
+- [Anthropic TypeScript SDK](https://github.com/anthropics/anthropic-sdk-typescript) - TypeScript and JavaScript client library for the Anthropic API.
+- [Anthropic Java SDK](https://github.com/anthropics/anthropic-sdk-java) - Java and Kotlin client library for the Anthropic API.
+- [Anthropic Go SDK](https://github.com/anthropics/anthropic-sdk-go) - Go client library for the Anthropic API.
+- [Anthropic Ruby SDK](https://github.com/anthropics/anthropic-sdk-ruby) - Ruby client library for the Anthropic API.
+- [Anthropic C# SDK](https://github.com/anthropics/anthropic-sdk-csharp) - C# client library for the Anthropic API.
+- [Anthropic PHP SDK](https://github.com/anthropics/anthropic-sdk-php) - PHP client library for the Anthropic API.
+- [Claude Agent SDK Python](https://github.com/anthropics/claude-agent-sdk-python) - Python SDK for building custom autonomous agents with Claude Code capabilities.
+- [Claude Agent SDK TypeScript](https://github.com/anthropics/claude-agent-sdk-typescript) - TypeScript SDK for building custom autonomous agents.
+- [Claude Cookbook](https://github.com/anthropics/claude-cookbooks) - Official examples and recipes for common Claude API patterns.
+- [Claude Quickstarts](https://github.com/anthropics/claude-quickstarts) - Ready-to-run starter applications for Claude projects.
+
+## Community Lists
+
+- [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code#readme) - Community list of Claude Code commands, memory files, tools, and workflows.
+- [Awesome Claude Skills](https://github.com/travisvn/awesome-claude-skills#readme) - Curated Claude Skills resources and examples.
+- [BehiSecc Claude Skills](https://github.com/BehiSecc/awesome-claude-skills#readme) - Categorized skills for documents, development, data analysis, and automation.
+- [Awesome Claude Prompts](https://github.com/langgptai/awesome-claude-prompts#readme) - Prompt collection for Claude workflows.
+- [Awesome Claude Agents](https://github.com/vijaythecoder/awesome-claude-agents#readme) - Specialized agent definitions for coding and debugging.
+- [Claude Code Subagents](https://github.com/VoltAgent/awesome-claude-code-subagents#readme) - Collection of Claude Code subagents for software development.
+- [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers#readme) - Community list of MCP servers.
+
+## Extensions and Integrations
+
+- [Claude Code Chat](https://github.com/andrepimenta/claude-code-chat#readme) - Native chat interface for Claude Code inside VS Code.
+- [Claude Code Theme](https://github.com/ashwingopalsamy/claude-code-theme) - Claude-inspired Visual Studio Code theme pack.
+- [Claude VSCode Theme](https://marketplace.visualstudio.com/items?itemName=AlvinUnreal.claude-vscode-theme) - Dark theme collection inspired by Claude AI.
+- [Claude for Chrome](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) - Browser extension for Claude workflows.
+- [Claude Usage Tracker](https://chromewebstore.google.com/detail/claude-usage-tracker/knemcdpkggnbhpoaaagmjiigenifejfo) - Browser extension for tracking Claude usage.
+- [Amazon Bedrock Claude](https://aws.amazon.com/bedrock/anthropic/) - Managed access to Claude models through AWS.
+- [Google Cloud Claude](https://cloud.google.com/products/model-garden/claude) - Claude model access through Google Cloud Vertex AI Model Garden.
+- [Azure Anthropic Models](https://ai.azure.com/catalog/publishers/anthropic) - Claude model access through Azure AI Foundry model catalog.
+
+## Applications
+
+- [Claude Desktop](https://claude.ai/download) - Official desktop app for macOS and Windows.
+- [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) - Unofficial Debian package for Claude Desktop.
+- [Claude.ai](https://claude.ai/new) - Web application for using Claude in the browser.
+
+## Learning
+
+- [AI Fluency Framework](https://anthropic.skilljar.com/ai-fluency-framework-foundations) - Anthropic course for effective collaboration with AI systems.
+- [Building with the Claude API](https://anthropic.skilljar.com/claude-with-the-anthropic-api) - Anthropic course for API-based Claude development.
+- [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) - Anthropic course for Claude Code workflows.
+- [Claude Video Tutorials](https://support.claude.com/en/collections/10548294-video-tutorials) - Official video tutorial collection from Claude Support.
+- [Claude Code Everything You Need to Know](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know#readme) - Community guide for Claude Code setup and usage.
+- [Claude Code Tips](https://github.com/ykdojo/claude-code-tips#readme) - Practical tips for Claude Code workflows.
+- [Claude Code Experience Guide](https://sankalp.bearblog.dev/my-claude-code-experience-after-2-weeks-of-usage/) - Real-world lessons from using Claude Code on software projects.
+- [Claude Code 2.0 Guide](https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/#setup) - Community guide for agent management and context engineering.
 
-> [Claude](https://claude.ai) is a large language model developed by Anthropic that excels at complex reasoning, code generation, and analysis tasks. Built with Constitutional AI principles, Claude provides reliable assistance for programming, writing, research, and problem-solving while maintaining safety and accuracy.
+## Community
 
----
+- [Claude Discord](https://discord.com/invite/prcdpx7qMm) - Official Discord community for Claude users and developers.
+- [Claude Subreddit](https://www.reddit.com/r/ClaudeAI/) - Reddit community for Claude discussion and troubleshooting.
+- [Anthropic AI Facebook Group](https://www.facebook.com/groups/anthropicai/) - Facebook group for Anthropic AI and Claude discussion.
 
-## 📋 Contents
+## Contributing
 
-- [🏢 Official Anthropic Resources](#-official-anthropic-resources)
-- [🛠️ Claude Code & Model Context Protocol (MCP)](#️-claude-code--model-context-protocol-mcp)
-- [⭐ Community Curated Lists](#-community-curated-lists)
-- [🧩 Extensions & Integrations](#-extensions--integrations)
-- [💻 Applications](#-applications)
-- [📚 Educational Resources](#-educational-resources)
-- [👥 Community](#-community)
-
----
-
-<div align="center">
-
-<a href="https://github.com/webfuse-com/awesome-webmcp"><img src="assets/webmcp-deverlopers.png" alt="awesome-webmcp" height="80" style="border-radius: 16px;"></a>
-
-**Building with the Web?** Check out [awesome-webmcp](https://github.com/webfuse-com/awesome-webmcp) - a curated list of awesome things related to the WebMCP W3C standard.
-
-</div>
-
----
-
-## 🏢 Official Anthropic Resources
-
-**The authoritative source for everything Claude -  directly from Anthropic**
-
-### 🧠 Current Models (Claude 4.6 Family - Early 2026)
-
-- **Claude Opus 4.6** (Feb 5, 2026) -  Anthropic's most capable model ever. Best-in-class for coding, long-horizon agents, large codebases, debugging, financial analysis, and enterprise workflows. New: 1M token context window (beta), adaptive thinking (dynamic reasoning depth), agent teams, context compaction. SOTA on Terminal-Bench 2.0, GDPval-AA (+190 Elo over Opus 4.5), Humanity's Last Exam, BrowseComp. [Announcement](https://www.anthropic.com/news/claude-opus-4-6) | [System Card](https://www.anthropic.com/claude-opus-4-6-system-card)
-- **Claude Sonnet 4.6** (Feb 17, 2026) -  Best balance of intelligence, speed, and cost. Near-Opus performance on coding, computer use (multi-tab forms, spreadsheets), and professional tasks. Now the default model for many plans. [Announcement](https://www.anthropic.com/news/claude-sonnet-4-6)
-- **Claude Haiku 4.5** (Oct 2025) -  Fastest model with near-frontier intelligence. Perfect for high-volume, real-time, and sub-agent tasks. [Announcement](https://www.anthropic.com/news/claude-haiku-4-5)
-
-**Key specs (API):**  
-- Opus 4.6: `claude-opus-4-6` • $5/$25 per MTok • 200K standard / 1M beta context  
-- Sonnet 4.6: `claude-sonnet-4-6` • $3/$15 per MTok • 200K standard / 1M beta context  
-- Haiku 4.5: `claude-haiku-4-5` • $1/$5 per MTok • 200K context  
-Premium pricing for >200K tokens. Full comparison: [Models overview](https://platform.claude.com/docs/en/about-claude/models/overview)
-
-### 🔌 API & Developer Platform
-
-- [Claude Developer Console](https://console.anthropic.com) -  API keys, prompt testing, usage monitoring, Claude Code sessions.
-- [Official Documentation](https://platform.claude.com/docs/) -  Full reference for Messages API, tool use, computer use, prompt caching, structured outputs, citations, MCP Connector, and Claude Code.
-- [Models & Pricing](https://platform.claude.com/docs/en/about-claude/models/overview) -  Latest model IDs, pricing, context windows, thinking features, and cloud provider IDs.
-
-### 🔧 SDKs & Development Tools
-
-**Official Client SDKs** -  Full feature parity: messages, tools, streaming, caching, computer use.
-
-- [anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python) -  Python SDK with async support and type hints.
-- [anthropic-sdk-typescript](https://github.com/anthropics/anthropic-sdk-typescript) -  TypeScript/JavaScript SDK for Node.js and browsers.
-- [anthropic-sdk-java](https://github.com/anthropics/anthropic-sdk-java) -  Java/Kotlin SDK with modern features.
-- [anthropic-sdk-go](https://github.com/anthropics/anthropic-sdk-go) -  Go SDK with idiomatic design.
-- [anthropic-sdk-ruby](https://github.com/anthropics/anthropic-sdk-ruby) -  Ruby SDK.
-- [anthropic-sdk-csharp](https://github.com/anthropics/anthropic-sdk-csharp) -  C#/.NET SDK (Beta).
-- [anthropic-sdk-php](https://github.com/anthropics/anthropic-sdk-php) -  PHP SDK (Beta).
-
-**Agent SDKs** -  Build custom autonomous agents with Claude Code capabilities.
-
-- [claude-agent-sdk-python](https://github.com/anthropics/claude-agent-sdk-python) -  Python Agent SDK. [Docs](https://platform.claude.com/docs/en/agent-sdk/overview)
-- [claude-agent-sdk-typescript](https://github.com/anthropics/claude-agent-sdk-typescript) -  TypeScript Agent SDK.
-
-**Starters**
-
-- [Claude Cookbook](https://github.com/anthropics/claude-cookbooks) -  Official notebooks and recipes for common patterns (RAG, tool use, Skills, MCP).
-- [Claude Quickstarts](https://github.com/anthropics/claude-quickstarts) -  Ready-to-deploy example apps.
-
-### ☁️ Cloud Providers
-
-**Official access to Claude models through cloud providers** (all support Opus 4.6 / Sonnet 4.6)
-
-- **[Amazon Bedrock](https://aws.amazon.com/bedrock/anthropic/)** -  Fully managed access to the latest Claude models (Opus 4.6, Sonnet 4.6, Haiku 4.5). Supports cross-region inference (new regions: Thailand, Malaysia, Singapore, Indonesia, Taiwan), latency optimizations, fine-tuning, agents, guardrails, and deep AWS integration.
-- **[Google Cloud Vertex AI Model Garden](https://cloud.google.com/products/model-garden/claude)** -  Deploy Claude models with provisioned throughput, prompt caching, batch predictions, grounding, and enterprise compliance (FedRAMP High). Great for building agents with Google Cloud tools.
-- **[Microsoft Azure AI Model Catalog (Anthropic Publisher)](https://ai.azure.com/catalog/publishers/anthropic)** -  Claude models via the AI Model Catalog. Supports serverless deployment, agent building, tool integration, fine-tuning, and billing through existing Azure agreements.
-
-### 🛡️ Transparency & Safety
-
-**Detailed evaluations, risk assessments, and alignment insights for Claude models**
-
-- [Transparency Hub](https://www.anthropic.com/transparency) -  Overview of safety evaluations and improvements across models.
-- [All System Cards](https://www.anthropic.com/system-cards) -  Index of all model system cards.
-  - [Claude Opus 4.6 System Card](https://www.anthropic.com/claude-opus-4-6-system-card) -  Capability and safety report (Feb 2026).
-  - [Claude Sonnet 4.6 System Card](https://www.anthropic.com/claude-sonnet-4-6-system-card) -  Detailed evaluations (Feb 2026).
-  - [Claude Opus 4.5 System Card](https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf) -  Comprehensive capability and safety report (Nov 2025).
-  - [Claude Haiku 4.5 System Card](https://www.anthropic.com/claude-haiku-4-5-system-card) -  Safety and performance report (Oct 2025).
-- [Claude Code Security](https://www.anthropic.com/news/claude-code-security) -  Security model and threat analysis for Claude Code (Feb 2026).
-
----
-
-## 🛠️ Claude Code & Model Context Protocol (MCP)
-
-**Anthropic's agentic coding platform and open extension standard**
-
-### 🤖 Claude Code
-
-Terminal-first agentic coding tool (CLI), with VS Code/JetBrains IDE integrations, Desktop GUI (Cowork), and browser control. Understands entire codebases, plans and executes multi-step tasks, edits files, runs git/shell, creates PRs, and integrates browser control.
-
-- [Official site & docs](https://code.claude.com/docs/en/overview) -  Getting started, commands, memory, hooks, GitHub Actions, IDE setup.
-- [Product page](https://claude.ai/product/claude-code) -  Overview of Claude Code features and plans.
-- [Claude Desktop](https://claude.ai/download) -  macOS + Windows app; includes **Cowork** GUI for non-technical workflows and the dedicated **Code** tab.
-- Install CLI: `curl -fsSL https://claude.ai/install.sh | bash` (macOS/Linux) or via Homebrew/Winget.
-- [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Integrates with Claude Code for browser control (multi-tab workflows, Slack, Gmail, GitHub).
-
-### 🔌 Model Context Protocol (MCP)
-
-Open standard (Linux Foundation) for connecting Claude to tools, repos, databases, tickets, and more. Supports one-click desktop extensions (`.mcpb` files).
-
-- [MCP official site](https://modelcontextprotocol.io/) -  Spec, SDKs, and quickstart.
-- [Introduction to MCP](https://anthropic.skilljar.com/introduction-to-model-context-protocol) -  Official Anthropic course: build MCP servers and clients from scratch in Python.
-- [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Sampling, notifications, transports.
-- [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
-
----
-
-## ⭐ Community Curated Lists
-
-**Awesome lists and collections maintained by the community**
-
-- [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code#readme) -  Slash-commands, CLAUDE.md files, CLI tools, and workflows for Claude Code.
-- [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills#readme) -  Resources and tools for customizing AI workflows with Claude Skills.
-- [BehiSecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills#readme) -  Categorized skills for document handling, development tools, data analysis, and more.
-- [langgptai/awesome-claude-prompts](https://github.com/langgptai/awesome-claude-prompts#readme) -  Collection of prompt examples designed to improve Claude interactions.
-- [vijaythecoder/awesome-claude-agents](https://github.com/vijaythecoder/awesome-claude-agents#readme) -  Team of specialized AI agents for building features and debugging.
-- [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents#readme) -  100+ specialized AI agents for full-stack development maintained by the community.
-- [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated list of Model Context Protocol (MCP) servers for extending Claude's capabilities.
-
----
-
-## 🧩 Extensions & Integrations
-
-### 🎨 IDE Extensions
-
-- [Claude Code for VS Code](https://marketplace.visualstudio.com/items?itemName=Anthropic.claude-code) -  Official Anthropic extension. Inline diffs, `@`-mentions, plan review, conversation history, and full Claude Code integration.
-- [Claude Code for JetBrains (Beta)](https://plugins.jetbrains.com/plugin/27310-claude-code-beta-) -  Official Anthropic plugin for IntelliJ, PyCharm, WebStorm, and other JetBrains IDEs.
-- [Claude Code Chat](https://github.com/andrepimenta/claude-code-chat#readme) -  Beautiful native chat interface for Claude Code within VS Code with conversation history and MCP support.
-- [Claude Code Theme](https://github.com/ashwingopalsamy/claude-code-theme) -  Claude-inspired VS Code theme pack with dark/light/high-contrast and brand variants, semantic token tuning, and ANSI-optimized terminal colors.
-- [Claude VSCode Theme](https://marketplace.visualstudio.com/items?itemName=AlvinUnreal.claude-vscode-theme) -  Thoughtful dark theme collection with classic and italic variants. Inspired by Claude AI with carefully balanced contrast and warm syntax colors.
-
-### 🌐 Browser Extensions
-
-- [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Max plan required. Claude works directly in your browser and takes actions on your behalf. Features scheduled tasks, planning mode, multi-tab workflows, and smart navigation for Slack, Gmail, Google Calendar, Docs, and GitHub.
-- [Claude Usage Tracker](https://chromewebstore.google.com/detail/claude-usage-tracker/knemcdpkggnbhpoaaagmjiigenifejfo) -  Chrome extension for tracking Claude AI usage and performance metrics.
-
----
-
-## 💻 Applications
-
-### 🖥️ Desktop
-
-- [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
-- [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
-
----
-
-## 📚 Educational Resources
-
-### 🎓 Official Courses
-
-**Free courses from Anthropic covering prompt engineering, API usage, agents, and more**
-
-- [AI Fluency: Framework & Foundations](https://anthropic.skilljar.com/ai-fluency-framework-foundations) -  Collaborate with AI systems effectively, efficiently, ethically, and safely.
-- [AI Fluency for Educators](https://anthropic.skilljar.com/ai-fluency-for-educators) -  Apply AI Fluency into teaching practice and institutional strategy.
-- [AI Fluency for Students](https://anthropic.skilljar.com/ai-fluency-for-students) -  Enhance learning, career planning, and academic success through AI.
-- [AI Fluency for Nonprofits](https://anthropic.skilljar.com/ai-fluency-for-nonprofits) -  Increase organizational impact while staying true to mission and values.
-- [Teaching AI Fluency](https://anthropic.skilljar.com/teaching-ai-fluency) -  Teach and assess AI Fluency in instructor-led settings.
-- [Building with the Claude API](https://anthropic.skilljar.com/claude-with-the-anthropic-api) -  Full spectrum of working with Anthropic models using the Claude API.
-- [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) -  Practical walkthrough of using Claude Code to accelerate your development workflow.
-- [Introduction to Model Context Protocol](https://anthropic.skilljar.com/introduction-to-model-context-protocol) -  Build MCP servers and clients from scratch using Python.
-- [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Advanced patterns including sampling, notifications, and transports.
-- [Claude Agent SDK Overview](https://platform.claude.com/docs/en/agent-sdk/overview) -  Docs for building custom autonomous agents using the official Agent SDKs.
-- [Claude with Amazon Bedrock](https://anthropic.skilljar.com/claude-in-amazon-bedrock) -  Accreditation program course, now available publicly.
-- [Claude with Google Vertex AI](https://anthropic.skilljar.com/claude-with-google-vertex) -  Working with Anthropic models through Google Cloud's Vertex AI.
-
-### 📹 Video Tutorials
-
-- [Claude Video Tutorials](https://support.claude.com/en/collections/10548294-video-tutorials) -  Official video tutorials from Claude Support.
-
-### 📖 Community Guides
-
-- [Claude Code Everything You Need to Know](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know#readme) -  Ultimate all-in-one guide to mastering Claude Code. Covers setup, prompt engineering, commands, hooks, workflows, automation, integrations, MCP servers, and the BMAD method.
-- [40+ Claude Code Tips](https://github.com/ykdojo/claude-code-tips#readme) -  Tips for getting the most out of Claude Code, including a custom status line script, cutting the system prompt in half, using Gemini CLI as Claude Code's minion, and Claude Code running itself in a container. Also includes the dx plugin for GitHub Actions debugging, conversation cloning, and handoffs.
-- [My Experience With Claude Code After 2 Weeks of Adventures](https://sankalp.bearblog.dev/my-claude-code-experience-after-2-weeks-of-usage/) - Part 1: Real-world lessons on using a `TODO.md` file to keep Claude on track, managing costs, and why it often outperforms Cursor for complex refactors.
-- [A Guide to Claude Code 2.0 and getting better at using coding agents](https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/#setup) - Part 2: A deep dive into the 2.0 update, focusing on the "Agent Manager" mindset, context engineering, and using sub-agents for larger codebases.
-
----
-
-## 👥 Community
-
-**Join the Claude community to share knowledge, get help, and stay updated**
-
-- [Claude Discord](https://discord.com/invite/prcdpx7qMm) -  Official Discord community for Claude users and developers.
-- [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/) -  Reddit community for Claude discussions and tips.
-- [Anthropic AI Facebook Group](https://www.facebook.com/groups/anthropicai/) -  Facebook group for Anthropic AI and Claude discussions.
-
----
-
-**[⬆ Back to Contents](#-contents)**
+Contributions are welcome. Read [contributing.md](contributing.md) before opening a pull request.
