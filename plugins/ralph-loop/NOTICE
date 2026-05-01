@@ -1,0 +1,12 @@
+Ralph Loop Codex Adaptation
+
+This package includes compatibility files adapted from the official Anthropic
+Claude Code ralph-loop plugin:
+
+  https://github.com/anthropics/claude-plugins-official/tree/main/plugins/ralph-loop
+
+The Codex runner, Codex manifest, Codex commands, tests, and documentation were
+added in this repository to support Codex CLI and Codex App while keeping the
+Claude Code plugin path functional.
+
+The upstream Claude plugin is licensed under Apache-2.0.

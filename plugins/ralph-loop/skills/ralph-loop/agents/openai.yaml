@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ralph Loop"
+  short_description: "Run bounded self-improving Codex loops with persistent local state"
+  default_prompt: "Start a Ralph loop for this task."

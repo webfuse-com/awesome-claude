@@ -1,5 +1,7 @@
 # Dependencies
 node_modules/
+.venv/
+.codex/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

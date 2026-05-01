@@ -6,6 +6,7 @@
   "scripts": {
     "lint": "awesome-lint README.md",
     "test": "npm run lint",
+    "test:ralph": "node --test plugins/ralph-loop/test/*.test.mjs",
     "check-links": "markdown-link-check README.md --config .github/workflows/markdown-link-check-config.json"
   },
   "repository": {
