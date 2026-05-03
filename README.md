@@ -158,6 +158,10 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
 
+### ⌨️ Terminal
+
+- [claws](https://github.com/dodontommy/claws#readme) -  TUI multiplexer for managing multiple Claude Code sessions in one window. Background daemon owns each session via PTY; sessions persist across SSH disconnects and reboots.
+
 ---
 
 ## 📚 Educational Resources
