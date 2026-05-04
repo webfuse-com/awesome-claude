@@ -117,6 +117,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Introduction to MCP](https://anthropic.skilljar.com/introduction-to-model-context-protocol) -  Official Anthropic course: build MCP servers and clients from scratch in Python.
 - [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Sampling, notifications, transports.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
+- [SwarmVault](https://github.com/swarmclawai/swarmvault#readme) -  Local-first RAG knowledge vault with a built-in MCP server (`npx -y @swarmvaultai/cli mcp`). Compiles raw sources into a durable markdown wiki with a knowledge graph and a hybrid SQLite FTS plus embeddings index. Page search, page reads, source listing, query, ingest, compile, and lint tools.
 
 ---
 
@@ -157,6 +158,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
+- [SwarmClaw](https://github.com/swarmclawai/swarmclaw#readme) -  Self-hosted Electron desktop app and runtime for autonomous AI agents. MCP-native with memory, runtime skills, delegation, schedules, and reviewed conversation-to-skill learning. Supports Claude (API + Claude Code CLI delegation) alongside other providers.
 
 ---
 
