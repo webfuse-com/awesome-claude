@@ -203,3 +203,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 ---
 
 **[⬆ Back to Contents](#-contents)**
+
+## Tools
+
+- [Qonspekt](https://github.com/Qonspekt/qonspekt) - Browser tool: article to atomic Obsidian notes via Claude AI. BYOK, no backend. [Live](https://qonspekt.github.io/qonspekt/)
