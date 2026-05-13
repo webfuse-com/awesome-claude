@@ -117,6 +117,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Introduction to MCP](https://anthropic.skilljar.com/introduction-to-model-context-protocol) -  Official Anthropic course: build MCP servers and clients from scratch in Python.
 - [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Sampling, notifications, transports.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
+- [tellmefrankie/ai-investment-skills](https://github.com/tellmefrankie/ai-investment-skills) -  Battle-tested Claude Code skills for investment analysis: Options Flow Analyzer (filters lottery calls from P/C ratios), News Sentiment Engine, EV Calculator. Free tier + Pro Bundle ($29).
 
 ---
 
