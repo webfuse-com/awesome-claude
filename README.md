@@ -149,6 +149,10 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Max plan required. Claude works directly in your browser and takes actions on your behalf. Features scheduled tasks, planning mode, multi-tab workflows, and smart navigation for Slack, Gmail, Google Calendar, Docs, and GitHub.
 - [Claude Usage Tracker](https://chromewebstore.google.com/detail/claude-usage-tracker/knemcdpkggnbhpoaaagmjiigenifejfo) -  Chrome extension for tracking Claude AI usage and performance metrics.
 
+### 🔧 CLI Tools
+
+- [claude46](https://github.com/sparklingneuronics/claude-code-helpers#readme) -  Pinned Claude Code launcher for Opus 4.6. Runs a separate `claude46` command with model and Claude Code version pinned, while normal `claude` keeps updating. macOS, Linux, WSL, Windows.
+
 ---
 
 ## 💻 Applications
