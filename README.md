@@ -128,6 +128,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 **Awesome lists and collections maintained by the community**
 
 - [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code#readme) -  Slash-commands, CLAUDE.md files, CLI tools, and workflows for Claude Code.
+- [human-avatar/skills-for-humanity](https://github.com/human-avatar/skills-for-humanity#readme) -  171 structured reasoning methodologies packaged as Claude Code skills, covering logic, probability, decision-making, creativity, ethics, writing, and strategy. Install: `npx @human-avatar/skills-for-humanity`
 - [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills#readme) -  Resources and tools for customizing AI workflows with Claude Skills.
 - [BehiSecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills#readme) -  Categorized skills for document handling, development tools, data analysis, and more.
 - [langgptai/awesome-claude-prompts](https://github.com/langgptai/awesome-claude-prompts#readme) -  Collection of prompt examples designed to improve Claude interactions.
