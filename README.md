@@ -121,6 +121,10 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Sampling, notifications, transports.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
 
+#### ⚡ MCP Servers
+
+- [YIELD INTELLIGENCE](https://github.com/thebrierfox/intuitek-ace) -  Passive income analysis MCP for Claude Desktop: live US Treasury rates, portfolio yield calculator, and AI income optimizer. No auth required, zero data retained.
+
 ---
 
 ## ⭐ Community Curated Lists
