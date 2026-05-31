@@ -135,6 +135,10 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents#readme) -  100+ specialized AI agents for full-stack development maintained by the community.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated list of Model Context Protocol (MCP) servers for extending Claude's capabilities.
 
+**Notable Community Skills**
+
+- [vonarmen-wq/forward-deployed-selling](https://github.com/vonarmen-wq/forward-deployed-selling) -  Open-source Claude skill for enterprise AI sales: ICP qualification, GTM strategy, stage diagnosis, and deal thesis generation. By Angel Armendariz (Principal, AWS).
+
 ---
 
 ## 🧩 Extensions & Integrations
