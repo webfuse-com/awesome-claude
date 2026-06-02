@@ -120,6 +120,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Introduction to MCP](https://anthropic.skilljar.com/introduction-to-model-context-protocol) -  Official Anthropic course: build MCP servers and clients from scratch in Python.
 - [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Sampling, notifications, transports.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
+- [Cleo-Labs-IA/skills_library](https://github.com/Cleo-Labs-IA/skills_library) -  MCP server exposing 45 production-grade product compliance skills (cosmetics, food, electronics, toys, textiles, supplements, medical devices) as resources, prompts, and tools. `npx -y @cleo-labs/skills-mcp@latest`. MIT.
 
 ---
 
