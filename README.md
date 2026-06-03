@@ -112,6 +112,12 @@ Terminal-first agentic coding tool (CLI), with VS Code/JetBrains IDE integration
 - Install CLI: `curl -fsSL https://claude.ai/install.sh | bash` (macOS/Linux) or via Homebrew/Winget.
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Integrates with Claude Code for browser control (multi-tab workflows, Slack, Gmail, GitHub).
 
+### 🧰 Claude Code Community Tools
+
+Community-maintained tools that extend or fix Claude Code itself.
+
+- [restore-claude-history-linux](https://github.com/vsits/restore-claude-history-linux) - Recover deleted Claude Code chat transcripts from Linux filesystem snapshots (ZFS / Btrfs / Timeshift). Linux port of garrettmoss/restore-claude-history.
+
 ### 🔌 Model Context Protocol (MCP)
 
 Open standard (Linux Foundation) for connecting Claude to tools, repos, databases, tickets, and more. Supports one-click desktop extensions (`.mcpb` files).
