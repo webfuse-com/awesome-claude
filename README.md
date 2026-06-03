@@ -117,6 +117,7 @@ Terminal-first agentic coding tool (CLI), with VS Code/JetBrains IDE integration
 Community-maintained tools that extend or fix Claude Code itself.
 
 - [restore-claude-history-linux](https://github.com/vsits/restore-claude-history-linux) - Recover deleted Claude Code chat transcripts from Linux filesystem snapshots (ZFS / Btrfs / Timeshift). Linux port of garrettmoss/restore-claude-history.
+- [claude-code-cache-fix](https://github.com/cnighswonger/claude-code-cache-fix) - Local proxy that fixes Claude Code's prompt-cache TTL handling, reducing token spend on long sessions.
 
 ### 🔌 Model Context Protocol (MCP)
 
