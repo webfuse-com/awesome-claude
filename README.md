@@ -161,6 +161,10 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
 
+### 📝 Collaboration & Writing
+
+- [markupmarkdown](https://github.com/jonradoff/markupmarkdown) -  Google-Docs-style commenting on any markdown file, with an MCP server so Claude joins the same review loop as humans. Paste a GitHub URL (or upload), drag-select text → leave a thread, @-mention humans, resolve, then call `revise_with_ai` to have Claude apply the resolved comments as a new revision. Self-hosted, MIT, live demo at <https://mumd.metavert.io/>.
+
 ---
 
 ## 📚 Educational Resources
