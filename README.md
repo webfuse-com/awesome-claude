@@ -121,6 +121,10 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Sampling, notifications, transports.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
 
+#### ⚡ MCP Servers
+
+- [The Stall](https://the-stall.intuitek.ai/mcp) - 172 pay-per-call financial and market intelligence tools (x402 USDC micropayments, no API key). Equities, crypto/DeFi, macro, on-chain analytics, options, and 20+ verticals. Remote MCP — paste URL into Claude Desktop or any MCP client.
+
 ---
 
 ## ⭐ Community Curated Lists
