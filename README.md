@@ -124,6 +124,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Introduction to MCP](https://anthropic.skilljar.com/introduction-to-model-context-protocol) -  Official Anthropic course: build MCP servers and clients from scratch in Python.
 - [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Sampling, notifications, transports.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
+- [GoCreative Agent API](https://api.gocreativeai.com) -  Hosted MCP server exposing 145+ pay-per-call API tools (social enrichment, OSINT, web scraping, image generation, document intelligence). Published in the official MCP registry as `io.github.ColinHughes2121/gocreative-agent-api`. USDC on Base via x402 + Stripe. Free 5 calls/day per IP demo tier (no signup). MCP endpoint: `https://api.gocreativeai.com/mcp`.
 
 ---
 
