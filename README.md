@@ -139,6 +139,10 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents#readme) -  100+ specialized AI agents for full-stack development maintained by the community.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated list of Model Context Protocol (MCP) servers for extending Claude's capabilities.
 
+**Notable Community Skills**
+
+- [Vibe Creating](https://github.com/Alisa0808/vibe-creating-skill) -  Bilingual EN/中文 skill that rewrites a rough idea or over-specified shot script into a model-ready text-to-video prompt (Seedance 2.0, Kling, Veo, Hailuo, Wan, Vidu). Judgment-first; one SKILL.md; MIT.
+
 ---
 
 ## 🧩 Extensions & Integrations
