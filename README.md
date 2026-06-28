@@ -156,6 +156,10 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Max plan required. Claude works directly in your browser and takes actions on your behalf. Features scheduled tasks, planning mode, multi-tab workflows, and smart navigation for Slack, Gmail, Google Calendar, Docs, and GitHub.
 - [Claude Usage Tracker](https://chromewebstore.google.com/detail/claude-usage-tracker/knemcdpkggnbhpoaaagmjiigenifejfo) -  Chrome extension for tracking Claude AI usage and performance metrics.
 
+### ⌨️ CLI Tools
+
+- [h5i](https://github.com/h5i-dev/h5i#readme) -  Open-source Rust CLI that runs multiple coding agents (Claude Code, Codex) on the same task in isolated git-worktree sandboxes, has them peer-review each other, then has a neutral verifier replay and test each candidate and merge the one that passes. Integrates with Claude Code via hooks; run metadata is versioned in your repo under refs/h5i/*.
+
 ---
 
 ## 💻 Applications
