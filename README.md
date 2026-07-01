@@ -210,3 +210,4 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 ---
 
 **[⬆ Back to Contents](#-contents)**
+- [Skill Hub](https://skill.442595.xyz/) — 5800+ curated AI Agent Skills for Claude Code, Codex, Cursor, Hermes & more across 22 categories.
