@@ -163,7 +163,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 
 ### 📝 Collaboration & Writing
 
-- [markupmarkdown](https://github.com/jonradoff/markupmarkdown) -  Google-Docs-style commenting on any markdown file, with an MCP server so Claude joins the same review loop as humans. Paste a GitHub URL (or upload), drag-select text → leave a thread, @-mention humans, resolve, then call `revise_with_ai` to have Claude apply the resolved comments as a new revision. Self-hosted, MIT, live demo at <https://mumd.metavert.io/>.
+- [markupmarkdown](https://github.com/jonradoff/markupmarkdown) - "Google Docs for Markdown": collaborative editing and review for `.md` files, with an MCP server so Claude joins the same review loop as humans. Claude can comment, propose suggested changes (one-click apply), request changes, and draft revisions that a human accepts before they push back to GitHub as a PR. Self-hosted, MIT, live demo at <https://mumd.metavert.io/>.
 
 ---
 
