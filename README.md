@@ -196,6 +196,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [40+ Claude Code Tips](https://github.com/ykdojo/claude-code-tips#readme) -  Tips for getting the most out of Claude Code, including a custom status line script, cutting the system prompt in half, using Gemini CLI as Claude Code's minion, and Claude Code running itself in a container. Also includes the dx plugin for GitHub Actions debugging, conversation cloning, and handoffs.
 - [My Experience With Claude Code After 2 Weeks of Adventures](https://sankalp.bearblog.dev/my-claude-code-experience-after-2-weeks-of-usage/) - Part 1: Real-world lessons on using a `TODO.md` file to keep Claude on track, managing costs, and why it often outperforms Cursor for complex refactors.
 - [A Guide to Claude Code 2.0 and getting better at using coding agents](https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/#setup) - Part 2: A deep dive into the 2.0 update, focusing on the "Agent Manager" mindset, context engineering, and using sub-agents for larger codebases.
+- [Claude Code Agent Starter](https://github.com/ibdmaibot-southafrica/claude-code-agent-starter#readme) - Free ready-to-copy operating system for Claude Code: persistent file-based memory, reusable skills, and an intent-keyed toolkit index, with a four-part setup walkthrough extracted from a real production business setup.
 
 ---
 
