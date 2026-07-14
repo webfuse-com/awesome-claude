@@ -115,6 +115,7 @@ Terminal-first agentic coding tool (CLI), with VS Code/JetBrains IDE integration
 - [Claude Desktop](https://claude.ai/download) -  macOS + Windows app; includes **Cowork** GUI for non-technical workflows and the dedicated **Code** tab.
 - Install CLI: `curl -fsSL https://claude.ai/install.sh | bash` (macOS/Linux) or via Homebrew/Winget.
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Integrates with Claude Code for browser control (multi-tab workflows, Slack, Gmail, GitHub).
+- [Open Agent Relay](https://github.com/ShakespeareLabs/open-agent-relay) - Open-source, local-first CLI that lets Claude Code and other local agents expose bounded capabilities to teammates and agents over a trusted LAN while prompts, credentials, dependencies, and working directories stay on the publisher's machine.
 
 ### 🔌 Model Context Protocol (MCP)
 
