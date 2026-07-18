@@ -124,7 +124,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Introduction to MCP](https://anthropic.skilljar.com/introduction-to-model-context-protocol) -  Official Anthropic course: build MCP servers and clients from scratch in Python.
 - [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Sampling, notifications, transports.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
-- [Xquik X/Twitter Scraper](https://github.com/Xquik-dev/x-twitter-scraper#readme) -  X/Twitter data extraction MCP server with [remote discovery metadata](https://xquik.com/.well-known/mcp.json), REST API, webhooks, and SDKs; API key required.
+- [Xquik X/Twitter Scraper](https://github.com/Xquik-dev/x-twitter-scraper#readme) -  X/Twitter data extraction MCP server with [remote discovery metadata](https://xquik.com/.well-known/mcp.json), REST API, webhooks, and SDKs; OAuth 2.1 or API key. Not affiliated with X Corp.
 
 ---
 
