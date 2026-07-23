@@ -164,6 +164,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
+- [Cowork-to-Code Bridge](https://github.com/abhinaykrupa/cowork-to-code-bridge#readme) -  Local-first async bridge connecting Claude Cowork (and any MCP-aware agent) to Claude Code on your own machine. Queue tasks from a sandboxed session; a local daemon runs them on real hardware with per-task model, budget, and permission ceilings.
 
 ---
 
