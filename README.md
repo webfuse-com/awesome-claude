@@ -124,6 +124,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Introduction to MCP](https://anthropic.skilljar.com/introduction-to-model-context-protocol) -  Official Anthropic course: build MCP servers and clients from scratch in Python.
 - [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Sampling, notifications, transports.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
+- [DigestSEO GEO Tracker](https://github.com/AKzar1el/mcp-geo) - MCP server for measuring brand citations and AI-search visibility across ChatGPT, Claude, Perplexity, Gemini, and Google AI Overviews.
 
 ---
 
