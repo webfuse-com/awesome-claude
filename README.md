@@ -160,7 +160,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
-- [usage](https://github.com/aqua5230/usage) -  macOS menu bar app that pins Claude Code and Codex quota, token usage, and cost to your screen. Local-only with zero API calls.
+- [usage](https://github.com/aqua5230/usage) -  macOS menu bar and Windows tray app that pins Claude Code, Codex, and Antigravity quota, token usage, and cost to your screen. No LLM API calls.
 
 ---
 
