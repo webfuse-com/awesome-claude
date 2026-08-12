@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alvinunreal/awesome-claude.git"
+    "url": "git+https://github.com/webfuse-com/awesome-claude.git"
   },
   "keywords": [
     "awesome",
@@ -26,9 +26,9 @@
   "author": "Alvin Unreal",
   "license": "CC0-1.0",
   "bugs": {
-    "url": "https://github.com/alvinunreal/awesome-claude/issues"
+    "url": "https://github.com/webfuse-com/awesome-claude/issues"
   },
-  "homepage": "https://github.com/alvinunreal/awesome-claude#readme",
+  "homepage": "https://awesomeclaude.ai",
   "devDependencies": {
     "awesome-lint": "^0.18.0",
     "markdown-link-check": "^3.12.2"
