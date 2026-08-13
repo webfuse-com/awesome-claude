@@ -167,6 +167,10 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Max plan required. Claude works directly in your browser and takes actions on your behalf. Features scheduled tasks, planning mode, multi-tab workflows, and smart navigation for Slack, Gmail, Google Calendar, Docs, and GitHub.
 - [Claude Usage Tracker](https://chromewebstore.google.com/detail/claude-usage-tracker/knemcdpkggnbhpoaaagmjiigenifejfo) -  Chrome extension for tracking Claude AI usage and performance metrics.
 
+### ⚙️ Workflow Automation
+
+- [DevIntern](https://github.com/getdevintern/devintern) -  Turns tickets from Jira, Linear, Trello, Asana, Azure DevOps, GitHub Issues, or markdown files into self-reviewed pull requests by driving Claude Code non-interactively. A feasibility gate flags vague tickets back to the tracker with questions; an optional unattended mode schedules ticket pickup and turns PR review comments into commits. Runs on your machines with your own Anthropic keys.
+
 ---
 
 ## 💻 Applications
