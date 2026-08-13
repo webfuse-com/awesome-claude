@@ -176,6 +176,9 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
 
+### ⌨️ Terminal
+
+- [claudectl](https://github.com/babarmuhammad/claudectl) -  Workspace manager for Claude Code sessions: browsable session history, token-budgeted project memory, MCP server visibility, and per-project launch settings. Terminal UI and desktop GUI, Python standard library only.
 ---
 
 ## 📚 Educational Resources
