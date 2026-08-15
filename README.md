@@ -135,6 +135,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Introduction to MCP](https://anthropic.skilljar.com/introduction-to-model-context-protocol) -  Official Anthropic course: build MCP servers and clients from scratch in Python.
 - [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Sampling, notifications, transports.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
+- [LWC (Local Wiki CLI)](https://github.com/JanYork/llm-wiki-cli) - Local-first project memory with source-grounded retrieval, durable Markdown and SQLite storage, and a read-only MCP interface for Claude Code and other coding agents.
 
 ---
 
