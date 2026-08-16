@@ -135,6 +135,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Introduction to MCP](https://anthropic.skilljar.com/introduction-to-model-context-protocol) -  Official Anthropic course: build MCP servers and clients from scratch in Python.
 - [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Sampling, notifications, transports.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
+- [Memxus](https://github.com/gpitrella/memxus-remote-mcp) - Universal persistent memory MCP server. Save context once across Claude Code, Cursor, Gemini CLI and any AI tool — recall it automatically in every session. Free at memxus.com
 
 ---
 
