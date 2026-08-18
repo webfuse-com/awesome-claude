@@ -154,6 +154,10 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 
 ## 🧩 Extensions & Integrations
 
+### 🤖 Agent Skills
+
+- [interactive-code-map](https://github.com/YuLaiZ/interactive-code-map#readme) -  Cross-client skill that turns a codebase or business process into a single interactive HTML map with evidence states and verified line-level citations.
+
 ### 🎨 IDE Extensions
 
 - [Claude Code for VS Code](https://marketplace.visualstudio.com/items?itemName=Anthropic.claude-code) -  Official Anthropic extension. Inline diffs, `@`-mentions, plan review, conversation history, and full Claude Code integration.
