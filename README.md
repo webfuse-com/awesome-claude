@@ -135,6 +135,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Introduction to MCP](https://anthropic.skilljar.com/introduction-to-model-context-protocol) -  Official Anthropic course: build MCP servers and clients from scratch in Python.
 - [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Sampling, notifications, transports.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
+- [Prismix MCP Directory](https://prismix.dev/mcp) -  Aggregator with 500+ auto-discovered MCP servers (GitHub topic search) + 80+ curated servers. Features bundles (reusable server sets for Claude Desktop), per-server release tracking, and search. Complements awesome-mcp-servers with a live web UI.
 
 ---
 
