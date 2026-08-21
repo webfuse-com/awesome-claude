@@ -166,6 +166,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Max plan required. Claude works directly in your browser and takes actions on your behalf. Features scheduled tasks, planning mode, multi-tab workflows, and smart navigation for Slack, Gmail, Google Calendar, Docs, and GitHub.
 - [Claude Usage Tracker](https://chromewebstore.google.com/detail/claude-usage-tracker/knemcdpkggnbhpoaaagmjiigenifejfo) -  Chrome extension for tracking Claude AI usage and performance metrics.
+- [Chat Threads](https://github.com/onyourmark/chat-threads) -  Open-source side panel that reshapes a long Claude or ChatGPT conversation: read back only your own prompts, remove or edit individual turns, and split one conversation into separate topic conversations. Works on a copy, so the original is never modified.
 
 ---
 
