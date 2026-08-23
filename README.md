@@ -154,7 +154,11 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 
 ## 🧩 Extensions & Integrations
 
-### 🎨 IDE Extensions
+### 🎨 Claude Code Themes
+
+- [50 Dark Themes for Claude Code](https://github.com/notgabriels-sys/claude-code-50-dark-themes) - Fifty MIT-licensed dark themes for Claude Code's native `/theme` picker, installable through a plugin marketplace.
+
+### 🧩 IDE Extensions
 
 - [Claude Code for VS Code](https://marketplace.visualstudio.com/items?itemName=Anthropic.claude-code) -  Official Anthropic extension. Inline diffs, `@`-mentions, plan review, conversation history, and full Claude Code integration.
 - [Claude Code for JetBrains (Beta)](https://plugins.jetbrains.com/plugin/27310-claude-code-beta-) -  Official Anthropic plugin for IntelliJ, PyCharm, WebStorm, and other JetBrains IDEs.
