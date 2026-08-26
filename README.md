@@ -217,6 +217,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude Discord](https://discord.com/invite/prcdpx7qMm) -  Official Discord community for Claude users and developers.
 - [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/) -  Reddit community for Claude discussions and tips.
 - [Anthropic AI Facebook Group](https://www.facebook.com/groups/anthropicai/) -  Facebook group for Anthropic AI and Claude discussions.
+- [Claude Code Daily (Telegram)](https://t.me/DailyClaudeTips) -  Unofficial Telegram channel posting one practical Claude Code tip per day, run end to end by AI agents as an open experiment.
 
 ---
 
