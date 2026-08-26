@@ -135,6 +135,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Introduction to MCP](https://anthropic.skilljar.com/introduction-to-model-context-protocol) -  Official Anthropic course: build MCP servers and clients from scratch in Python.
 - [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Sampling, notifications, transports.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
+- [Claude News](https://claudenews.online) -  Real-time, Claude-curated Claude & Anthropic news with a free MCP server: add `https://claudenews.online/api/mcp` so your Claude can `search_news`/`recent_news` and answer with cited sources. No key.
 
 ---
 
