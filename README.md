@@ -167,6 +167,10 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Max plan required. Claude works directly in your browser and takes actions on your behalf. Features scheduled tasks, planning mode, multi-tab workflows, and smart navigation for Slack, Gmail, Google Calendar, Docs, and GitHub.
 - [Claude Usage Tracker](https://chromewebstore.google.com/detail/claude-usage-tracker/knemcdpkggnbhpoaaagmjiigenifejfo) -  Chrome extension for tracking Claude AI usage and performance metrics.
 
+### 🧪 Testing & Quality
+
+- [SkillCI](https://github.com/kabirnarang39/skillci) -  Regression testing for Claude Skills. Catches when a model update silently changes a skill's behavior, and turns an uncovered failure into a permanent eval case automatically.
+
 ---
 
 ## 💻 Applications
