@@ -127,6 +127,14 @@ Terminal-first agentic coding tool (CLI), with VS Code/JetBrains IDE integration
 - Install CLI: `curl -fsSL https://claude.ai/install.sh | bash` (macOS/Linux) or via Homebrew/Winget.
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Integrates with Claude Code for browser control (multi-tab workflows, Slack, Gmail, GitHub).
 
+### 🔌 Plugins & Skills
+
+Third-party plugin marketplaces and skills installed with `/plugin marketplace add`.
+
+- [claude-code-templates](https://github.com/davila7/claude-code-templates#readme) -  Registry of agents, commands, skills, hooks and MCPs, with a browsable web catalogue. ⭐ 30k+
+- [superpowers-marketplace](https://github.com/obra/superpowers-marketplace#readme) -  Marketplace of composable skills for planning, research and code review. ⭐ 1.2k+
+- [html2wp](https://github.com/iOSDevSK/html2wp-cc-plugin#readme) -  Converts a static HTML site into a standalone WordPress block theme and verifies the result against the original. Source-available, not open source.
+
 ### 🔌 Model Context Protocol (MCP)
 
 Open standard (Linux Foundation) for connecting Claude to tools, repos, databases, tickets, and more. Supports one-click desktop extensions (`.mcpb` files).
