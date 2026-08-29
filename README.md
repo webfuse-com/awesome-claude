@@ -175,6 +175,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
+- [AI Memory Reader](https://github.com/nvwalj/ai-memory-reader) -  Native macOS app that auto-discovers and renders memory files from Claude Code, Codex, Cursor, Gemini, Continue, Copilot, Aider, and OpenClaw — CLAUDE.md, AGENTS.md, daily memory entries, plus a chunked viewer for `~/.claude/projects/*.jsonl` session transcripts that crash VSCode on multi-MB files. Swift, ~3 MB universal binary, zero network calls, GPL-3.0.
 
 ---
 
