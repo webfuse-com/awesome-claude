@@ -135,6 +135,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Introduction to MCP](https://anthropic.skilljar.com/introduction-to-model-context-protocol) -  Official Anthropic course: build MCP servers and clients from scratch in Python.
 - [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Sampling, notifications, transports.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
+- [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp#readme) -  Code-intelligence MCP server that indexes a codebase into a queryable knowledge graph (functions, classes, call chains, routes) — 159 languages, sub-ms structural queries, ~99% fewer tokens than grep. Single static binary, 100% local.
 
 ---
 
