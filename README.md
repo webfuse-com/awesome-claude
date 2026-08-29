@@ -136,6 +136,12 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Sampling, notifications, transports.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
 
+### 🪝 Hooks & Governance (Community)
+
+Community-built hook suites and governance tools for runtime enforcement of LLM behavioral safety at the Claude Code Stop/SubagentStop/PreCompact lifecycle.
+
+- [LLM Dark Patterns Hooks](https://github.com/waitdeadai/llm-dark-patterns) -  Apache-2.0 10-hook suite for runtime enforcement of documented LLM dark patterns (DarkBench arXiv 2503.10728, AAAI 2026, ACM IUI 2025). Out-of-band bash + jq judge — no LLM in the enforcement loop, so prompt injection cannot bypass it. Includes 168-fixture stress test.
+
 ---
 
 ## ⭐ Community Curated Lists
