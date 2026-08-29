@@ -79,6 +79,7 @@ Model IDs from the 4.6 generation onward are dateless but still pinned snapshots
 
 - [claude-agent-sdk-python](https://github.com/anthropics/claude-agent-sdk-python) -  Python Agent SDK. [Docs](https://platform.claude.com/docs/en/agent-sdk/overview)
 - [claude-agent-sdk-typescript](https://github.com/anthropics/claude-agent-sdk-typescript) -  TypeScript Agent SDK.
+- [claw-army/claude-node](https://github.com/claw-army/claude-node) -  Python subprocess bridge for Claude Code CLI, giving Python code direct access to Claude Code native capabilities via stream-json.
 
 **Starters**
 
