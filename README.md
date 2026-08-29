@@ -126,6 +126,7 @@ Terminal-first agentic coding tool (CLI), with VS Code/JetBrains IDE integration
 - [Claude Desktop](https://claude.ai/download) -  macOS + Windows app; includes **Cowork** GUI for non-technical workflows and the dedicated **Code** tab.
 - Install CLI: `curl -fsSL https://claude.ai/install.sh | bash` (macOS/Linux) or via Homebrew/Winget.
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Integrates with Claude Code for browser control (multi-tab workflows, Slack, Gmail, GitHub).
+- [nowork-studio/NotFair](https://github.com/nowork-studio/NotFair) -  Open-source Claude Code skills for SEO, GEO, Google Ads, and Meta Ads (~2.9k stars, MIT). Connects to live marketing data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP to run audits, keyword research, schema markup, and paid-ads optimizations directly from Claude Code.
 
 ### 🔌 Model Context Protocol (MCP)
 
