@@ -117,6 +117,7 @@ Model IDs from the 4.6 generation onward are dateless but still pinned snapshots
 
 **Anthropic's agentic coding platform and open extension standard**
 
+- [inite-brain-service](https://github.com/inite-ai/inite-brain-service) — open-source memory layer for Claude (and any other MCP client). Bitemporal knowledge graph, 18 tools, three memory tiers (facts/episodes/procedural), conflict resolution, GDPR forget. AGPL-3.0.
 ### 🤖 Claude Code
 
 Terminal-first agentic coding tool (CLI), with VS Code/JetBrains IDE integrations, Desktop GUI (Cowork), and browser control. Understands entire codebases, plans and executes multi-step tasks, edits files, runs git/shell, creates PRs, and integrates browser control.
