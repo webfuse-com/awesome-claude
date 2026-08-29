@@ -166,7 +166,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Max plan required. Claude works directly in your browser and takes actions on your behalf. Features scheduled tasks, planning mode, multi-tab workflows, and smart navigation for Slack, Gmail, Google Calendar, Docs, and GitHub.
 - [Claude Usage Tracker](https://chromewebstore.google.com/detail/claude-usage-tracker/knemcdpkggnbhpoaaagmjiigenifejfo) -  Chrome extension for tracking Claude AI usage and performance metrics.
-
+- [Claude.ai 中文界面](https://github.com/abckkf321/claude-translate-extension) - Chrome/Edge extension that translates the Claude.ai UI into Simplified Chinese, covering 1300+ UI strings with real-time dynamic text support.
 ---
 
 ## 💻 Applications
@@ -217,7 +217,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude Discord](https://discord.com/invite/prcdpx7qMm) -  Official Discord community for Claude users and developers.
 - [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/) -  Reddit community for Claude discussions and tips.
 - [Anthropic AI Facebook Group](https://www.facebook.com/groups/anthropicai/) -  Facebook group for Anthropic AI and Claude discussions.
-
+- [Claude.ai 中文界面](https://github.com/abckkf321/claude-translate-extension) - Add Claude.ai Chinese UI Extension to Browser Extensions
 ---
 
 **[⬆ Back to Contents](#-contents)**
