@@ -209,6 +209,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [A Guide to Claude Code 2.0 and getting better at using coding agents](https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/#setup) - Part 2: A deep dive into the 2.0 update, focusing on the "Agent Manager" mindset, context engineering, and using sub-agents for larger codebases.
 
 ---
+- [Claude Code Orchestration KO](https://github.com/soul-sol/claude-code-orchestration-ko) - Korean guide and templates for orchestrating Claude Code with Codex, GLM, and Gemini workers.
 
 ## 👥 Community
 
