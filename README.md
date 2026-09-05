@@ -11,6 +11,7 @@ AI assistant by Anthropic for complex reasoning, code generation, and analysis t
 
 - [🏢 Official Anthropic Resources](#-official-anthropic-resources)
 - [🛠️ Claude Code & Model Context Protocol (MCP)](#️-claude-code--model-context-protocol-mcp)
+- [📦 Agent Skills](#-agent-skills)
 - [⭐ Community Curated Lists](#-community-curated-lists)
 - [🧩 Extensions & Integrations](#-extensions--integrations)
 - [💻 Applications](#-applications)
@@ -135,6 +136,14 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Introduction to MCP](https://anthropic.skilljar.com/introduction-to-model-context-protocol) -  Official Anthropic course: build MCP servers and clients from scratch in Python.
 - [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Sampling, notifications, transports.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
+
+---
+
+## 📦 Agent Skills
+
+**Reusable [Agent Skills](https://agentskills.io/specification) that teach Claude Code (and other agents) domain-specific workflows**
+
+- [swissco](https://github.com/prospex-ch/swissco-cli) -  Swiss company data from the shell: ten commands over six open-data sources (Zefix, SHAB, simap, FINMA, GLEIF, ARAMIS). Look up a company by UID, search 790,000 companies by name or statutory purpose, list gazette publications, trace registry events, watch companies for change, browse public tenders, check bank licences, resolve a UID to an LEI and group parent, or find federally funded research. No API key, no signup. Install the skill with `npx skills add prospex-ch/swissco-cli`. [Docs](https://swissco.readthedocs.io)
 
 ---
 
