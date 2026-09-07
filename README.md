@@ -79,6 +79,7 @@ Model IDs from the 4.6 generation onward are dateless but still pinned snapshots
 
 - [claude-agent-sdk-python](https://github.com/anthropics/claude-agent-sdk-python) -  Python Agent SDK. [Docs](https://platform.claude.com/docs/en/agent-sdk/overview)
 - [claude-agent-sdk-typescript](https://github.com/anthropics/claude-agent-sdk-typescript) -  TypeScript Agent SDK.
+- [claude-agent-sdk-ruby](https://github.com/ya-luotao/claude-agent-sdk-ruby) -  Community-maintained Ruby Agent SDK (unofficial) with Rails integration. [Gem](https://rubygems.org/gems/claude-agent-sdk)
 
 **Starters**
 
