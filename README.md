@@ -175,6 +175,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
+- [Usage HUD](https://hud.thaliabloom.com) -  Native Mac menu-bar meter for Claude Code, Codex, Gemini, Grok, and Ollama usage windows. Confidence label on every number. Local only. $9. If CodexBar already works for you, you do not need this.
 
 ---
 
