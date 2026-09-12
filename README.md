@@ -137,6 +137,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
 
 ---
+- [Zambo](https://github.com/zambodotdev/zambo-mcp) - Open-source MCP server: 120 native execution tools, 17 products, MIT. Free 20 calls/tool/day, no account.
 
 ## ⭐ Community Curated Lists
 
