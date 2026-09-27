@@ -7,18 +7,10 @@ AI assistant by Anthropic for complex reasoning, code generation, and analysis t
 
 ---
 
-<div align="center">
-
-**📌 Update:** Official [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) course now available  
-_Practical walkthrough for integrating Claude Code into your development workflow_
-
-</div>
-
----
-
 ## 📋 Contents
 
 - [🏢 Official Anthropic Resources](#-official-anthropic-resources)
+- [🛠️ Claude Code & Model Context Protocol (MCP)](#️-claude-code--model-context-protocol-mcp)
 - [⭐ Community Curated Lists](#-community-curated-lists)
 - [🧩 Extensions & Integrations](#-extensions--integrations)
 - [💻 Applications](#-applications)
@@ -27,60 +19,122 @@ _Practical walkthrough for integrating Claude Code into your development workflo
 
 ---
 
+<div align="center">
+
+<a href="https://github.com/webfuse-com/awesome-webmcp"><img src="assets/webmcp-deverlopers.png" alt="awesome-webmcp" height="80" style="border-radius: 16px;"></a>
+
+**Building with the Web?** Check out [awesome-webmcp](https://github.com/webfuse-com/awesome-webmcp) - a curated list of awesome things related to the WebMCP W3C standard.
+
+</div>
+
+---
+
 ## 🏢 Official Anthropic Resources
 
-**The authoritative source for everything Claude — directly from Anthropic**
+**The authoritative source for everything Claude -  directly from Anthropic**
 
-### 🧠 Current Models (Claude 4.5 Family - Released 2025)
+### 🧠 Current Models (2026)
 
-- **Claude Opus 4.5** (Nov 2025) — World's best for coding, agents, computer use, and complex enterprise tasks. Dramatically improved token efficiency. [Announcement](https://www.anthropic.com/news/claude-opus-4-5)
-- **Claude Sonnet 4.5** (Sep/Oct 2025) — Best balance of intelligence, speed, and cost. Sets new benchmarks in coding, reasoning, and alignment. [Announcement](https://www.anthropic.com/news/claude-sonnet-4-5)
-- **Claude Haiku 4.5** (Oct 2025) — Fastest and most cost-effective, with state-of-the-art speed for complex tasks. [Announcement](https://www.anthropic.com/news/claude-haiku-4-5)
+- **Claude Fable 5** (Jun 9, 2026) -  Anthropic's most capable widely released model, for the most demanding reasoning and long-horizon agentic work. State-of-the-art on nearly all tested benchmarks — software engineering, knowledge work, vision, and scientific research — with its lead growing on longer, more complex tasks (highest score on Cognition's FrontierBench, first model past 90% on Anthropic's core long-running analytics benchmark, strongest finance model Anthropic has tested). Thinking is always on; the raw chain of thought is never returned. Safety classifiers route high-risk requests (cybersecurity, bio/chem, model distillation — under 5% of sessions) to Opus 4.8. Requires 30-day data retention (not available under zero data retention). **Claude Mythos 5** is the same underlying model with safeguards lifted for authorized users (Project Glasswing). [Announcement](https://www.anthropic.com/news/claude-fable-5-mythos-5) | [Docs](https://platform.claude.com/docs/en/about-claude/models/introducing-claude-fable-5-and-claude-mythos-5) | [System Card](https://www.anthropic.com/claude-fable-5-mythos-5-system-card)
+- **Claude Opus 5** (Jul 24, 2026) -  The model to start with for complex agentic coding and enterprise work, and a step change over Opus 4.8 on deep reasoning, long-horizon agentic execution, and test-time compute scaling — at half the price of Fable 5. Thinking is now **on by default** (omit `thinking` and you get adaptive), the full `low`→`max` effort ladder is supported, and the minimum cacheable prompt drops to 512 tokens. Fast mode (`speed: "fast"`) is available on the Claude API only. [Announcement](https://www.anthropic.com/news/claude-opus-5) | [Migration guide](https://platform.claude.com/docs/en/about-claude/models/migration-guide) | [System Card](https://www.anthropic.com/claude-opus-5-system-card)
+- **Claude Sonnet 5** (Jun 30, 2026) -  The best combination of speed and intelligence, reaching what used to be Opus-tier quality on coding and agentic tasks. First Sonnet-tier model with the `xhigh` effort level and high-resolution vision (2,576px long edge). Uses the newer tokenizer, so the same text produces ~30% more tokens than Sonnet 4.6 — re-baseline your token budgets when you migrate. [Announcement](https://www.anthropic.com/news/claude-sonnet-5) | [System Card](https://www.anthropic.com/claude-sonnet-5-system-card)
+- **Claude Haiku 4.5** (Oct 2025) -  Still the fastest model with near-frontier intelligence. Perfect for high-volume, real-time, and sub-agent tasks. [Announcement](https://www.anthropic.com/news/claude-haiku-4-5)
+
+**Key specs (API):**  
+- Fable 5: `claude-fable-5` • $10/$50 per MTok • 1M context / 128K max output  
+- Opus 5: `claude-opus-5` • $5/$25 per MTok • 1M context / 128K max output  
+- Sonnet 5: `claude-sonnet-5` • $3/$15 per MTok ($2/$10 introductory through Aug 31, 2026) • 1M context / 128K max output  
+- Haiku 4.5: `claude-haiku-4-5` • $1/$5 per MTok • 200K context / 64K max output  
+
+Model IDs from the 4.6 generation onward are dateless but still pinned snapshots, not evergreen pointers — see [Model IDs and versioning](https://platform.claude.com/docs/en/about-claude/models/model-ids-and-versions). Full comparison: [Models overview](https://platform.claude.com/docs/en/about-claude/models/overview) | [Pricing](https://platform.claude.com/docs/en/about-claude/pricing)
+
+**Previous generations (still active)**
+
+- **Claude Opus 4.8** (May 28, 2026) -  Highly autonomous, strong on long-horizon agentic work, knowledge work, and memory, with clearer and warmer writing than 4.7. Introduced **Dynamic Workflows** in Claude Code (plan work, run hundreds of parallel subagents in one session, verify before returning), effort control on claude.ai, and mid-conversation system messages via the Messages API. Still the recommended fallback for Fable 5 refusals. [Announcement](https://www.anthropic.com/news/claude-opus-4-8) | [What's new](https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-8) | [System Card](https://www.anthropic.com/claude-opus-4-8-system-card)
+- **Claude Opus 4.7** (Apr 16, 2026) -  Introduced high-resolution vision (images up to ~3.75 MP / 2,576px long edge), the `xhigh` effort level, and task budgets. [Announcement](https://www.anthropic.com/news/claude-opus-4-7) | [System Card](https://www.anthropic.com/claude-opus-4-7-system-card)
+- **Claude Opus 4.6** (Feb 5, 2026) -  Introduced the 1M token context window and adaptive thinking. [Announcement](https://www.anthropic.com/news/claude-opus-4-6) | [System Card](https://www.anthropic.com/claude-opus-4-6-system-card)
+- **Claude Sonnet 4.6** (Feb 17, 2026) -  The previous speed/cost balance pick, superseded by Sonnet 5. [Announcement](https://www.anthropic.com/news/claude-sonnet-4-6)
+
+**Migrating?** Extended thinking with a fixed `budget_tokens`, the sampling parameters (`temperature`/`top_p`/`top_k`), and last-assistant-turn prefills all return a 400 on the Claude 5 family. Use [adaptive thinking](https://platform.claude.com/docs/en/build-with-claude/adaptive-thinking) plus the [effort parameter](https://platform.claude.com/docs/en/build-with-claude/effort) instead, and structured outputs in place of prefills. Full list: [Migration guide](https://platform.claude.com/docs/en/about-claude/models/migration-guide).
 
 ### 🔌 API & Developer Platform
 
-- [Anthropic Console](https://console.anthropic.com) — Sign up, get API keys, test prompts, and monitor usage.
-- [Official Documentation](https://platform.claude.com/docs/en/get-started) — Complete API reference, guides, prompt engineering, tool use, computer use, and release notes.
-- [API Overview & Pricing](https://platform.claude.com/docs/en/about-claude/models/overview) — Usage-based pricing, prompt caching, web search, computer use (Python execution), batch processing, citations, and more.
+- [Claude Developer Console](https://console.anthropic.com) -  API keys, prompt testing, usage monitoring, Claude Code sessions.
+- [Official Documentation](https://platform.claude.com/docs/) -  Full reference for Messages API, tool use, computer use, prompt caching, structured outputs, citations, MCP Connector, and Claude Code.
+- [Models & Pricing](https://platform.claude.com/docs/en/about-claude/models/overview) -  Latest model IDs, pricing, context windows, thinking features, and cloud provider IDs.
 
 ### 🔧 SDKs & Development Tools
 
-**Official SDKs** — The most reliable way to use the Claude API. All support messages, tool use, streaming, prompt caching, and more.
+**Official Client SDKs** -  Full feature parity: messages, tools, streaming, caching, computer use.
 
-- [anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python) — Python SDK with async support, type hints, and full feature parity.
-- [anthropic-sdk-typescript](https://github.com/anthropics/anthropic-sdk-typescript) — TypeScript/JavaScript SDK for Node.js and browsers.
-- [anthropic-sdk-java](https://github.com/anthropics/anthropic-sdk-java) — Java/Kotlin SDK with modern features.
-- [anthropic-sdk-go](https://github.com/anthropics/anthropic-sdk-go) — Go SDK with idiomatic design.
-- [anthropic-sdk-php](https://github.com/anthropics/anthropic-sdk-php) — PHP SDK (Beta).
-- [anthropic-sdk-csharp](https://github.com/anthropics/anthropic-sdk-csharp) — C#/.NET SDK (Beta).
-- [anthropic-sdk-ruby](https://github.com/anthropics/anthropic-sdk-ruby) — Ruby SDK.
+- [anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python) -  Python SDK with async support and type hints.
+- [anthropic-sdk-typescript](https://github.com/anthropics/anthropic-sdk-typescript) -  TypeScript/JavaScript SDK for Node.js and browsers.
+- [anthropic-sdk-java](https://github.com/anthropics/anthropic-sdk-java) -  Java/Kotlin SDK with modern features.
+- [anthropic-sdk-go](https://github.com/anthropics/anthropic-sdk-go) -  Go SDK with idiomatic design.
+- [anthropic-sdk-ruby](https://github.com/anthropics/anthropic-sdk-ruby) -  Ruby SDK.
+- [anthropic-sdk-csharp](https://github.com/anthropics/anthropic-sdk-csharp) -  C#/.NET SDK (Beta).
+- [anthropic-sdk-php](https://github.com/anthropics/anthropic-sdk-php) -  PHP SDK (Beta).
 
-**Agent SDKs** — For building advanced agentic applications.
+**Agent SDKs** -  Build custom autonomous agents with Claude Code capabilities.
 
-- [Claude Agent SDK (Python)](https://github.com/anthropics/claude-agent-sdk-python)
-- [Claude Agent SDK (TypeScript)](https://github.com/anthropics/claude-agent-sdk-typescript)
+- [claude-agent-sdk-python](https://github.com/anthropics/claude-agent-sdk-python) -  Python Agent SDK. [Docs](https://platform.claude.com/docs/en/agent-sdk/overview)
+- [claude-agent-sdk-typescript](https://github.com/anthropics/claude-agent-sdk-typescript) -  TypeScript Agent SDK.
 
-**Code Examples & Starters**
+**Starters**
 
-- [Claude Cookbook](https://github.com/anthropics/claude-cookbooks) — Official notebooks and recipes for common patterns (RAG, tool use, etc.).
-- [Claude Quickstarts](https://github.com/anthropics/claude-quickstarts) — Ready-to-deploy example apps.
+- [Claude Cookbook](https://github.com/anthropics/claude-cookbooks) -  Official notebooks and recipes for common patterns (RAG, tool use, Skills, MCP).
+- [Claude Quickstarts](https://github.com/anthropics/claude-quickstarts) -  Ready-to-deploy example apps.
 
 ### ☁️ Cloud Providers
 
-**Official access to Claude models through cloud providers**
+**Official access to Claude models through cloud providers** (all carry the Claude 5 family — Fable 5 / Opus 5 / Sonnet 5)
 
-- **[Amazon Bedrock](https://aws.amazon.com/bedrock/anthropic/)** — Fully managed access to the latest Claude models (including Opus 4.5, Sonnet 4.5, and Haiku 4.5). Supports features like cross-region inference, latency optimizations, fine-tuning, agents, guardrails, and deep integration with AWS services. Ideal starting point for AWS users.
-- **[Google Cloud Vertex AI Model Garden](https://cloud.google.com/products/model-garden/claude)** — Discover and deploy Claude models directly in the Model Garden with provisioned throughput, prompt caching, batch predictions, grounding, and enterprise compliance (e.g., FedRAMP High). Great for building and deploying agents with Google Cloud tools.
-- **[Microsoft Azure AI Model Catalog (Anthropic Publisher)](https://ai.azure.com/catalog/publishers/anthropic)** — Access Claude models (Opus 4.5, Sonnet 4.5, Haiku 4.5, and more) via the AI Model Catalog (public preview). Supports serverless deployment, agent building, tool integration, fine-tuning, and billing through existing Azure agreements. Perfect for hands-on discovery and deployment in Azure ecosystems.
+- **[Amazon Bedrock](https://aws.amazon.com/bedrock/anthropic/)** -  Fully managed access to the latest Claude models (Fable 5, Opus 5, Sonnet 5, Haiku 4.5). Claude 5 models are served through the Messages-API Bedrock endpoint and take an `anthropic.` ID prefix (e.g. `anthropic.claude-opus-5`). Supports cross-region inference, latency optimizations, fine-tuning, agents, guardrails, and deep AWS integration. (Note: Managed Agents and Anthropic server-side tools are not available on Bedrock — use Claude API + tool use there.)
+- **[Claude Platform on AWS](https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws)** -  Anthropic-operated access via AWS infrastructure: SigV4 auth, IAM access control, AWS Marketplace billing, and same-day API parity with the first-party API. Model IDs are the bare first-party strings (no `anthropic.` prefix) — not the same thing as Bedrock.
+- **[Google Cloud Vertex AI Model Garden](https://cloud.google.com/products/model-garden/claude)** -  Deploy Claude models with provisioned throughput, prompt caching, batch predictions, grounding, and enterprise compliance (FedRAMP High). Great for building agents with Google Cloud tools.
+- **[Microsoft Azure AI Model Catalog (Anthropic Publisher)](https://ai.azure.com/catalog/publishers/anthropic)** -  Claude models via the AI Model Catalog. Supports serverless deployment, agent building, tool integration, fine-tuning, and billing through existing Azure agreements.
 
 ### 🛡️ Transparency & Safety
 
 **Detailed evaluations, risk assessments, and alignment insights for Claude models**
 
-- [Transparency Hub](https://www.anthropic.com/transparency) — Overview of safety evaluations and improvements across models.
-- [Claude Opus 4.5 System Card](https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf) — Comprehensive capability and safety report (Nov 2025).
-- [Claude Sonnet 4.5 System Card](https://assets.anthropic.com/m/12f214efcc2f457a/original/Claude-Sonnet-4-5-System-Card.pdf) — Detailed evaluations (Sep 2025).
-- [Claude Haiku 4.5 System Card](https://www.anthropic.com/claude-haiku-4-5-system-card) — Safety and performance report (Oct 2025).
+- [Transparency Hub](https://www.anthropic.com/transparency) -  Overview of safety evaluations and improvements across models.
+- [All System Cards](https://www.anthropic.com/system-cards) -  Index of all model system cards.
+  - [Claude Opus 5 System Card](https://www.anthropic.com/claude-opus-5-system-card) -  Capability and safety report (Jul 2026).
+  - [Claude Fable 5 & Mythos 5 System Card](https://www.anthropic.com/claude-fable-5-mythos-5-system-card) -  Capability and safety report (Jun 2026).
+  - [Claude Sonnet 5 System Card](https://www.anthropic.com/claude-sonnet-5-system-card) -  Detailed evaluations (Jun 2026).
+  - [Claude Opus 4.8 System Card](https://www.anthropic.com/claude-opus-4-8-system-card) -  Capability and safety report (May 2026).
+  - [Claude Opus 4.7 System Card](https://www.anthropic.com/claude-opus-4-7-system-card) -  Capability and safety report (Apr 2026).
+  - [Claude Opus 4.6 System Card](https://www.anthropic.com/claude-opus-4-6-system-card) -  Capability and safety report (Feb 2026).
+  - [Claude Sonnet 4.6 System Card](https://www.anthropic.com/claude-sonnet-4-6-system-card) -  Detailed evaluations (Feb 2026).
+  - [Claude Opus 4.5 System Card](https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf) -  Comprehensive capability and safety report (Nov 2025).
+  - [Claude Haiku 4.5 System Card](https://www.anthropic.com/claude-haiku-4-5-system-card) -  Safety and performance report (Oct 2025).
+- [Claude Code Security](https://www.anthropic.com/news/claude-code-security) -  Security model and threat analysis for Claude Code (Feb 2026).
+
+---
+
+## 🛠️ Claude Code & Model Context Protocol (MCP)
+
+**Anthropic's agentic coding platform and open extension standard**
+
+### 🤖 Claude Code
+
+Terminal-first agentic coding tool (CLI), with VS Code/JetBrains IDE integrations, Desktop GUI (Cowork), and browser control. Understands entire codebases, plans and executes multi-step tasks, edits files, runs git/shell, creates PRs, and integrates browser control.
+
+- [Official site & docs](https://code.claude.com/docs/en/overview) -  Getting started, commands, memory, hooks, GitHub Actions, IDE setup.
+- [Product page](https://claude.ai/product/claude-code) -  Overview of Claude Code features and plans.
+- [Claude Desktop](https://claude.ai/download) -  macOS + Windows app; includes **Cowork** GUI for non-technical workflows and the dedicated **Code** tab.
+- Install CLI: `curl -fsSL https://claude.ai/install.sh | bash` (macOS/Linux) or via Homebrew/Winget.
+- [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Integrates with Claude Code for browser control (multi-tab workflows, Slack, Gmail, GitHub).
+
+### 🔌 Model Context Protocol (MCP)
+
+Open standard (Linux Foundation) for connecting Claude to tools, repos, databases, tickets, and more. Supports one-click desktop extensions (`.mcpb` files).
+
+- [MCP official site](https://modelcontextprotocol.io/) -  Spec, SDKs, and quickstart.
+- [Introduction to MCP](https://anthropic.skilljar.com/introduction-to-model-context-protocol) -  Official Anthropic course: build MCP servers and clients from scratch in Python.
+- [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Sampling, notifications, transports.
+- [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
 
 ---
 
@@ -88,13 +142,13 @@ _Practical walkthrough for integrating Claude Code into your development workflo
 
 **Awesome lists and collections maintained by the community**
 
-- [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code#readme) — Slash-commands, CLAUDE.md files, CLI tools, and workflows for Claude Code.
-- [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills#readme) — Resources and tools for customizing AI workflows with Claude Skills.
-- [BehiSecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills#readme) — Categorized skills for document handling, development tools, data analysis, and more.
-- [langgptai/awesome-claude-prompts](https://github.com/langgptai/awesome-claude-prompts#readme) — Collection of prompt examples designed to improve Claude interactions.
-- [vijaythecoder/awesome-claude-agents](https://github.com/vijaythecoder/awesome-claude-agents#readme) — Team of specialized AI agents for building features and debugging.
-- [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents#readme) — 100+ specialized AI agents for full-stack development maintained by the community.
-- [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) — Curated list of Model Context Protocol (MCP) servers for extending Claude's capabilities.
+- [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code#readme) -  Slash-commands, CLAUDE.md files, CLI tools, and workflows for Claude Code.
+- [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills#readme) -  Resources and tools for customizing AI workflows with Claude Skills.
+- [BehiSecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills#readme) -  Categorized skills for document handling, development tools, data analysis, and more.
+- [langgptai/awesome-claude-prompts](https://github.com/langgptai/awesome-claude-prompts#readme) -  Collection of prompt examples designed to improve Claude interactions.
+- [vijaythecoder/awesome-claude-agents](https://github.com/vijaythecoder/awesome-claude-agents#readme) -  Team of specialized AI agents for building features and debugging.
+- [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents#readme) -  100+ specialized AI agents for full-stack development maintained by the community.
+- [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated list of Model Context Protocol (MCP) servers for extending Claude's capabilities.
 
 ---
 
@@ -102,14 +156,16 @@ _Practical walkthrough for integrating Claude Code into your development workflo
 
 ### 🎨 IDE Extensions
 
-- [Claude Code Chat](https://github.com/andrepimenta/claude-code-chat#readme) — Beautiful native chat interface for Claude Code within VS Code with conversation history and MCP support.
-- [Claude Code Theme](https://github.com/ashwingopalsamy/claude-code-theme) — Claude-inspired VS Code theme pack with dark/light/high-contrast and brand variants, semantic token tuning, and ANSI-optimized terminal colors.
-- [Claude VSCode Theme](https://marketplace.visualstudio.com/items?itemName=AlvinUnreal.claude-vscode-theme) — Thoughtful dark theme collection with classic and italic variants. Inspired by Claude AI with carefully balanced contrast and warm syntax colors.
+- [Claude Code for VS Code](https://marketplace.visualstudio.com/items?itemName=Anthropic.claude-code) -  Official Anthropic extension. Inline diffs, `@`-mentions, plan review, conversation history, and full Claude Code integration.
+- [Claude Code for JetBrains (Beta)](https://plugins.jetbrains.com/plugin/27310-claude-code-beta-) -  Official Anthropic plugin for IntelliJ, PyCharm, WebStorm, and other JetBrains IDEs.
+- [Claude Code Chat](https://github.com/andrepimenta/claude-code-chat#readme) -  Beautiful native chat interface for Claude Code within VS Code with conversation history and MCP support.
+- [Claude Code Theme](https://github.com/ashwingopalsamy/claude-code-theme) -  Claude-inspired VS Code theme pack with dark/light/high-contrast and brand variants, semantic token tuning, and ANSI-optimized terminal colors.
+- [Claude VSCode Theme](https://marketplace.visualstudio.com/items?itemName=AlvinUnreal.claude-vscode-theme) -  Thoughtful dark theme collection with classic and italic variants. Inspired by Claude AI with carefully balanced contrast and warm syntax colors.
 
 ### 🌐 Browser Extensions
 
-- [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) — Max plan required. Claude works directly in your browser and takes actions on your behalf. Features scheduled tasks, planning mode, multi-tab workflows, and smart navigation for Slack, Gmail, Google Calendar, Docs, and GitHub.
-- [Claude Usage Tracker](https://chromewebstore.google.com/detail/claude-usage-tracker/knemcdpkggnbhpoaaagmjiigenifejfo) — Chrome extension for tracking Claude AI usage and performance metrics.
+- [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Max plan required. Claude works directly in your browser and takes actions on your behalf. Features scheduled tasks, planning mode, multi-tab workflows, and smart navigation for Slack, Gmail, Google Calendar, Docs, and GitHub.
+- [Claude Usage Tracker](https://chromewebstore.google.com/detail/claude-usage-tracker/knemcdpkggnbhpoaaagmjiigenifejfo) -  Chrome extension for tracking Claude AI usage and performance metrics.
 
 ---
 
@@ -117,9 +173,9 @@ _Practical walkthrough for integrating Claude Code into your development workflo
 
 ### 🖥️ Desktop
 
-- [AIQuotaBar](https://github.com/yagcioglutoprak/AIQuotaBar) - macOS menu bar app showing live Claude.ai session and weekly usage limits. Zero setup, reads browser cookies locally.
-- [Claude Desktop](https://claude.ai/download) — Official Claude desktop app for macOS and Windows.
-- [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) — Unofficial Claude desktop app for Debian/Linux.
+- [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
+- [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
+- [AIQuotaBar](https://github.com/yagcioglutoprak/AIQuotaBar) -  Open-source macOS menu bar app that shows Claude, ChatGPT, Cursor and GitHub Copilot usage limits with reset countdowns and pace warnings.
 
 ---
 
@@ -129,26 +185,27 @@ _Practical walkthrough for integrating Claude Code into your development workflo
 
 **Free courses from Anthropic covering prompt engineering, API usage, agents, and more**
 
-- [AI Fluency: Framework & Foundations](https://anthropic.skilljar.com/ai-fluency-framework-foundations) — Collaborate with AI systems effectively, efficiently, ethically, and safely.
-- [AI Fluency for Educators](https://anthropic.skilljar.com/ai-fluency-for-educators) — Apply AI Fluency into teaching practice and institutional strategy.
-- [AI Fluency for Students](https://anthropic.skilljar.com/ai-fluency-for-students) — Enhance learning, career planning, and academic success through AI.
-- [AI Fluency for Nonprofits](https://anthropic.skilljar.com/ai-fluency-for-nonprofits) — Increase organizational impact while staying true to mission and values.
-- [Teaching AI Fluency](https://anthropic.skilljar.com/teaching-ai-fluency) — Teach and assess AI Fluency in instructor-led settings.
-- [Building with the Claude API](https://anthropic.skilljar.com/claude-with-the-anthropic-api) — Full spectrum of working with Anthropic models using the Claude API.
-- [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) — Practical walkthrough of using Claude Code to accelerate your development workflow.
-- [Introduction to Model Context Protocol](https://anthropic.skilljar.com/introduction-to-model-context-protocol) — Build MCP servers and clients from scratch using Python.
-- [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) — Advanced patterns including sampling, notifications, and transports.
-- [Claude with Amazon Bedrock](https://anthropic.skilljar.com/claude-in-amazon-bedrock) — Accreditation program course, now available publicly.
-- [Claude with Google Vertex AI](https://anthropic.skilljar.com/claude-with-google-vertex) — Working with Anthropic models through Google Cloud's Vertex AI.
+- [AI Fluency: Framework & Foundations](https://anthropic.skilljar.com/ai-fluency-framework-foundations) -  Collaborate with AI systems effectively, efficiently, ethically, and safely.
+- [AI Fluency for Educators](https://anthropic.skilljar.com/ai-fluency-for-educators) -  Apply AI Fluency into teaching practice and institutional strategy.
+- [AI Fluency for Students](https://anthropic.skilljar.com/ai-fluency-for-students) -  Enhance learning, career planning, and academic success through AI.
+- [AI Fluency for Nonprofits](https://anthropic.skilljar.com/ai-fluency-for-nonprofits) -  Increase organizational impact while staying true to mission and values.
+- [Teaching AI Fluency](https://anthropic.skilljar.com/teaching-ai-fluency) -  Teach and assess AI Fluency in instructor-led settings.
+- [Building with the Claude API](https://anthropic.skilljar.com/claude-with-the-anthropic-api) -  Full spectrum of working with Anthropic models using the Claude API.
+- [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) -  Practical walkthrough of using Claude Code to accelerate your development workflow.
+- [Introduction to Model Context Protocol](https://anthropic.skilljar.com/introduction-to-model-context-protocol) -  Build MCP servers and clients from scratch using Python.
+- [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Advanced patterns including sampling, notifications, and transports.
+- [Claude Agent SDK Overview](https://platform.claude.com/docs/en/agent-sdk/overview) -  Docs for building custom autonomous agents using the official Agent SDKs.
+- [Claude with Amazon Bedrock](https://anthropic.skilljar.com/claude-in-amazon-bedrock) -  Accreditation program course, now available publicly.
+- [Claude with Google Vertex AI](https://anthropic.skilljar.com/claude-with-google-vertex) -  Working with Anthropic models through Google Cloud's Vertex AI.
 
 ### 📹 Video Tutorials
 
-- [Claude Video Tutorials](https://support.claude.com/en/collections/10548294-video-tutorials) — Official video tutorials from Claude Support.
+- [Anthropic on YouTube](https://www.youtube.com/@anthropic-ai) -  Official video tutorials, model launches, and deep dives.
 
 ### 📖 Community Guides
 
-- [Claude Code Everything You Need to Know](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know#readme) — Ultimate all-in-one guide to mastering Claude Code. Covers setup, prompt engineering, commands, hooks, workflows, automation, integrations, MCP servers, and the BMAD method.
-- [40+ Claude Code Tips](https://github.com/ykdojo/claude-code-tips#readme) — Tips for getting the most out of Claude Code, including a custom status line script, cutting the system prompt in half, using Gemini CLI as Claude Code's minion, and Claude Code running itself in a container. Also includes the dx plugin for GitHub Actions debugging, conversation cloning, and handoffs.
+- [Claude Code Everything You Need to Know](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know#readme) -  Ultimate all-in-one guide to mastering Claude Code. Covers setup, prompt engineering, commands, hooks, workflows, automation, integrations, MCP servers, and the BMAD method.
+- [40+ Claude Code Tips](https://github.com/ykdojo/claude-code-tips#readme) -  Tips for getting the most out of Claude Code, including a custom status line script, cutting the system prompt in half, using Gemini CLI as Claude Code's minion, and Claude Code running itself in a container. Also includes the dx plugin for GitHub Actions debugging, conversation cloning, and handoffs.
 - [My Experience With Claude Code After 2 Weeks of Adventures](https://sankalp.bearblog.dev/my-claude-code-experience-after-2-weeks-of-usage/) - Part 1: Real-world lessons on using a `TODO.md` file to keep Claude on track, managing costs, and why it often outperforms Cursor for complex refactors.
 - [A Guide to Claude Code 2.0 and getting better at using coding agents](https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/#setup) - Part 2: A deep dive into the 2.0 update, focusing on the "Agent Manager" mindset, context engineering, and using sub-agents for larger codebases.
 
@@ -158,9 +215,9 @@ _Practical walkthrough for integrating Claude Code into your development workflo
 
 **Join the Claude community to share knowledge, get help, and stay updated**
 
-- [Claude Discord](https://discord.com/invite/prcdpx7qMm) — Official Discord community for Claude users and developers.
-- [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/) — Reddit community for Claude discussions and tips.
-- [Anthropic AI Facebook Group](https://www.facebook.com/groups/anthropicai/) — Facebook group for Anthropic AI and Claude discussions.
+- [Claude Discord](https://discord.com/invite/prcdpx7qMm) -  Official Discord community for Claude users and developers.
+- [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/) -  Reddit community for Claude discussions and tips.
+- [Anthropic AI Facebook Group](https://www.facebook.com/groups/anthropicai/) -  Facebook group for Anthropic AI and Claude discussions.
 
 ---
 
