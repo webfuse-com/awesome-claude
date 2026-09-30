@@ -116,6 +116,7 @@ Model IDs from the 4.6 generation onward are dateless but still pinned snapshots
   - [Claude Opus 4.5 System Card](https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf) -  Comprehensive capability and safety report (Nov 2025).
   - [Claude Haiku 4.5 System Card](https://www.anthropic.com/claude-haiku-4-5-system-card) -  Safety and performance report (Oct 2025).
 - [Claude Code Security](https://www.anthropic.com/news/claude-code-security) -  Security model and threat analysis for Claude Code (Feb 2026).
+- [OrcaPromptVault](https://github.com/Continuum-AI-Corp/OrcaPromptVault/tree/main/Claude-Code) -  Community archive of Claude Code's system prompt and tool declarations as sent, recorded off the wire and dated per version, with the command that reproduces each capture. Interactive sends 26,131 characters and 35 tools; `claude -p` on the same version sends 20,806 and 29.
 
 ---
 
