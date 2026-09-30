@@ -182,6 +182,10 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
 
+### 🧰 Skill Marketplaces
+
+- [Godmode](https://getgodmode.dev) -  Marketplace of pre-built Claude Code skills (execution-mode protocols, audits, automation), plus a free tier and custom skill builds for a specific workflow.
+
 ---
 
 ## 📚 Educational Resources
