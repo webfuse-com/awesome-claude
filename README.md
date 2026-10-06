@@ -172,6 +172,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Max plan required. Claude works directly in your browser and takes actions on your behalf. Features scheduled tasks, planning mode, multi-tab workflows, and smart navigation for Slack, Gmail, Google Calendar, Docs, and GitHub.
 - [Claude Usage Tracker](https://chromewebstore.google.com/detail/claude-usage-tracker/knemcdpkggnbhpoaaagmjiigenifejfo) -  Chrome extension for tracking Claude AI usage and performance metrics.
+- [Claude Monitor](https://github.com/claude-monitor/claude-monitor-browser-extension) - Open-source Chrome and Firefox extension that shows Claude session, weekly and per-model usage limits with reset countdowns and 80%/95% alerts, with an optional bar above the claude.ai chat box that also works on the Free plan.
 
 ---
 
