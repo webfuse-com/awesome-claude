@@ -141,6 +141,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Introduction to MCP](https://anthropic.skilljar.com/introduction-to-model-context-protocol) -  Official Anthropic course: build MCP servers and clients from scratch in Python.
 - [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Sampling, notifications, transports.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
+- [Voidly Atlas MCP](https://github.com/voidly-ai/atlas-mcp) -  Internet-censorship data and Sentinel forecasts, plus optional agent relay tools (state-changing actions off by default; relay messages are relay-readable, not end-to-end encrypted). Install: `npx -y @voidly/mcp-server`.
 
 ---
 
