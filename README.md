@@ -132,6 +132,7 @@ Terminal-first agentic coding tool (CLI), with VS Code/JetBrains IDE integration
 - [Claude Desktop](https://claude.ai/download) -  macOS + Windows app; includes **Cowork** GUI for non-technical workflows and the dedicated **Code** tab.
 - Install CLI: `curl -fsSL https://claude.ai/install.sh | bash` (macOS/Linux) or via Homebrew/Winget.
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Integrates with Claude Code for browser control (multi-tab workflows, Slack, Gmail, GitHub).
+- [Tapproval](https://github.com/marcobelini/tapproval-helper) - Puts Claude Code's permission prompts on an Apple Watch, each marked with its risk, and returns the tap as the decision through a PermissionRequest hook.
 
 ### 🔌 Model Context Protocol (MCP)
 
