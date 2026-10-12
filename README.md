@@ -182,6 +182,10 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
 
+### 🌐 Web & Self-Hosted
+
+- [Sillage](https://github.com/MarlBurroW/sillage) -  Self-hosted, mobile-first web UI that drives the native Claude Code and Codex CLIs on your own machine, with sessions that outlive the client, full-text search over every conversation, an IDE panel (file explorer, editor, diffs, terminal), and an installable PWA with push. Single Docker container.
+
 ---
 
 ## 📚 Educational Resources
