@@ -181,7 +181,9 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
-
+  
+### 🐳 Docker
+- [Agent Factory](https://github.com/Ursa-Minor-Beta/agent-factory-docker-api-ui) - open-source studio for building, editing and running Claude-based AI agents.
 ---
 
 ## 📚 Educational Resources
