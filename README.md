@@ -181,6 +181,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
+- [VibeDesk](https://github.com/fxd-gif/vibedesk) - Open-source Windows desktop for running several Claude Code CLI sessions side by side, with status per session and one-click permission approvals.
 
 ---
 
