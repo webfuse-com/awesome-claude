@@ -181,6 +181,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
+- [SOMA](https://github.com/Kai-Jungsthoefel/SOMA#readme) -  Desktop app for Windows, Linux and macOS for designing 3D models in CadQuery together with Claude Code, with an integrated terminal, live 3D viewer and STL/STEP export.
 
 ---
 
