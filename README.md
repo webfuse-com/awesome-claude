@@ -132,6 +132,7 @@ Terminal-first agentic coding tool (CLI), with VS Code/JetBrains IDE integration
 - [Claude Desktop](https://claude.ai/download) -  macOS + Windows app; includes **Cowork** GUI for non-technical workflows and the dedicated **Code** tab.
 - Install CLI: `curl -fsSL https://claude.ai/install.sh | bash` (macOS/Linux) or via Homebrew/Winget.
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Integrates with Claude Code for browser control (multi-tab workflows, Slack, Gmail, GitHub).
+- [ClaudeRipple](https://github.com/PBJ-2/clauderipple) -  Local router that lets Claude Code and the Claude desktop app's Code tab use GPT (via a ChatGPT subscription), DeepSeek, Gemini, GLM, Kimi and other OpenAI-compatible models from the app's model picker and for subagents, while Claude requests stay on the user's own Claude subscription. Runs as a local HTTPS proxy with a local CA trusted only by Node, and ships a Claude Code mod that picks reasoning effort per prompt. Not affiliated with Anthropic.
 
 ### 🔌 Model Context Protocol (MCP)
 
