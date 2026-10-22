@@ -181,6 +181,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
+- [Godmode Bot](https://github.com/codextde/godmode-bot#readme) -  Open-source desktop app (macOS, Windows, Linux) that runs Claude Code as a team of persistent agents doing computer work in their own browser, with a local vault that fills passwords and 2FA codes.
 
 ---
 
