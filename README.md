@@ -140,6 +140,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [MCP official site](https://modelcontextprotocol.io/) -  Spec, SDKs, and quickstart.
 - [Introduction to MCP](https://anthropic.skilljar.com/introduction-to-model-context-protocol) -  Official Anthropic course: build MCP servers and clients from scratch in Python.
 - [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Sampling, notifications, transports.
+- [PushNotif MCP Server](https://github.com/AarsyDesign/pushnotif-mcp) -  Official remote Streamable HTTP (`https://pushnotif.biz.id/mcp`) and CLI (`npx -y pushnotif-mcp`) MCP server with 24 tools for Web Push, Android FCM, iOS APNs, In-App Banners, Social Proof Toasts, and Email OTP.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
 
 ---
