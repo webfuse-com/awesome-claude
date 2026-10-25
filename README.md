@@ -65,6 +65,7 @@ Model IDs from the 4.6 generation onward are dateless but still pinned snapshots
 - [Claude Developer Console](https://console.anthropic.com) -  API keys, prompt testing, usage monitoring, Claude Code sessions.
 - [Official Documentation](https://platform.claude.com/docs/) -  Full reference for Messages API, tool use, computer use, prompt caching, structured outputs, citations, MCP Connector, and Claude Code.
 - [Models & Pricing](https://platform.claude.com/docs/en/about-claude/models/overview) -  Latest model IDs, pricing, context windows, thinking features, and cloud provider IDs.
+- [Mode VC Radar MCP](https://modevc.com/api/mcp) - Read-only venture capital & AI market research MCP server (39 empirical AI charts, 3,650 VC firms, SEC Form D filings, and 18 founder financial calculators; free Streamable HTTP at https://modevc.com/api/mcp).
 
 ### 🔧 SDKs & Development Tools
 
