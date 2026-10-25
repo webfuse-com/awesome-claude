@@ -141,6 +141,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Introduction to MCP](https://anthropic.skilljar.com/introduction-to-model-context-protocol) -  Official Anthropic course: build MCP servers and clients from scratch in Python.
 - [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Sampling, notifications, transports.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
+- [MCP Server Generator](https://mcp-server-generator-pearl.vercel.app/) -  Free form-based generator that outputs a runnable TypeScript or Python MCP server for Claude Desktop, no OpenAPI spec needed.
 
 ---
 
