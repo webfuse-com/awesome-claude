@@ -164,6 +164,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 
 - [Claude Code for VS Code](https://marketplace.visualstudio.com/items?itemName=Anthropic.claude-code) -  Official Anthropic extension. Inline diffs, `@`-mentions, plan review, conversation history, and full Claude Code integration.
 - [Claude Code for JetBrains (Beta)](https://plugins.jetbrains.com/plugin/27310-claude-code-beta-) -  Official Anthropic plugin for IntelliJ, PyCharm, WebStorm, and other JetBrains IDEs.
+- [Agent Standup](https://github.com/Atoll92/agent-standup#readme) -  VS Code extension (also a CLI and macOS app) that shows your Claude Code and Cowork sessions, sub-agents included, as a live animated team call: who is working, stuck, or waiting for you, read from local session files.
 - [Claude Code Chat](https://github.com/andrepimenta/claude-code-chat#readme) -  Beautiful native chat interface for Claude Code within VS Code with conversation history and MCP support.
 - [Claude Code Theme](https://github.com/ashwingopalsamy/claude-code-theme) -  Claude-inspired VS Code theme pack with dark/light/high-contrast and brand variants, semantic token tuning, and ANSI-optimized terminal colors.
 - [Claude VSCode Theme](https://marketplace.visualstudio.com/items?itemName=AlvinUnreal.claude-vscode-theme) -  Thoughtful dark theme collection with classic and italic variants. Inspired by Claude AI with carefully balanced contrast and warm syntax colors.
