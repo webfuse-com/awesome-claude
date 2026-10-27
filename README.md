@@ -141,6 +141,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Introduction to MCP](https://anthropic.skilljar.com/introduction-to-model-context-protocol) -  Official Anthropic course: build MCP servers and clients from scratch in Python.
 - [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Sampling, notifications, transports.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
+- [Scalekit](https://scalekit.com) -  Hosted MCP server that gives Claude per-user OAuth access to 600+ connectors and 35,000+ tools, plus OAuth 2.1 auth for your own MCP servers. [Docs](https://docs.scalekit.com/agentkit/overview/) · [Source](https://github.com/scalekit-inc/scalekit-mcp-server)
 
 ---
 
