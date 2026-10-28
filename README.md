@@ -141,6 +141,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Introduction to MCP](https://anthropic.skilljar.com/introduction-to-model-context-protocol) -  Official Anthropic course: build MCP servers and clients from scratch in Python.
 - [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Sampling, notifications, transports.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
+- [levelcfo/open-finance-skills](https://github.com/levelcfo/open-finance-skills#readme) -  Twenty evidence-first finance skills and a read-only local MCP server for general ledger reconciliation, margin analysis, and cash flow forecasting.
 
 ---
 
@@ -172,6 +173,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Max plan required. Claude works directly in your browser and takes actions on your behalf. Features scheduled tasks, planning mode, multi-tab workflows, and smart navigation for Slack, Gmail, Google Calendar, Docs, and GitHub.
 - [Claude Usage Tracker](https://chromewebstore.google.com/detail/claude-usage-tracker/knemcdpkggnbhpoaaagmjiigenifejfo) -  Chrome extension for tracking Claude AI usage and performance metrics.
+- [Level CFO](https://chromewebstore.google.com/detail/level-cfo/eacbijcnmhhippfoplidhabjfamigdib) -  Chrome extension for financial workflow guardrails, job execution visibility, and accounts receivable alerts.
 
 ---
 
