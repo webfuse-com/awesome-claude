@@ -181,6 +181,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
+- [claude-codex-taskbar](https://github.com/chiarorosa/claude-codex-taskbar#readme) -  Unofficial Windows 10/11 taskbar widget that shows Claude Code 5-hour and weekly usage limits (plus Codex limits and CPU, RAM, GPU, disk), using the existing Claude Code login.
 
 ---
 
