@@ -141,6 +141,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Introduction to MCP](https://anthropic.skilljar.com/introduction-to-model-context-protocol) -  Official Anthropic course: build MCP servers and clients from scratch in Python.
 - [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Sampling, notifications, transports.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
+- [Mach GTM MCP](https://github.com/verma6uc/mach-gtm-mcp) -  Open-source MCP server for B2B outbound sales: build ICPs, research prospects with verified buying signals, score leads (0-100), draft personalised cold emails and LinkedIn messages, and create multi-touch sequences directly in Claude. Install: `npx mach-gtm-mcp`
 
 ---
 
