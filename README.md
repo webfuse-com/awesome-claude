@@ -181,6 +181,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
+- [Claude Accounts](https://github.com/jomonkj/claude-accounts) - Unofficial macOS menu bar app that switches Claude Desktop between accounts with one click, without losing sessions.
 
 ---
 
