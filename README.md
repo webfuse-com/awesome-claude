@@ -173,6 +173,10 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Max plan required. Claude works directly in your browser and takes actions on your behalf. Features scheduled tasks, planning mode, multi-tab workflows, and smart navigation for Slack, Gmail, Google Calendar, Docs, and GitHub.
 - [Claude Usage Tracker](https://chromewebstore.google.com/detail/claude-usage-tracker/knemcdpkggnbhpoaaagmjiigenifejfo) -  Chrome extension for tracking Claude AI usage and performance metrics.
 
+### 🧱 Claude Code Plugins
+
+- [claude-bulkhead](https://github.com/dooly6276/claude-bulkhead) -  PreToolUse hooks that read each shell command before it runs and block common conflicts between parallel Claude Code sessions on one machine: kills by a shared process name, dev servers on a port another session holds, unsafe git commands in a shared checkout, and heavy commands when RAM is low. Parses command strings, not a sandbox. MIT.
+
 ---
 
 ## 💻 Applications
