@@ -167,6 +167,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Claude Code Chat](https://github.com/andrepimenta/claude-code-chat#readme) -  Beautiful native chat interface for Claude Code within VS Code with conversation history and MCP support.
 - [Claude Code Theme](https://github.com/ashwingopalsamy/claude-code-theme) -  Claude-inspired VS Code theme pack with dark/light/high-contrast and brand variants, semantic token tuning, and ANSI-optimized terminal colors.
 - [Claude VSCode Theme](https://marketplace.visualstudio.com/items?itemName=AlvinUnreal.claude-vscode-theme) -  Thoughtful dark theme collection with classic and italic variants. Inspired by Claude AI with carefully balanced contrast and warm syntax colors.
+- [Lookout](https://github.com/nimrod-teich/lookout) -  VS Code board of every Claude Code, Codex and Copilot session: what each needs you for, one-key jump to its tab or terminal, search across conversations, usage limits. Reads only what the agents write on disk.
 
 ### 🌐 Browser Extensions
 
