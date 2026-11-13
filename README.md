@@ -151,7 +151,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code#readme) -  Slash-commands, CLAUDE.md files, CLI tools, and workflows for Claude Code.
 - [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills#readme) -  Resources and tools for customizing AI workflows with Claude Skills.
 - [BehiSecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills#readme) -  Categorized skills for document handling, development tools, data analysis, and more.
-- [GoVisit Toolkit](https://github.com/inhotel-io/govisit-toolkit#readme) -  Portable Agent Skills and setup docs for the GoVisit travel-catalog MCP server.
+- [GoVisit Toolkit](https://github.com/inhotel-io/govisit-toolkit#readme) -  22 portable Agent Skills and setup docs for GoVisit's travel-catalog MCP server ([Agent Skills](https://govisit.ai/en/docs/developers/agent-skills/overview), [MCP](https://govisit.ai/en/docs/developers/mcp/overview)).
 - [langgptai/awesome-claude-prompts](https://github.com/langgptai/awesome-claude-prompts#readme) -  Collection of prompt examples designed to improve Claude interactions.
 - [vijaythecoder/awesome-claude-agents](https://github.com/vijaythecoder/awesome-claude-agents#readme) -  Team of specialized AI agents for building features and debugging.
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents#readme) -  100+ specialized AI agents for full-stack development maintained by the community.
