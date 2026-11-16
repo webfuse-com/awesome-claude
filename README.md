@@ -181,6 +181,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 
 - [Claude Desktop](https://claude.ai/download) -  Official Claude desktop app for macOS and Windows. Includes a dedicated **Code** tab (GUI for Claude Code) and **Cowork** for non-technical users.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) -  Unofficial Claude desktop app for Debian/Linux.
+- [KITE](https://github.com/fidenit/KITE) - Open-source desktop workspace for Claude that shows work as a board of cards instead of chat text, using the Claude API or Claude Code as the engine.
 
 ---
 
