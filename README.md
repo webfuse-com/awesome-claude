@@ -140,6 +140,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [MCP official site](https://modelcontextprotocol.io/) -  Spec, SDKs, and quickstart.
 - [Introduction to MCP](https://anthropic.skilljar.com/introduction-to-model-context-protocol) -  Official Anthropic course: build MCP servers and clients from scratch in Python.
 - [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Sampling, notifications, transports.
+- [Mode VC MCP](https://modevc.com/api/mcp) -  Free MCP server and simple tools to check Claude/GPT token costs and startup fundraising data ([tools](https://modevc.com/tools/)).
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
 
 ---
