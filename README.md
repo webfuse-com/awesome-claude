@@ -141,6 +141,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Introduction to MCP](https://anthropic.skilljar.com/introduction-to-model-context-protocol) -  Official Anthropic course: build MCP servers and clients from scratch in Python.
 - [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Sampling, notifications, transports.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
+- [Levea AI Video Editor MCP](https://github.com/brajendrak00068/agentic-ai-video-production) -  Autonomous AI video editor MCP server (37 tools, 280+ animated caption templates, 9:16 active-speaker reframe, B-roll, motion graphics, chroma key, and cloud MP4 export).
 
 ---
 
