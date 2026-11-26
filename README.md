@@ -141,6 +141,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 - [Introduction to MCP](https://anthropic.skilljar.com/introduction-to-model-context-protocol) -  Official Anthropic course: build MCP servers and clients from scratch in Python.
 - [MCP: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) -  Sampling, notifications, transports.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) -  Curated community list of MCP servers.
+- [PreviewShip](https://github.com/blockdancez/PreviewShip) -  MCP server (`previewship-mcp`), CLI, and Claude Code skills for publishing HTML, Markdown, PDF, and static build output to fixed shareable HTTPS preview URLs.
 
 ---
 
