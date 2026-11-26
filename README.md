@@ -172,6 +172,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 
 - [Claude for Chrome (Beta)](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) -  Max plan required. Claude works directly in your browser and takes actions on your behalf. Features scheduled tasks, planning mode, multi-tab workflows, and smart navigation for Slack, Gmail, Google Calendar, Docs, and GitHub.
 - [Claude Usage Tracker](https://chromewebstore.google.com/detail/claude-usage-tracker/knemcdpkggnbhpoaaagmjiigenifejfo) -  Chrome extension for tracking Claude AI usage and performance metrics.
+- [ThreadAttic](https://chromewebstore.google.com/detail/jbpchphgogfbdbdkdcclajmngjdapkab) - Local-only Chrome extension adding folders, pins, title search, a prompt library, and clean Markdown export to claude.ai and chatgpt.com with no account or cloud sync.
 
 ---
 
