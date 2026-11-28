@@ -124,6 +124,7 @@ Model IDs from the 4.6 generation onward are dateless but still pinned snapshots
 ---
 
 ## 🛠️ Claude Code & Model Context Protocol (MCP)
+- [Insomnia Security Plugin & Skill](https://github.com/vulnz/insomnia-mcp) - Claude Code / Cursor / Antigravity security plugin & MCP server delivering 160 SAST/taint, live secret validation, SCA/SBOM, Web DAST, OSINT, and 21,100+ 1-Day CVE verification tools (`https://mcp.insom.ai/mcp`, 50 free credits).
 
 **Anthropic's agentic coding platform and open extension standard**
 
